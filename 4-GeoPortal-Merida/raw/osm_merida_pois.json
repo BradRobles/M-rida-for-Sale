@@ -1,0 +1,7269 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-23T20:41:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 297860708,
+  "lat": 20.9699698,
+  "lon": -89.6224164,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "488",
+    "addr:state": "YUC",
+    "addr:street": "Calle 60",
+    "check_date": "2025-03-31",
+    "contact:facebook": "https://www.facebook.com/casadelbalam",
+    "email": "info@casadelbalam.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa del Balam",
+    "phone": "+52 999 924 8844",
+    "rooms": "51",
+    "smoking": "no",
+    "tourism": "hotel",
+    "website": "https://www.casadelbalam.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 297860850,
+  "lat": 20.9693526,
+  "lon": -89.6265363,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "535",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 59",
+    "email": "ventas@gobernadormerida.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel del Gobernador",
+    "phone": "+52 999 930 4141",
+    "rooms": "92",
+    "smoking": "outside",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.gobernadormerida.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 297861165,
+  "lat": 20.9702663,
+  "lon": -89.6246480,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "513",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 57",
+    "air_conditioning": "yes",
+    "brand": "Gamma Hoteles",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Gamma Mérida El Castellano",
+    "phone": "+52 999 930 0100",
+    "rooms": "160",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.gammahoteles.com/gamma-merida-el-castellano"
+  }
+},
+{
+  "type": "node",
+  "id": 388181149,
+  "lat": 20.9825082,
+  "lon": -89.6179897,
+  "tags": {
+    "name": "Hotel El Conquistador",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 645899188,
+  "lat": 20.9479644,
+  "lon": -89.6517860,
+  "tags": {
+    "addr:city": "Merida",
+    "addr:housenumber": "709",
+    "addr:postcode": "97259",
+    "addr:street": "Avenida Aviación",
+    "air_conditioning": "yes",
+    "email": "reserva@hacienda-inn.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Hacienda Inn",
+    "phone": "+52 999 930 0390",
+    "rooms": "116",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.hacienda-inn.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 674452176,
+  "lat": 20.9721920,
+  "lon": -89.6246897,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "456",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 64",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-22",
+    "contact:facebook": "107115224689770",
+    "email": "reservaciones@mariajosehotels.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Maria Jose",
+    "phone": "+52 999 928 7037",
+    "rooms": "60",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.mariajosehotels.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 1625735022,
+  "lat": 21.0175163,
+  "lon": -89.5851122,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1625735024,
+  "lat": 21.0198298,
+  "lon": -89.5784818,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Mi Viejo Molino"
+  }
+},
+{
+  "type": "node",
+  "id": 1873895336,
+  "lat": 20.9634050,
+  "lon": -89.6169897,
+  "tags": {
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 1873895337,
+  "lat": 20.9732288,
+  "lon": -89.6233850,
+  "tags": {
+    "check_date": "2026-03-23",
+    "name": "Nomadas",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 2026898898,
+  "lat": 21.0280963,
+  "lon": -89.6273864,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Mi Viejo Molino"
+  }
+},
+{
+  "type": "node",
+  "id": 2026936989,
+  "lat": 21.0299807,
+  "lon": -89.6415441,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Italian Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 2028735442,
+  "lat": 21.0169039,
+  "lon": -89.6249793,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Italian Coffe"
+  }
+},
+{
+  "type": "node",
+  "id": 2028779188,
+  "lat": 21.0288584,
+  "lon": -89.6254781,
+  "tags": {
+    "addr:street": "Gonzalo Guerrero",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2118546471,
+  "lat": 21.0791902,
+  "lon": -89.7190716,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "s/n",
+    "addr:postcode": "97303",
+    "addr:street": "Calle 31",
+    "air_conditioning": "yes",
+    "email": "info@haciendanocac.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Hacienda Noc-Ac",
+    "phone": "+52 999 230 6320",
+    "rooms": "8",
+    "smoking": "designated",
+    "stars": "3.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.haciendanocac.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2118691656,
+  "lat": 20.9488051,
+  "lon": -89.5534932,
+  "tags": {
+    "addr:city": "Kanasín",
+    "addr:postcode": "97370",
+    "addr:street": "Calle 22",
+    "air_conditioning": "yes",
+    "email": "haciendaholidays@hotmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hacienda San Pedro Nohpat",
+    "pets": "allowed",
+    "phone": "+52 999 988 0542",
+    "rooms": "3",
+    "smoking": "designated",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "http://haciendaholidays.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2118699656,
+  "lat": 20.9523725,
+  "lon": -89.5750985,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "172",
+    "addr:postcode": "97173",
+    "addr:street": "Calle 19",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hacienda Misné",
+    "rooms": "50",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.haciendamisne.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2124462124,
+  "lat": 21.0247028,
+  "lon": -89.6236938,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "VIP's"
+  }
+},
+{
+  "type": "node",
+  "id": 2136656439,
+  "lat": 20.9681010,
+  "lon": -89.6336088,
+  "tags": {
+    "name": "Casa de Ambar B&B",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 2192835660,
+  "lat": 20.9743279,
+  "lon": -89.6239728,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "516",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 49",
+    "contact:facebook": "https://www.facebook.com/hotelmarionetas/",
+    "email": "reservaciones@hotelmarionetas.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Marionetas",
+    "phone": "+52 999 998 2705",
+    "rooms": "9",
+    "smoking": "dedicated",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.hotelmarionetas.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2192837748,
+  "lat": 20.9725196,
+  "lon": -89.6231708,
+  "tags": {
+    "name": "Casa de Huespedes Alvarez",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2192859246,
+  "lat": 20.9709260,
+  "lon": -89.6323948,
+  "tags": {
+    "addr:city": "Merida",
+    "addr:housenumber": "499",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 74A",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "description": "Luxury design hotel boutique with comfortbale rooms in the historic center of Merida, Yucatan. \nThe hotel has the Johannes - Comfort Food and Bar restaurant and the Sharing Traditions Culinary Experiences company inside the building and offers excellent f",
+    "email": "yucatan-holiday@hotmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Merida Santiago Hotel Boutique",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+52 999 285 4447",
+    "rooms": "6",
+    "tourism": "hotel",
+    "website": "https://www.hotelmeridasantiago.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2192871978,
+  "lat": 20.9717736,
+  "lon": -89.6325262,
+  "tags": {
+    "name": "Cascadas de Merida",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2192880769,
+  "lat": 20.9733042,
+  "lon": -89.6260195,
+  "tags": {
+    "name": "Los Arcos Bed & Breakfast",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2192886765,
+  "lat": 20.9796201,
+  "lon": -89.6228980,
+  "tags": {
+    "name": "Casa Lorenzo",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2192901324,
+  "lat": 20.9715912,
+  "lon": -89.6255534,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "533",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 55",
+    "air_conditioning": "yes",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Hotel Medio Mundo",
+    "phone": "+52 999 924 5472",
+    "rooms": "9",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2192907913,
+  "lat": 20.9763466,
+  "lon": -89.6254513,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "410A",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 66",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-22",
+    "email": "info@casadelmaya.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa del Maya",
+    "phone": "+52 999 181 1880",
+    "smoking": "designated",
+    "stars": "3.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.casadelmaya.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2192915201,
+  "lat": 20.9700183,
+  "lon": -89.6182573,
+  "tags": {
+    "name": "B&B Casa Esperanza Inn",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2192920392,
+  "lat": 20.9715060,
+  "lon": -89.6167499,
+  "tags": {
+    "name": "Casa Ana B & B",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2303170293,
+  "lat": 20.9945724,
+  "lon": -89.6186878,
+  "tags": {
+    "amenity": "cafe",
+    "name": "La Vía"
+  }
+},
+{
+  "type": "node",
+  "id": 2303923556,
+  "lat": 20.9847660,
+  "lon": -89.6124554,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "475",
+    "addr:postcode": "97100",
+    "addr:state": "YUC",
+    "addr:street": "Calle 33",
+    "email": "reservaciones@hotelelianoemi.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Elia Noemí",
+    "phone": "+52 999 926 2930",
+    "rooms": "44",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "http://www.hotelelianoemi.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2304011705,
+  "lat": 20.9858203,
+  "lon": -89.6202633,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "500",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Avenida Colón",
+    "brand": "Curio Collection by Hilton",
+    "brand:wikidata": "Q19903229",
+    "brand:wikipedia": "en:Curio_(brand)",
+    "internet_access": "wlan",
+    "internet_access:fee": "yes",
+    "name": "Villa Mercedes Merida",
+    "pets_allowed": "yes",
+    "rooms": "127",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.hilton.com/en/hotels/midvmqq-villa-mercedes-merida/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2304011726,
+  "lat": 20.9811047,
+  "lon": -89.6165422,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "480",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 37",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Holly",
+    "phone": "+52 999 926 2334",
+    "rooms": "37",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.hotelholly.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2304011733,
+  "lat": 20.9828113,
+  "lon": -89.6161729,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "373",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 54",
+    "air_conditioning": "yes",
+    "email": "contacto@hotelmarques.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "El Marqués",
+    "phone": "+52 999 927 7252",
+    "rooms": "54",
+    "smoking": "no",
+    "stars": "2.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.hotelmarques.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 2304011748,
+  "lat": 20.9824764,
+  "lon": -89.6165507,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "494",
+    "addr:postcode": "97144",
+    "addr:street": "Calle 35",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Las Américas Mérida",
+    "pets": "allowed",
+    "rooms": "30",
+    "smoking": "no",
+    "stars": "4",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3078494758,
+  "lat": 20.9739660,
+  "lon": -89.6215278,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "444",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 60",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/losaluxeshotel/",
+    "email": "reservaciones1@aluxes.com.mx",
+    "name": "Hotel Los Aluxes",
+    "pets_allowed": "yes",
+    "phone": "+52 999 477 0990",
+    "rooms": "155",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.aluxes.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3220978686,
+  "lat": 20.9694404,
+  "lon": -89.6241935,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "507",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 57",
+    "check_date": "2026-03-23",
+    "name": "Montejo",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3248444885,
+  "lat": 20.9714077,
+  "lon": -89.6222130,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "474A",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 60",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "check_date": "2023-01-18",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Casa Lucía",
+    "phone": "+52 999 928 0740",
+    "reservation": "yes",
+    "rooms": "20",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.casalucia.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3472501906,
+  "lat": 20.9684529,
+  "lon": -89.6222278,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "498",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-22",
+    "email": "reservations@mansionmerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Mansión Mérida",
+    "phone": "+52 999 924 4642",
+    "rooms": "14",
+    "smoking": "no",
+    "stars": "4.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.mansionmerida.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3593760497,
+  "lat": 20.9719037,
+  "lon": -89.6384811,
+  "tags": {
+    "name": "Hotel \"El Centenario\"",
+    "phone": "+52 999 923 3522",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3594977310,
+  "lat": 20.9708894,
+  "lon": -89.6216571,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "499",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 55",
+    "air_conditioning": "yes",
+    "email": "info@luzenyucatan.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Luz en Yucatán",
+    "name:es": "Hotel Luz en Yucatán",
+    "name:fr": "Hôtel Luz en Yucatan",
+    "phone": "+52 999 924 0035",
+    "rooms": "15",
+    "smoking": "no",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "website": "https://www.luzenyucatan.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3657265446,
+  "lat": 20.9775467,
+  "lon": -89.6038386,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "442",
+    "addr:postcode": "97150",
+    "addr:street": "Calle 32",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Posada \"El Cortijo\"",
+    "pets": "no",
+    "phone": "+52 999 922 5510",
+    "rooms": "1",
+    "smoking": "no",
+    "source": "survey",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "website": "https://hotelposadaelcortijo.mxhotel.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 3657265447,
+  "lat": 20.9767832,
+  "lon": -89.6039575,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:postcode": "97150",
+    "addr:street": "Calle 32",
+    "name": "Posada \"Los cuatro hermanos\"",
+    "phone": "+52 999 253 7306",
+    "source": "MNC JUL 2015",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4085361694,
+  "lat": 20.9714999,
+  "lon": -89.6221591,
+  "tags": {
+    "addr:street": "Calle 60",
+    "amenity": "cafe",
+    "name": "Bengal Kaffehaus",
+    "name:en": "Bengala Coffeehouse",
+    "name:es": "Bengal Kaffehaus"
+  }
+},
+{
+  "type": "node",
+  "id": 4152351389,
+  "lat": 20.9712172,
+  "lon": -89.6222577,
+  "tags": {
+    "check_date": "2023-01-18",
+    "name": "Casa del Unicornio",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4253568792,
+  "lat": 20.9944002,
+  "lon": -89.6493131,
+  "tags": {
+    "addr:housenumber": "547",
+    "addr:street": "13",
+    "name": "SANGUINO C HUESPEDES",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4286269603,
+  "lat": 20.9665356,
+  "lon": -89.6243043,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "508",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 63",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-23",
+    "email": "hostalzocalo@yahoo.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Zócalo",
+    "pets": "allowed",
+    "phone": "+52 999 930 9562",
+    "rooms": "18",
+    "smoking": "designated",
+    "stars": "2",
+    "tourism": "hostel",
+    "website": "https://www.hostalzocalo.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 4316605490,
+  "lat": 20.9627344,
+  "lon": -89.6284835,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Expandio de leche pura de vaca"
+  }
+},
+{
+  "type": "node",
+  "id": 4316953095,
+  "lat": 20.9576677,
+  "lon": -89.6310364,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "528",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 77",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "La Ermita",
+    "opening_hours": "Mo-Su 07:00-00:00",
+    "phone": "+52 999 928 1285",
+    "rooms": "6",
+    "stars": "2",
+    "swimming_pool": "outdoor",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 4334764676,
+  "lat": 21.0018969,
+  "lon": -89.6074805,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "75",
+    "addr:postcode": "97125",
+    "addr:street": "Avenida Jose Diaz Bolio",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Café Louvre"
+  }
+},
+{
+  "type": "node",
+  "id": 4381762591,
+  "lat": 20.9653707,
+  "lon": -89.6104655,
+  "tags": {
+    "amenity": "cafe",
+    "name": "zitto",
+    "name:es": "zitto"
+  }
+},
+{
+  "type": "node",
+  "id": 4384694190,
+  "lat": 20.9798182,
+  "lon": -89.6185157,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "SorbeteriaColon",
+    "cuisine": "ice_cream",
+    "indoor_seating": "yes",
+    "name": "Dulcería y Sorbetería Colón",
+    "outdoor_seating": "yes",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:others": "no",
+    "start_date": "1907",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "toilets:female": "yes",
+    "toilets:male": "yes",
+    "website": "https://www.elcolon.mx"
+  }
+},
+{
+  "type": "node",
+  "id": 4401871109,
+  "lat": 20.9709024,
+  "lon": -89.6229011,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "508",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 55",
+    "air_conditioning": "yes",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Hotel Santa Lucía",
+    "phone": "+52 999 928 2672",
+    "rooms": "20",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4401873049,
+  "lat": 20.9711153,
+  "lon": -89.6232274,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "513",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 55",
+    "air_conditioning": "yes",
+    "email": "hgcentenario@hotmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Gran Centenario",
+    "phone": "+52 999 923 5478",
+    "rooms": "18",
+    "smoking": "designated",
+    "stars": "2",
+    "tourism": "hotel",
+    "website": "https://www.hotelgrancentenario.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4401879365,
+  "lat": 20.9729654,
+  "lon": -89.6233751,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "439",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 62",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "check_date": "2026-03-23",
+    "email": "info@hotelhaciendamerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hacienda Mérida",
+    "phone": "+52 999 924 5927",
+    "rooms": "8",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://hotelhaciendamerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4439705290,
+  "lat": 20.9667866,
+  "lon": -89.6252134,
+  "tags": {
+    "addr:street": "Calle 63",
+    "name": "Hotel Los Arcos",
+    "phone": "+52 999 924 9728",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4450621972,
+  "lat": 20.9603135,
+  "lon": -89.6232402,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:street": "Calle 58",
+    "name": "Hotel Posada Principal",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4450624186,
+  "lat": 20.9598992,
+  "lon": -89.6232855,
+  "tags": {
+    "name": "Hotel Rosana Pastora",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4542260391,
+  "lat": 20.9689507,
+  "lon": -89.6329278,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "580",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 61",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Aventura",
+    "pets": "allowed",
+    "phone": "+52 999 923 4801",
+    "rooms": "15",
+    "smoking": "designated",
+    "stars": "2",
+    "tourism": "hotel",
+    "website": "https://www.aurorahotel-aventura.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4551562890,
+  "lat": 20.9699975,
+  "lon": -89.6232107,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafeteria Pop",
+    "name:en": "Cafe pop",
+    "name:es": "Cafeteria Pop"
+  }
+},
+{
+  "type": "node",
+  "id": 4578247386,
+  "lat": 20.9703097,
+  "lon": -89.6213029,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "483",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 58",
+    "air_conditioning": "yes",
+    "email": "reservaciones@hotelmayayucatan.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Maya Yucatán",
+    "phone": "+52 999 725 9090",
+    "rooms": "78",
+    "smoking": "no",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "http://www.hotelmayayucatan.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4578248191,
+  "lat": 20.9708211,
+  "lon": -89.6211599,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "497",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 55",
+    "air_conditioning": "yes",
+    "email": "merida.hotel.sanjuan@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel San Juan",
+    "phone": "+52 999 924 1742",
+    "rooms": "20",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.hotelsanjuanmerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4581845359,
+  "lat": 20.9611579,
+  "lon": -89.6419554,
+  "tags": {
+    "name": "Hotel Boulevard Infante",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4581845363,
+  "lat": 20.9675799,
+  "lon": -89.6228384,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "499",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 61",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-22",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "La Catedral",
+    "phone": "+52 999 429 4678",
+    "rooms": "6",
+    "smoking": "no",
+    "stars": "2",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4584167894,
+  "lat": 20.9805043,
+  "lon": -89.6184283,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "breakfast;crepe;cake;coffee_shop",
+    "name": "Pistache",
+    "name:es": "Pistache"
+  }
+},
+{
+  "type": "node",
+  "id": 4716641090,
+  "lat": 20.9629429,
+  "lon": -89.6129917,
+  "tags": {
+    "name": "Casa Mayab",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4719486415,
+  "lat": 20.9706838,
+  "lon": -89.6338566,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "589",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "email": "reservaciones@hotelresidencial.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Residencial",
+    "phone": "+52 999 924 3099",
+    "rooms": "58",
+    "smoking": "no",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "https://www.hotelresidencial.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 4751451624,
+  "lat": 21.0210923,
+  "lon": -89.5903990,
+  "tags": {
+    "name": "TIM",
+    "name:es": "TIM",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4803875140,
+  "lat": 20.9614438,
+  "lon": -89.6184282,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafetería La Primera de San Cristóbal"
+  }
+},
+{
+  "type": "node",
+  "id": 4803875827,
+  "lat": 20.9618696,
+  "lon": -89.6210944,
+  "tags": {
+    "name": "Hotel Rodríguez",
+    "name:es": "Hotel Rodríguez",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4808605446,
+  "lat": 20.9750479,
+  "lon": -89.6215395,
+  "tags": {
+    "name": "Casa Nohoch",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4819123423,
+  "lat": 20.9665222,
+  "lon": -89.6139802,
+  "tags": {
+    "addr:housenumber": "492",
+    "addr:postcode": "97000",
+    "addr:street": "calle 46 x 59 y 61",
+    "name": "casa mejorada",
+    "name:es": "Piolo",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4835220021,
+  "lat": 20.9752438,
+  "lon": -89.6194727,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "sandwich;breakfast;coffee_shop",
+    "name": "Impala",
+    "name:es": "Impala"
+  }
+},
+{
+  "type": "node",
+  "id": 4835385923,
+  "lat": 20.9889712,
+  "lon": -89.6170932,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Uj Cafetería"
+  }
+},
+{
+  "type": "node",
+  "id": 4840996946,
+  "lat": 20.9618573,
+  "lon": -89.6269012,
+  "tags": {
+    "name": "Casa Catrina&Diego",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4929569324,
+  "lat": 21.0033749,
+  "lon": -89.5801736,
+  "tags": {
+    "name": "Casa de Alma",
+    "name:es": "Casa de Alma",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 4929569325,
+  "lat": 20.9690655,
+  "lon": -89.6177841,
+  "tags": {
+    "name": "Hostal $150 mxn",
+    "name:es": "Hostal $150 mxn",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5020812121,
+  "lat": 20.9870409,
+  "lon": -89.6300735,
+  "tags": {
+    "internet_access": "wlan",
+    "internet_access:fee": "yes",
+    "name": "Departamentos en Renta",
+    "name:es": "Departamentos en Renta",
+    "smoking": "outside",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5025946224,
+  "lat": 20.9984653,
+  "lon": -89.6133497,
+  "tags": {
+    "amenity": "cafe",
+    "name": "The Italian Coffe Factory",
+    "name:es": "The Italian Coffe Factory"
+  }
+},
+{
+  "type": "node",
+  "id": 5033157722,
+  "lat": 20.9835728,
+  "lon": -89.6391604,
+  "tags": {
+    "name": "Avendia",
+    "name:es": "Avendia",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 5063087717,
+  "lat": 20.9706241,
+  "lon": -89.6223368,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Neek'Ich Organic Juice Bar"
+  }
+},
+{
+  "type": "node",
+  "id": 5112149460,
+  "lat": 20.9990294,
+  "lon": -89.6556616,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Café Espiral"
+  }
+},
+{
+  "type": "node",
+  "id": 5146357422,
+  "lat": 20.9691452,
+  "lon": -89.6157868,
+  "tags": {
+    "name": "mi casa es tu casa",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5210568325,
+  "lat": 20.9743830,
+  "lon": -89.6231968,
+  "tags": {
+    "addr:housenumber": "511",
+    "addr:street": "Calle 49",
+    "name": "Casa La Negrita",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5290657422,
+  "lat": 20.9775927,
+  "lon": -89.6277853,
+  "tags": {
+    "name": "Calle 72 423 Ejido del Centro",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5292403527,
+  "lat": 20.9749237,
+  "lon": -89.6177984,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Latte Quatro Sette"
+  }
+},
+{
+  "type": "node",
+  "id": 5292425221,
+  "lat": 21.0609207,
+  "lon": -89.6456077,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Lack of Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 5292778521,
+  "lat": 20.9721281,
+  "lon": -89.6279813,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Maiz Canela y Cilantro",
+    "name:en": "Maiz Canela y Cilantro"
+  }
+},
+{
+  "type": "node",
+  "id": 5310352121,
+  "lat": 20.9715609,
+  "lon": -89.6220908,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "53",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 60",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "email": "bengalakaffeehaus.shop@gmail.com",
+    "name": "Bengala Kaffeehaus",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "phone": "+52 999 331 0013",
+    "website": "https://bengalakaffeehaus.shop/"
+  }
+},
+{
+  "type": "node",
+  "id": 5312184723,
+  "lat": 20.9619793,
+  "lon": -89.6176965,
+  "tags": {
+    "name": "Hotel Del Prado",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5393729522,
+  "lat": 20.9589613,
+  "lon": -89.5761414,
+  "tags": {
+    "name": "Las 3 J",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 5411151722,
+  "lat": 20.9693006,
+  "lon": -89.6273212,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Manifesto",
+    "name:en": "Manifesto Coffee Shop",
+    "name:es": "Manifesto"
+  }
+},
+{
+  "type": "node",
+  "id": 5432024842,
+  "lat": 20.9577450,
+  "lon": -89.6310284,
+  "tags": {
+    "addr:city": "Mérida, Yuc",
+    "addr:housenumber": "528",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 77",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Origen Tostadores de Cafe",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "smoking": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5432506022,
+  "lat": 20.9719245,
+  "lon": -89.6224107,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Organico"
+  }
+},
+{
+  "type": "node",
+  "id": 5501740722,
+  "lat": 20.9713823,
+  "lon": -89.6252419,
+  "tags": {
+    "addr:housenumber": "461C",
+    "addr:street": "Calle 55",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Bendito Café",
+    "opening_hours": "Mo-Fr 08:00-16:30; Sa 08:00-14:00",
+    "phone": "+529991618141"
+  }
+},
+{
+  "type": "node",
+  "id": 5515481130,
+  "lat": 20.9706768,
+  "lon": -89.6235455,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "464",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 62",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-23",
+    "email": "reservashotelsantiago@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Santiago",
+    "phone": "+52 999 923 2033",
+    "rooms": "31",
+    "smoking": "designated",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.hotelsantiagomerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5541593323,
+  "lat": 21.0244772,
+  "lon": -89.5766602,
+  "tags": {
+    "addr:housenumber": "232",
+    "addr:postcode": "97133",
+    "addr:street": "Calle 18",
+    "amenity": "cafe",
+    "cuisine": "sandwich;hot_dog;breakfast;ice_cream;tea;coffee_shop;pasta;fine_dining;deli;diner",
+    "email": "pasteliciosomid@gmail.com",
+    "internet_access": "wlan",
+    "name": "Pastelicioso Gourmet",
+    "opening_hours": "Mo-Fr 00:00-24:00; Sa 08:00-14:00",
+    "operator": "Molina",
+    "phone": "99997388229",
+    "website": "http://pastelicioso.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5603511262,
+  "lat": 21.1035679,
+  "lon": -89.6629496,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Sabor a cielo"
+  }
+},
+{
+  "type": "node",
+  "id": 5611708523,
+  "lat": 20.9652110,
+  "lon": -89.6249306,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Santiago",
+    "name:es": "Santiago",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5628766721,
+  "lat": 20.9847195,
+  "lon": -89.6394792,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "261",
+    "addr:postcode": "97070",
+    "addr:state": "YUC",
+    "addr:street": "Avenida Itzaes",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/hotelrealmercedes/",
+    "email": "hotelrealmercedes@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Posada Hotel Real Mercedes",
+    "pets_allowed": "yes",
+    "phone": "+52 999 286 9292",
+    "rooms": "50",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5633893321,
+  "lat": 20.9951866,
+  "lon": -89.6166169,
+  "tags": {
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5658986774,
+  "lat": 20.9954077,
+  "lon": -89.6403984,
+  "tags": {
+    "name": "Posada Castillo",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5658986775,
+  "lat": 20.9969377,
+  "lon": -89.6404225,
+  "tags": {
+    "name": "Hospedaje Doña Rita",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5670808327,
+  "lat": 20.9682385,
+  "lon": -89.6226902,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5813071254,
+  "lat": 20.9742235,
+  "lon": -89.6290179,
+  "tags": {
+    "name": "Air Bnb Albany",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5813237253,
+  "lat": 20.9721485,
+  "lon": -89.6167371,
+  "tags": {
+    "name": "Albany air bnb",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5850099092,
+  "lat": 20.9890594,
+  "lon": -89.6183782,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "495",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 58-A",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "brand": "Ibis",
+    "brand:wikidata": "Q920166",
+    "brand:wikipedia": "en:Ibis (hotel)",
+    "email": "H6928@ACCOR.COM",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "ibis Merida",
+    "phone": "+52 999 254 3800",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://all.accor.com/hotel/6928/index.en.shtml",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5850108186,
+  "lat": 20.9666335,
+  "lon": -89.6184049,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Maid Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 5851939517,
+  "lat": 21.0225812,
+  "lon": -89.5843465,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:street": "Calle 20",
+    "email": "alberguebuenavoluntad@hotmail.com",
+    "facebook": "https://www.facebook.com/albergue.buenavoluntad",
+    "name": "Albergue Buena Voluntad",
+    "phone": "+5219999231226;+521999444333",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 5869601788,
+  "lat": 20.9457134,
+  "lon": -89.5530408,
+  "tags": {
+    "name": "Motel El Arca",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5942670634,
+  "lat": 20.9743125,
+  "lon": -89.6149452,
+  "tags": {
+    "addr:housenumber": "450B",
+    "addr:street": "Calle 47",
+    "name": "Casa Vida Gitana",
+    "name:en": "House of the Gypsy",
+    "name:es": "Casa Vida Gitana",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5986379085,
+  "lat": 20.9710977,
+  "lon": -89.6277474,
+  "tags": {
+    "name": "Paris",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6037892585,
+  "lat": 20.9789061,
+  "lon": -89.6185908,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "480",
+    "addr:postcode": "97000",
+    "addr:street": "Paseo Montejo",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Rosas & Xocolate",
+    "phone": "+52 999 924 2992",
+    "rooms": "17",
+    "smoking": "designated",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://rosasandxocolate.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6040037888,
+  "lat": 20.9753701,
+  "lon": -89.6255510,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Blue Bag Coffee Shop",
+    "name:en": "Blue Bag Coffee Shop"
+  }
+},
+{
+  "type": "node",
+  "id": 6103918585,
+  "lat": 20.9659418,
+  "lon": -89.6265627,
+  "tags": {
+    "name": "Casona Boutique Hostel (red building)",
+    "name:en": "Casona Boutique Hostel (red building)",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 6245876544,
+  "lat": 21.0197785,
+  "lon": -89.5963111,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6334607485,
+  "lat": 20.9515762,
+  "lon": -89.6460167,
+  "tags": {
+    "name": "Hotel desde 400",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6581626386,
+  "lat": 21.0023284,
+  "lon": -89.5783886,
+  "tags": {
+    "name": "M",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 6581627092,
+  "lat": 21.0182226,
+  "lon": -89.5775079,
+  "tags": {
+    "name": "R",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 6601491204,
+  "lat": 21.0461027,
+  "lon": -89.6306939,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6652951676,
+  "lat": 21.0396313,
+  "lon": -89.6316113,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Rosquillas & Coffee",
+    "phone": "+52 999 941 5587",
+    "website": "http://www.rosquillasandcoffee.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6652951681,
+  "lat": 21.0394557,
+  "lon": -89.6314653,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Segafredo",
+    "brand:wikidata": "Q21282762",
+    "brand:wikipedia": "it:Segafredo Zanetti",
+    "cuisine": "coffee_shop",
+    "name": "Segafredo",
+    "phone": "+52 999 252 0885",
+    "takeaway": "yes",
+    "website": "https://www.segafredo.it/"
+  }
+},
+{
+  "type": "node",
+  "id": 6652960505,
+  "lat": 21.0394261,
+  "lon": -89.6332057,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "218",
+    "addr:postcode": "97205",
+    "addr:state": "YUC",
+    "addr:street": "Calle 3",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "brand": "Ibis Styles",
+    "brand:wikidata": "Q3147425",
+    "brand:wikipedia": "en:Ibis Styles",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Ibis Styles Mérida Galerías",
+    "pets_allowed": "yes",
+    "phone": "+52 993 478 1400",
+    "rooms": "140",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://all.accor.com/hotel/A7V8/index.en.shtml",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6652960511,
+  "lat": 21.0395879,
+  "lon": -89.6316853,
+  "tags": {
+    "amenity": "cafe",
+    "name": "La Crepería",
+    "website": "https://www.creperia.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 6661240925,
+  "lat": 20.9338799,
+  "lon": -89.6632614,
+  "tags": {
+    "amenity": "cafe",
+    "ele": "Ground Floor",
+    "name": "Itzaes"
+  }
+},
+{
+  "type": "node",
+  "id": 6677737485,
+  "lat": 20.9741460,
+  "lon": -89.6199797,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "487",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 49",
+    "air_conditioning": "yes",
+    "alt_name": "New Moon Hostel",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Boutique Luna Nueva",
+    "rooms": "6",
+    "smoking": "no",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 6830690957,
+  "lat": 20.9682515,
+  "lon": -89.6052869,
+  "tags": {
+    "name": "Casa de Naola & Sébastien",
+    "name:es": "Casa de Naola & Sébastien",
+    "name:fr": "Maison de Naola & Sébastien",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 6898349785,
+  "lat": 20.9751888,
+  "lon": -89.6284793,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Café Voltaire"
+  }
+},
+{
+  "type": "node",
+  "id": 6917341985,
+  "lat": 21.0126597,
+  "lon": -89.6343442,
+  "tags": {
+    "addr:housenumber": "97",
+    "addr:street": "Calle 22",
+    "internet_access": "wlan",
+    "name": "Posada Victoria Inn",
+    "phone": "+52 1 999 116 8209",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 7107954328,
+  "lat": 20.9795024,
+  "lon": -89.6190502,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Márago Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 7114661578,
+  "lat": 20.9753344,
+  "lon": -89.6211769,
+  "tags": {
+    "addr:street": "Calle 47",
+    "amenity": "cafe",
+    "name": "Café del Sol",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7120446749,
+  "lat": 20.9703929,
+  "lon": -89.6228135,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "487",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 58",
+    "name": "Hotel PosadaToledo",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7195312985,
+  "lat": 20.9700670,
+  "lon": -89.6311269,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "569",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hostal La 59",
+    "rooms": "5",
+    "smoking": "dedicated",
+    "swimming_pool": "yes",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 7262200650,
+  "lat": 20.9675660,
+  "lon": -89.6270067,
+  "tags": {
+    "check_date": "2026-03-22",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Las Margaritas",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7294611086,
+  "lat": 20.9679246,
+  "lon": -89.6269018,
+  "tags": {
+    "name": "Hotel margarita",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7294611088,
+  "lat": 20.9703250,
+  "lon": -89.6157769,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "479D",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 50",
+    "air_conditioning": "yes",
+    "brand": "OYO Rooms",
+    "name": "Posada Espinosa",
+    "rooms": "12",
+    "smoking": "dedicated",
+    "tourism": "hotel",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7304608608,
+  "lat": 20.9689190,
+  "lon": -89.6175590,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "470",
+    "addr:postcode": "97000",
+    "addr:street": "57 entre 52 y 54",
+    "brand": "Grupon Naj",
+    "internet_access": "yes",
+    "name": "Casa Chakan",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "54+ 9992859044",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7304608609,
+  "lat": 20.9692496,
+  "lon": -89.6181169,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "461",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 57",
+    "air_conditioning": "yes",
+    "brand": "Grupo Naj",
+    "description": "Ya'ax Hotel Boutique está situado en el centro de Mérida y ofrece alojamiento con conexión WiFi gratuita. Este establecimiento, que cuenta con una piscina al aire libre, se encuentra a poca distancia de la catedral de Mérida, la plaza principal.",
+    "email": "info@gruponaj.com",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Ya´ax Hotel Boutique",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "+52 999 286 6511",
+    "rooms": "11",
+    "smoking": "no",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "https://www.yaaxmerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 7997409269,
+  "lat": 20.9729704,
+  "lon": -89.6305787,
+  "tags": {
+    "addr:housenumber": "459",
+    "addr:street": "Calle 74",
+    "name": "El Tigre de Santiago",
+    "tourism": "hostel",
+    "website": "https://www.eltigredesantiago.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8231645525,
+  "lat": 20.9805279,
+  "lon": -89.6206156,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "374",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 60",
+    "email": "reservations@hotelcasapalomino.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Casa Palomino",
+    "phone": "+52 999 920 0781",
+    "rooms": "16",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "http://www.hotelcasapalomino.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8238493419,
+  "lat": 20.9860530,
+  "lon": -89.6115271,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "398",
+    "addr:postcode": "97109",
+    "addr:street": "Calle 50",
+    "contact:facebook": "https://www.facebook.com/hostalrosamexicano/",
+    "email": "hostalrosamexicano@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hostal Rosa Mexicano",
+    "phone": "+52 999 239 7591",
+    "rooms": "3",
+    "smoking": "designated",
+    "stars": "2",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8263119752,
+  "lat": 20.9698465,
+  "lon": -89.6307507,
+  "tags": {
+    "addr:street": "Calle 59",
+    "amenity": "cafe",
+    "description": "Chocolateria & Café",
+    "name": "Placer & Delirio"
+  }
+},
+{
+  "type": "node",
+  "id": 8263135214,
+  "lat": 20.9682583,
+  "lon": -89.6222631,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "500",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-22",
+    "internet_access:fee": "no",
+    "name": "Caribe",
+    "phone": "+52 999 924 9022",
+    "rooms": "52",
+    "smoking": "yes",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "http://www.caribehotelmerida.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8316882717,
+  "lat": 20.9575487,
+  "lon": -89.6186289,
+  "tags": {
+    "name": "Casa estrella",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 8502132817,
+  "lat": 20.9642296,
+  "lon": -89.6305925,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "54",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 70",
+    "air_conditioning": "yes",
+    "email": "reservaplazamirador@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Plaza Mirador",
+    "phone": "+52 999 924 8655",
+    "rooms": "90",
+    "smoking": "designated",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.plazamirador.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8830357694,
+  "lat": 21.0320570,
+  "lon": -89.6302871,
+  "tags": {
+    "name": "Extended Suites Mérida",
+    "phone": "+528003983633",
+    "tourism": "hotel",
+    "website": "https://www.extendedsuites.com.mx/destinos-extended-suites-mexico/hotel-en-merida"
+  }
+},
+{
+  "type": "node",
+  "id": 8830613017,
+  "lat": 20.9675395,
+  "lon": -89.6280505,
+  "tags": {
+    "name": "Hôtel Las Monjas",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8893628717,
+  "lat": 20.9743177,
+  "lon": -89.6225447,
+  "tags": {
+    "name": "La Morada",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 8901501417,
+  "lat": 20.9720851,
+  "lon": -89.6282869,
+  "tags": {
+    "name": "Casa Kuxul",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 8986763660,
+  "lat": 20.9911631,
+  "lon": -89.5382878,
+  "tags": {
+    "addr:city": "Mérida , Yucatan",
+    "addr:postcode": "97306",
+    "addr:street": "calle 113 entre 146 y 148 Fraccionamiento los heroes Plaza Heroes, 97306 Mérida, Yuc.",
+    "amenity": "cafe",
+    "cuisine": "coffee",
+    "internet_access": "yes",
+    "internet_access:fee": "customers",
+    "name": "Alma cafe MID",
+    "phone": "+5299999704224"
+  }
+},
+{
+  "type": "node",
+  "id": 9264240109,
+  "lat": 20.9858954,
+  "lon": -89.6213953,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "504",
+    "addr:postcode": "97000",
+    "addr:street": "Avenida Colón",
+    "air_conditioning": "yes",
+    "brand": "Courtyard",
+    "brand:wikidata": "Q1053170",
+    "brand:wikipedia": "en:Courtyard by Marriott",
+    "internet_access": "wlan",
+    "name": "Courtyard Mérida Downtown",
+    "official_name": "Courtyard by Marriott",
+    "smoking": "no",
+    "swimming_pool": "rooftop",
+    "tourism": "hotel",
+    "website": "https://www.marriott.com/hotels/hotel-rooms/midcy-courtyard-merida-downtown/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9356750519,
+  "lat": 20.9836337,
+  "lon": -89.6144621,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "381-G",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 52",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Dpas 52",
+    "rooms": "6",
+    "smoking": "dedicated",
+    "stars": "2",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9356763818,
+  "lat": 20.9694899,
+  "lon": -89.6272803,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Gloria Jean's",
+    "brand:wikidata": "Q2666365",
+    "cuisine": "coffee_shop",
+    "name": "Gloria Jean's",
+    "official_name": "Gloria Jean's Coffees",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9356763819,
+  "lat": 20.9696537,
+  "lon": -89.6273653,
+  "tags": {
+    "name": "Hotel Kuxtal",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9420992917,
+  "lat": 20.9566095,
+  "lon": -89.6214749,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "583",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 54",
+    "contact:facebook": "pg/Casa-Cuevas-Amaro-100571818655710/photos",
+    "email": "arturofg95.chess@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa Cueva & Amaro",
+    "name:en": "Casa Cuevas & Amaro",
+    "name:es": "Casa Cuevas & Amaro",
+    "phone": "+52999 473 9279",
+    "rooms": "8",
+    "smoking": "designated",
+    "stars": "2.5",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 9583883060,
+  "lat": 21.0793114,
+  "lon": -89.5226475,
+  "tags": {
+    "addr:city": "Conkal",
+    "addr:housenumber": "95",
+    "addr:postcode": "97345",
+    "addr:street": "Calle 24",
+    "air_conditioning": "yes",
+    "email": "casadecampoconkal@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa de Campo",
+    "phone": "+52 999 435 493",
+    "rooms": "6",
+    "smoking": "designated",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.casadecampoconkal.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9583921609,
+  "lat": 21.1099440,
+  "lon": -89.5212705,
+  "tags": {
+    "addr:city": "Conkal",
+    "addr:housenumber": "3610",
+    "addr:postcode": "97345",
+    "addr:street": "Tablaje",
+    "air_conditioning": "yes",
+    "email": "contacto@haciendasantaluciakantoyna.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hacienda Santa Lucía Kantoyná",
+    "phone": "+52 99 9278 5900",
+    "rooms": "12",
+    "smoking": "designated",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "website": "https://haciendasantaluciakantoyna.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9595632349,
+  "lat": 20.8795874,
+  "lon": -89.6533661,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "s/n",
+    "addr:postcode": "97315",
+    "addr:street": "Calle 86",
+    "air_conditioning": "yes",
+    "email": "recepcion@haciendasantacruz.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hacienda Santa Cruz",
+    "phone": "+52 999 611 9233",
+    "rooms": "25",
+    "smoking": "no",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "https://www.haciendasantacruz.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9595649456,
+  "lat": 20.9386107,
+  "lon": -89.6128384,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "401",
+    "addr:postcode": "97279",
+    "addr:street": "Calle 115",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Casa 401",
+    "pets": "allowed",
+    "phone": "+52 800 696 7666",
+    "rooms": "8",
+    "smoking": "designated",
+    "stars": "2.5",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9595719681,
+  "lat": 20.9498956,
+  "lon": -89.6463348,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "79",
+    "addr:postcode": "97260",
+    "addr:street": "Calle 81B",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Cortijo de Cortes",
+    "pets": "allowed",
+    "phone": "+52 999 176 5100",
+    "rooms": "18",
+    "smoking": "no",
+    "stars": "2.5",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9595773901,
+  "lat": 20.9614929,
+  "lon": -89.6254570,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "562",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 62",
+    "air_conditioning": "yes",
+    "email": "hola@kukaynaranjo.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Kuka y Naranjo",
+    "pets": "allowed",
+    "phone": "+52 999 473 8799",
+    "rooms": "8",
+    "smoking": "designated",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.kukaynaranjo.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9595782121,
+  "lat": 20.9578714,
+  "lon": -89.6172734,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "532B",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 48",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Kuklin",
+    "phone": "+52 999 263 6118",
+    "rooms": "7",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.hotelkuklin.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9595782126,
+  "lat": 20.9587197,
+  "lon": -89.6171114,
+  "tags": {
+    "addr:housenumber": "524",
+    "addr:street": "Calle 48",
+    "air_conditioning": "yes",
+    "email": "hotelarca@hotmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel El Arca",
+    "opening_hours": "24/7",
+    "phone": "+52 999 440 5232",
+    "rooms": "20",
+    "smoking": "no",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "website": "https://hotelarca.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9595798001,
+  "lat": 20.9632029,
+  "lon": -89.6306876,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "543C",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 69",
+    "air_conditioning": "yes",
+    "email": "reservaciones@espanolcentromerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel El Español Centro Histórico",
+    "phone": "+52 999 923 4319",
+    "rooms": "48",
+    "smoking": "no",
+    "stars": "2.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.espanolcentromerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9595800598,
+  "lat": 20.9618249,
+  "lon": -89.6315811,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "538",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 71",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "email": "el_tano@guayahostel.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Guaya Hostel",
+    "phone": "+52 999 921 1453",
+    "smoking": "designated",
+    "stars": "1.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://guayahostel.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9600791975,
+  "lat": 20.9633015,
+  "lon": -89.6268207,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "547",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 64",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "email": "infomansionlavanda@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Boutique Mansión Lavanda",
+    "phone": "+52 999 458 1489",
+    "rooms": "26",
+    "smoking": "no",
+    "stars": "3.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://hotellavanda.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9600804944,
+  "lat": 20.9631594,
+  "lon": -89.6320280,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "570B",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 69",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Tierra del Sol",
+    "phone": "+52 999 923 8554",
+    "rooms": "47",
+    "smoking": "designated",
+    "stars": "2.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9600830059,
+  "lat": 20.9640174,
+  "lon": -89.6293416,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "547B",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 67",
+    "air_conditioning": "yes",
+    "email": "posadapanteranegra@hotmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "La Pantera Negra",
+    "phone": "+52 999 126 9796",
+    "rooms": "4",
+    "smoking": "designated",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.lapanteranegra.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9600911066,
+  "lat": 20.9663405,
+  "lon": -89.6274405,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "521",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 66",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Casa Lidia",
+    "phone": "+52 800 696 7666",
+    "rooms": "15",
+    "smoking": "designated",
+    "stars": "2.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "wikidata": "Q111117851"
+  }
+},
+{
+  "type": "node",
+  "id": 9600951190,
+  "lat": 20.9667358,
+  "lon": -89.6248234,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "503G",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 63",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel San José",
+    "phone": "+52 999 928 6657",
+    "rooms": "30",
+    "smoking": "designated",
+    "stars": "2.5",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9600953714,
+  "lat": 20.9668395,
+  "lon": -89.6194019,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "474",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 61",
+    "air_conditioning": "yes",
+    "email": "extranet@hotelnacionalmerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Nacional Mérida",
+    "phone": "+52 999 924 9255",
+    "rooms": "63",
+    "smoking": "designated",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.hotelnacionalmerida.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9600960253,
+  "lat": 20.9669198,
+  "lon": -89.6267414,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "528A",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 63",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa Jade",
+    "rooms": "4",
+    "smoking": "designated",
+    "stars": "2",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 9600987616,
+  "lat": 20.9672751,
+  "lon": -89.6292766,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "550",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 63",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel María del Carmen",
+    "phone": "+52 999 930 0390",
+    "rooms": "94",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.hotelmariadelcarmen.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9600990773,
+  "lat": 20.9858354,
+  "lon": -89.6383689,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "220A",
+    "addr:postcode": "97070",
+    "addr:street": "Calle 27",
+    "email": "info@hotelmargaritasmerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Las Margaritas Mérida",
+    "phone": "+52 999 942 9060",
+    "rooms": "40",
+    "swimming_pool": "indoor",
+    "tourism": "hotel",
+    "website": "https://www.hotelmargaritasmerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9601540396,
+  "lat": 20.9677032,
+  "lon": -89.6169410,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "434",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Mejorada Mérida",
+    "phone": "+52 999 429 4728",
+    "rooms": "18",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.hotelmejoradamerida.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9601659472,
+  "lat": 20.9680504,
+  "lon": -89.6179578,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "455",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 59",
+    "brand": "Misión",
+    "check_date": "2026-02-20",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Misión Mérida Panamericana",
+    "pets": "allowed",
+    "phone": "+52 999 923 9500",
+    "rooms": "110",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.hotelesmision.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 9601686450,
+  "lat": 20.9680246,
+  "lon": -89.6265227,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "524",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 61",
+    "air_conditioning": "yes",
+    "email": "res@lamisiondefraydiego.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "La Misión de Fray Diego",
+    "phone": "+52 999 924 1111",
+    "rooms": "26",
+    "smoking": "designated",
+    "stars": "3.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.lamisiondefraydiego.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9601689492,
+  "lat": 20.9679054,
+  "lon": -89.6228648,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "496",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 60",
+    "check_date": "2026-03-22",
+    "email": "infopiedradeagua@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Piedra de Agua",
+    "phone": "+52 999 924 2300",
+    "rooms": "20",
+    "smoking": "designated",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.piedradeagua.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9601693249,
+  "lat": 20.9683440,
+  "lon": -89.6277170,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "527",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 61",
+    "air_conditioning": "yes",
+    "email": "casona61.reservas@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casona 61",
+    "phone": "+52 999 930 9711",
+    "rooms": "18",
+    "smoking": "no",
+    "stars": "5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.casona61.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9601746903,
+  "lat": 20.9682856,
+  "lon": -89.6284248,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "534",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 61",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-22",
+    "email": "reservaciones@hotelesembajadores.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Embajadores",
+    "phone": "+52 999 924 7588",
+    "rooms": "51",
+    "smoking": "no",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "website": "https://www.hotelembajadores.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9601766248,
+  "lat": 20.9684024,
+  "lon": -89.6167740,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "493A",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 50 A",
+    "bar": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "La Piazzetta",
+    "opening_hours": "24/7",
+    "phone": "+52 999 923 3909",
+    "rooms": "10",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://hotel-la-piazzetta.negocio.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 9601796992,
+  "lat": 20.9687589,
+  "lon": -89.6238126,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "508",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-23",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Reforma",
+    "phone": "+52 999 924 7922",
+    "rooms": "48",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://hotelreforma.mxhotel.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 9601809982,
+  "lat": 20.9687786,
+  "lon": -89.6149536,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "435",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 57",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Las Dalias Inn",
+    "phone": "+52 999 923 3602",
+    "rooms": "23",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "http://www.lasdaliasinn.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9601832369,
+  "lat": 20.9697500,
+  "lon": -89.6216898,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "491",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 57",
+    "name": "Hotel Casa Nova",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9601954768,
+  "lat": 20.9690061,
+  "lon": -89.6175706,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "472",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 57",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Casa Fernanda",
+    "rooms": "10",
+    "smoking": "dedicated",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9601977619,
+  "lat": 20.9690850,
+  "lon": -89.6180548,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "474-C",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 57",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel San Patricio",
+    "phone": "+52 999 271 3083",
+    "rooms": "18",
+    "smoking": "dedicated",
+    "swimming_pool": "yes",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9601982176,
+  "lat": 20.9691714,
+  "lon": -89.6332388,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "573-A",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 61",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/hotelelcidmerida/",
+    "email": "reservaciones@hotelelcidmerida.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel El Cid",
+    "phone": "+52 999 924 5206",
+    "rooms": "64",
+    "smoking": "dedicated",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.hotelelcidmerida.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9603553485,
+  "lat": 20.9703432,
+  "lon": -89.6182990,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "474",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 54",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "email": "hotelontico@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Óntico Urban Design Hotel",
+    "phone": "+52 999 429 4747",
+    "rooms": "20",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.hotelontico.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9603571338,
+  "lat": 20.9702376,
+  "lon": -89.6236706,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "470",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 62",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-23",
+    "email": "hotel.urban.recepcion@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Urban",
+    "phone": "+52 999 912 6288",
+    "rooms": "14",
+    "smoking": "no",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "website": "https://www.hotelurbanmerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9603600666,
+  "lat": 20.9703585,
+  "lon": -89.6257089,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "519",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 57",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Posada 57",
+    "opening_hours": "24/7",
+    "phone": "+52 999 928 0861",
+    "rooms": "9",
+    "smoking": "no",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "website": "https://hotelposada57merida.negocio.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 9603628985,
+  "lat": 20.9699395,
+  "lon": -89.6226677,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "491B",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 60",
+    "air_conditioning": "yes",
+    "check_date": "2025-03-31",
+    "email": "reservashotelmerida@outlook.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Mérida",
+    "phone": "+52 999 429 4725",
+    "rooms": "38",
+    "smoking": "designated",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "website": "https://www.hotelmeridayucatan.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 9603670532,
+  "lat": 20.9704363,
+  "lon": -89.6198720,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "474",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 56",
+    "air_conditioning": "yes",
+    "email": "ventas@granrealyucatan.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Gran Real Yucatán",
+    "phone": "+52 999 928 6081",
+    "rooms": "71",
+    "smoking": "designated",
+    "stars": "5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://granrealyucatan.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9603714414,
+  "lat": 20.9706934,
+  "lon": -89.6206349,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "493",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 55",
+    "air_conditioning": "yes",
+    "check_date": "2024-10-30",
+    "name": "Hotel Santa Maria",
+    "phone": "+52 999 923 6512",
+    "rooms": "67",
+    "smoking": "designated",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9603733674,
+  "lat": 20.9706530,
+  "lon": -89.6271361,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "543A",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 57",
+    "air_conditioning": "yes",
+    "email": "recepcion@art57hotel.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Art 57 Hotel",
+    "phone": "+52 999 761 3781",
+    "rooms": "18",
+    "smoking": "no",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.art57hotel.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9604204744,
+  "lat": 20.9693180,
+  "lon": -89.6280380,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "546",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "email": "reser@ambassadormerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Ambassador Merida",
+    "phone": "+52 999 924 2100",
+    "rooms": "97",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.ambassadormerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9604233628,
+  "lat": 20.9692478,
+  "lon": -89.6269289,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "532",
+    "addr:state": "YUC",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "email": "recepcion@hotellacasonamerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Boutique La Casona",
+    "phone": "+52 999 980 3281",
+    "rooms": "24",
+    "smoking": "no",
+    "tourism": "hotel",
+    "website": "https://www.hotellacasonamerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9604247912,
+  "lat": 20.9696047,
+  "lon": -89.6281882,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "553",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/Viva-M%C3%A9rida-Hotel-331736440636307/",
+    "email": "info@vivameridahotel.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Viva Merida Hotel Boutique",
+    "phone": "+52 999 923 1727",
+    "rooms": "10",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.vivameridahotel.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9604268164,
+  "lat": 20.9695647,
+  "lon": -89.6204031,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "481",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 57",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/HotelMucuy/",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Mucuy",
+    "phone": "+52 999 928 5193",
+    "rooms": "20",
+    "smoking": "dedicated",
+    "swimming_pool": "yes",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9604271929,
+  "lat": 20.9696310,
+  "lon": -89.6209314,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "485",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 57",
+    "air_conditioning": "yes",
+    "brand": "Kavia Hoteles",
+    "check_date": "2023-08-14",
+    "contact:facebook": "https://www.facebook.com/reservas.flamingo/",
+    "email": "reservaciones@hotelflamingo.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Flamingo",
+    "phone": "+52 999 928 1382",
+    "rooms": "54",
+    "smoking": "no",
+    "tourism": "hotel",
+    "website": "https://www.hotelflamingo.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 9604295905,
+  "lat": 20.9696486,
+  "lon": -89.6239382,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "483",
+    "addr:state": "YUC",
+    "addr:street": "Calle 62",
+    "air_conditioning": "yes",
+    "brand": "Kavia Hoteles",
+    "check_date": "2026-03-23",
+    "contact:facebook": "https://www.facebook.com/HotelColonMerida",
+    "name": "Colon",
+    "rooms": "43",
+    "smoking": "no",
+    "tourism": "hotel",
+    "website": "https://www.hotelcolonmerida.com/index",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9604304293,
+  "lat": 20.9702559,
+  "lon": -89.6226105,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 60",
+    "air_conditioning": "yes",
+    "brand": "Holiday Inn Express",
+    "brand:wikidata": "Q5880423",
+    "check_date": "2025-03-31",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Holiday Inn Express Merida Centro",
+    "pets_allowed": "no",
+    "rooms": "131",
+    "smoking": "dedicated",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9604310259,
+  "lat": 20.9697863,
+  "lon": -89.6237337,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "476",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 62",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-23",
+    "contact:facebook": "https://www.facebook.com/HotelColonialdeMerida/",
+    "email": "reservas@hotelcolonial.com.mx",
+    "internet_access": "wlan",
+    "name": "Colonial",
+    "pets_allowed": "no",
+    "phone": "+52 999 923 6444",
+    "rooms": "73",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.hotelcolonial.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 9607388904,
+  "lat": 20.9700493,
+  "lon": -89.6322034,
+  "tags": {
+    "addr:city": "Merida",
+    "addr:country": "MX",
+    "addr:housenumber": "596A",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hostel Le Juj",
+    "pets_allowed": "yes",
+    "phone": "+52 999 285 4161",
+    "rooms": "4",
+    "swimming_pool": "yes",
+    "tourism": "hostel",
+    "website": "https://hostellejuj.mxhotel.site/es/"
+  }
+},
+{
+  "type": "node",
+  "id": 9607391692,
+  "lat": 20.9698502,
+  "lon": -89.6183947,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "478",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 54",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Meridano",
+    "phone": "+52 999 9232614",
+    "rooms": "24",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "http://www.hotelmeridano.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9607455247,
+  "lat": 20.9701125,
+  "lon": -89.6240100,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "507",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 57",
+    "air_conditioning": "yes",
+    "brand": "Kavia Hoteles",
+    "check_date": "2026-03-23",
+    "email": "reservas.montejo@hotmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Montejo",
+    "phone": "+52 999 928 0390",
+    "rooms": "24",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.hotelmontejo.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9607456231,
+  "lat": 20.9701445,
+  "lon": -89.6170818,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "483",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 52",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/villaorquideaMerida/",
+    "email": "villaorquideamerida@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Villa Orquidea",
+    "phone": "+52 999 285 6947",
+    "rooms": "7",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.villaorquidea.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9615093405,
+  "lat": 20.9715570,
+  "lon": -89.6221720,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "472",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 60",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/Hotel-Maison-Del-Embajador-1557508231173989/",
+    "email": "reservations@maisondelembajador.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Maison del Embajador Hotel",
+    "phone": "+52 999 928 1243",
+    "rooms": "30",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.maisondelembajador.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9615196644,
+  "lat": 20.9719590,
+  "lon": -89.6180762,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "455",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 54",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "The Villa Tievoli",
+    "phone": "+52 999 242 7474",
+    "smoking": "dedicated",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "http://thevillatievoli.com/index.html"
+  }
+},
+{
+  "type": "node",
+  "id": 9615525849,
+  "lat": 20.9723096,
+  "lon": -89.6173963,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "468",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 51",
+    "brand": "OYO Rooms",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Posada Porto 51",
+    "rooms": "6",
+    "smoking": "dedicated",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9615997083,
+  "lat": 20.9725200,
+  "lon": -89.6190874,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "488",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 51",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/HoteldelPeregrino",
+    "email": "info@hoteldelperegrino.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel del Pelegrino",
+    "phone": "+52 999 924 3007",
+    "rooms": "13",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.hoteldelperegrino.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9616187231,
+  "lat": 20.9728331,
+  "lon": -89.6286750,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "547",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 53",
+    "contact:facebook": "https://www.facebook.com/hotel.zamna/",
+    "email": "info@hotelzamna.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Zamná",
+    "phone": "+52 999 924 0103",
+    "rooms": "8",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.hotelzamna.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9621249484,
+  "lat": 20.9706893,
+  "lon": -89.6365490,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "636",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa de las Columnas",
+    "phone": "+52 999 924 9301",
+    "rooms": "11",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9621326374,
+  "lat": 20.9730284,
+  "lon": -89.6246275,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "446",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 64",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/Art64hotel/",
+    "email": "recepcion@art64hotel.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Art 64 Hotel Boutique",
+    "operator": "BAWA Hotels and Leisure",
+    "phone": "+52 999 724 0059",
+    "rooms": "9",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.art64hotel.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9621355303,
+  "lat": 20.9709059,
+  "lon": -89.6362344,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "609",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "email": "reservaciones@kunukhotel.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Künük Hotel Boutique",
+    "phone": "+52 999 924 0208",
+    "rooms": "14",
+    "smoking": "designated",
+    "stars": "3.5",
+    "tourism": "hotel",
+    "website": "https://kunukhotel.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9621379349,
+  "lat": 20.9734993,
+  "lon": -89.6308670,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "559B",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 53",
+    "contact:facebook": "https://www.facebook.com/HotelUnknown/",
+    "email": "reservaciones@unknownhotel.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Uknown",
+    "pets_allowed": "yes",
+    "phone": "+52 999 315 4233",
+    "rooms": "20",
+    "smoking": "dedicated",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.unknownhotel.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9621387603,
+  "lat": 20.9711356,
+  "lon": -89.6197471,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "468",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 56",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "email": "hello@decumerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Decu Mérida",
+    "phone": "+52 999 191 4575",
+    "rooms": "5",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://decuhotels.com/hoteles.php?hotel=6&titulo=Decu%20Downtown",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9621400522,
+  "lat": 20.9711990,
+  "lon": -89.6348361,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "493A",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 78",
+    "air_conditioning": "yes",
+    "email": "info@thediplomatmerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "The Diplomat Boutique Hotel",
+    "phone": "+52 999 117 2972",
+    "rooms": "4",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.thediplomatmerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9621420569,
+  "lat": 20.9736758,
+  "lon": -89.6257970,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "446",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 66",
+    "air_conditioning": "yes",
+    "check_date": "2026-03-22",
+    "contact:facebook": "https://www.facebook.com/HotelAntelar",
+    "email": "info@hotelantelar.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Antelar",
+    "phone": "+52 999 912 6393",
+    "rooms": "7",
+    "smoking": "dedicated",
+    "stars": "4",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.hotelantelar.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9621431262,
+  "lat": 20.9738098,
+  "lon": -89.6187334,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "490",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 49",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/hotelcasapellegrin/",
+    "email": "ventas@hotelcasapellegrin.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Casa Pellegrin",
+    "phone": "+52 999 133 6374",
+    "rooms": "15",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.hotelcasapellegrin.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9621526914,
+  "lat": 20.9741204,
+  "lon": -89.6194871,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 56A",
+    "contact:facebook": "https://www.facebook.com/HotelCasaSanAngel/",
+    "email": "info@hotelcasasanangel.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Casa San Ángel",
+    "phone": "+52 999 928 0800",
+    "rooms": "14",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.hotelcasasanangel.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9621533097,
+  "lat": 20.9753295,
+  "lon": -89.6154586,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "493",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 49",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/hotelcasatavera",
+    "email": "reservas@casatavera.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa Tavera",
+    "phone": "+52 999 432 0649",
+    "smoking": "dedicated",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://casatavera.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9622433907,
+  "lat": 20.9744986,
+  "lon": -89.6245591,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "417",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 64",
+    "air_conditioning": "yes",
+    "brand": "Paloma's Group",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa de Las Palomas",
+    "phone": "+52 999 291 1334",
+    "rooms": "9",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.palomasgroup.com/casa-de-las-palomas/"
+  }
+},
+{
+  "type": "node",
+  "id": 9624511842,
+  "lat": 20.9762762,
+  "lon": -89.6322344,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "457B",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 76",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Mayan Sun B&B",
+    "phone": "+52 78 6512 0734",
+    "rooms": "4",
+    "smoking": "no",
+    "stars": "3.5",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9624569590,
+  "lat": 20.9768231,
+  "lon": -89.6256143,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "393",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 66",
+    "air_conditioning": "yes",
+    "email": "Palacitosconencanto@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "El Palacito Secreto",
+    "phone": "+52 999 224 4533",
+    "rooms": "8",
+    "smoking": "designated",
+    "stars": "3.5",
+    "tourism": "hotel",
+    "website": "https://www.elpalacitosecreto.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9624615797,
+  "lat": 20.9840971,
+  "lon": -89.6390760,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "266",
+    "addr:postcode": "97070",
+    "addr:street": "Avenida Itzaes",
+    "air_conditioning": "yes",
+    "email": "info@flamboyanes.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Suites Flamboyanes",
+    "phone": "+52 999 920 0375",
+    "rooms": "46",
+    "smoking": "designated",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.hotelsuitesflamboyanes.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9624628820,
+  "lat": 20.9768289,
+  "lon": -89.6218510,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "503",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 45",
+    "air_conditioning": "yes",
+    "building:levels": "3",
+    "check_date": "2023-08-14",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Santa Ana Hotel",
+    "name:es": "Hotel Santa Ana",
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+52 999 923 3331",
+    "rooms": "18",
+    "smoking": "designated",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "http://www.santaanahotel.com.mx/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9624632307,
+  "lat": 20.9773266,
+  "lon": -89.6006735,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "432B",
+    "addr:postcode": "97150",
+    "addr:street": "Calle 41",
+    "air_conditioning": "yes",
+    "email": "reservaciones@fgs.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Woo Rooms",
+    "phone": "+52 999 415 5126",
+    "rooms": "11",
+    "smoking": "no",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "website": "https://woorooms.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 9624646184,
+  "lat": 20.9769673,
+  "lon": -89.6278119,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "432D",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 72",
+    "air_conditioning": "yes",
+    "email": "reservaciones@villaoctavia.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Villa Octavia",
+    "pets": "allowed",
+    "phone": "+52 999 429 5698",
+    "rooms": "5",
+    "smoking": "designated",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://villaoctavia.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 9624712383,
+  "lat": 20.9779099,
+  "lon": -89.6198408,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "481",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 58",
+    "email": "reservations@boutiquebythemuseo.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Boutique by the Museo",
+    "phone": "+52 999 291 8252",
+    "rooms": "15",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://boutiquebythemuseo.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9626594239,
+  "lat": 20.9779896,
+  "lon": -89.6203699,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "489",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 43",
+    "bar": "yes",
+    "email": "treehouse@treehouse.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Treehouse Boutique Hotel",
+    "phone": "+52 999 931 8352",
+    "rooms": "21",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://treehouseboutiquehotel.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9626614110,
+  "lat": 20.9779236,
+  "lon": -89.6297332,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "552A",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 45",
+    "air_conditioning": "yes",
+    "email": "info@casadoslirios.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa Dos Lirios Boutique B&B",
+    "phone": "+52 999 471 2794",
+    "rooms": "5",
+    "smoking": "designated",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.casadoslirios.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9626637441,
+  "lat": 20.9789681,
+  "lon": -89.6166513,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "378B",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 54",
+    "air_conditioning": "yes",
+    "email": "info@flordemayo.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa Flor de Mayo",
+    "phone": "+52 999 368 9025",
+    "rooms": "8",
+    "smoking": "designated",
+    "stars": "3.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://hotelflordemayo.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9626651146,
+  "lat": 20.9787393,
+  "lon": -89.6186501,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "484",
+    "addr:postcode": "97000",
+    "addr:street": "Paseo Montejo",
+    "air_conditioning": "yes",
+    "email": "ventas@elespanoldemontejo.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel El Español Paseo de Montejo",
+    "phone": "+52 999 923 0880",
+    "rooms": "88",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.elespanoldemontejo.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9626707198,
+  "lat": 20.9794366,
+  "lon": -89.6354636,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "467C",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 45",
+    "air_conditioning": "yes",
+    "email": "dave@meridabnb.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Ochenta y Dos",
+    "pets": "no",
+    "phone": "+52 999 192 4085",
+    "rooms": "4",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.meridabnb.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9626736022,
+  "lat": 20.9799032,
+  "lon": -89.6194103,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "405",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 58",
+    "air_conditioning": "yes",
+    "email": "contact@aurorahoho.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Suites del Sol",
+    "phone": "+52 999 233 9824",
+    "rooms": "18",
+    "smoking": "designated",
+    "stars": "2.5",
+    "tourism": "hotel",
+    "website": "https://www.suitesdelsolmerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9626758393,
+  "lat": 20.9814302,
+  "lon": -89.6176511,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "487",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 37",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Diez Diez Collection",
+    "opening_hours": "24/7",
+    "phone": "+52 999 666 0395",
+    "rooms": "8",
+    "smoking": "designated",
+    "stars": "4",
+    "swimming_pool": "rooftop",
+    "tourism": "hotel",
+    "website": "https://diez-diez-collection-com.negocio.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 9626805054,
+  "lat": 20.9817069,
+  "lon": -89.6221001,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "327",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 62",
+    "air_conditioning": "yes",
+    "email": "contacto@hotelpalaciomaya.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Palacio Maya",
+    "phone": "+52 999 431 1588",
+    "rooms": "63",
+    "smoking": "no",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "https://www.hotelpalaciomaya.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9626805147,
+  "lat": 20.9815982,
+  "lon": -89.6392883,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "444B",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 86",
+    "air_conditioning": "yes",
+    "email": "Gestionitzaes@tecnohotel.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "TecnoHotel",
+    "phone": "+52 999 925 6075",
+    "rooms": "54",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.tecnohotel.mx/hoteles/itzaes.php",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9626840658,
+  "lat": 20.9822103,
+  "lon": -89.6205663,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "343",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 60",
+    "email": "info@casaazulhotel.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa Azul",
+    "phone": "+52 999 925 5016",
+    "rooms": "8",
+    "smoking": "designated",
+    "stars": "4.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "http://www.casaazulhotel.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9627453225,
+  "lat": 20.9738174,
+  "lon": -89.6244559,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 64",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casona de las 3 Marias Boutique Hotel",
+    "operator": "Kin Hotels",
+    "rooms": "13",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9627564309,
+  "lat": 20.9749425,
+  "lon": -89.6176397,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "471",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 47",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/CasaLecanda/",
+    "email": "info@casalecanda.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa Lecanda Boutique Hotel",
+    "phone": "+52 999 928 0112",
+    "rooms": "7",
+    "smoking": "dedicated",
+    "stars": "4",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.casalecanda.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9627589845,
+  "lat": 20.9749895,
+  "lon": -89.6190304,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "480",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 47",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/CasaContinentalHotel/",
+    "email": "reservaciones@hotelcasacontinental.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa Continental Hotel",
+    "phone": "+52 999 711 6084",
+    "rooms": "9",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.hotelcasacontinental.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9627599953,
+  "lat": 20.9835019,
+  "lon": -89.6196520,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "346",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 60",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "brand": "City Express Plus Hotels",
+    "brand:wikidata": "Q109329542",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "City Express Plus Mérida",
+    "rooms": "135",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.cityexpress.com/en/plus/hotels-mexico/yucatan/merida/merida",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9627612190,
+  "lat": 20.9842420,
+  "lon": -89.6198291,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "346",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 60",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "brand": "NH Hotel Group",
+    "brand:wikidata": "Q1604631",
+    "brand:wikipedia": "en:NH_Hotel_Group",
+    "name": "NH Collection Merida Paseo Montejo",
+    "pets_allowed": "yes",
+    "rooms": "120",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.nh-hotels.com/hotel/nh-collection-merida-paseo-montejo",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9627628548,
+  "lat": 20.9842607,
+  "lon": -89.6219587,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "309-D",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 62",
+    "email": "recepcionsanjuancenter@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Boutique Real San Juan Center",
+    "pets_allowed": "yes",
+    "phone": "+52 999 286 4374",
+    "rooms": "19",
+    "smoking": "dedicated",
+    "tourism": "hotel",
+    "website": "http://realsanjuancenter.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9629816731,
+  "lat": 20.9864704,
+  "lon": -89.6234314,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "506B",
+    "addr:postcode": "97000",
+    "addr:street": "Avenida Colón",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Chanpaal Hotel Boutique",
+    "pets": "allowed",
+    "phone": "+52 999 469 0236",
+    "rooms": "7",
+    "smoking": "no",
+    "stars": "3.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9630123603,
+  "lat": 20.9862366,
+  "lon": -89.6119970,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "403b",
+    "addr:postcode": "97100",
+    "addr:state": "YUC",
+    "addr:street": "Avenida Pérez Ponce",
+    "contact:facebook": "https://www.facebook.com/CasaEspejoDaLuca/",
+    "internet_access": "wlan",
+    "internet_access:fee": "yes",
+    "name": "Casa Espejo Da Luca",
+    "pets_allowed": "yes",
+    "phone": "+52 984 137 8312",
+    "rooms": "3",
+    "smoking": "dedicated",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9630131797,
+  "lat": 20.9866791,
+  "lon": -89.6253828,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "508",
+    "addr:postcode": "97070",
+    "addr:street": "Avenida Colón",
+    "air_conditioning": "yes",
+    "email": "reservaciones@wayammundoimperial.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Wayam Mundo Imperial",
+    "pets": "allowed",
+    "phone": "+52 800 969 2926",
+    "rooms": "52",
+    "smoking": "no",
+    "stars": "3.5",
+    "swimming_pool": "rooftop",
+    "tourism": "hotel",
+    "website": "https://www.mundoimperial.com/wayam/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9630154849,
+  "lat": 20.9842733,
+  "lon": -89.6143359,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "379",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 52",
+    "email": "recepcion@hotelyoussef.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Youssef Exceptionnel",
+    "phone": "+52 999 931 1188",
+    "rooms": "30",
+    "smoking": "no",
+    "tourism": "hotel",
+    "website": "https://www.hotelyoussef.com/",
+    "wheelchair": "limited",
+    "wheelchair:description": "Upper floors accessible by stairs only"
+  }
+},
+{
+  "type": "node",
+  "id": 9641148483,
+  "lat": 20.9901239,
+  "lon": -89.6221742,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "295A",
+    "addr:postcode": "97050",
+    "addr:street": "Calle 62",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Downtown Mérida Hotel",
+    "pets": "allowed",
+    "phone": "+52 998 385 2367",
+    "rooms": "2",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.downtownmeridahotels.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9641168337,
+  "lat": 20.9872098,
+  "lon": -89.6260279,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "505A",
+    "addr:postcode": "97000",
+    "addr:street": "Avenida Colón",
+    "bar": "yes",
+    "brand": "Wyndham Hotels",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Wyndham Merida",
+    "phone": "+52 999 942 6900",
+    "rooms": "100",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.wyndhamhotels.com/es-xl/wyndham/merida-mexico/wyndham-merida/overview?CID=LC:HR::GGL:RIO:National:48323&iata=00093796",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9641177011,
+  "lat": 20.9907143,
+  "lon": -89.6244296,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "60",
+    "addr:postcode": "97050",
+    "addr:street": "Avenida Cupules",
+    "air_conditioning": "yes",
+    "email": "contacto@virreyeshotel.com.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Virreyes",
+    "phone": "+52 999 565 7765",
+    "rooms": "19",
+    "smoking": "designated",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://virreyeshotel.com.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 9641199479,
+  "lat": 20.9807599,
+  "lon": -89.6267619,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "403C",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 72",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Casa Nobel",
+    "phone": "+52 999 920 0369",
+    "rooms": "7",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9641214908,
+  "lat": 20.9886681,
+  "lon": -89.6167532,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "495",
+    "addr:postcode": "97000",
+    "addr:street": "Avenida Carlos Torre Repetto",
+    "air_conditioning": "yes",
+    "email": "reservaciones@hotelvictoriamerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Victoria",
+    "phone": "+52 999 927 7777",
+    "rooms": "93",
+    "smoking": "no",
+    "stars": "3.5",
+    "tourism": "hotel",
+    "website": "https://hotelvictoriamerida.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9641270961,
+  "lat": 20.9919876,
+  "lon": -89.6206616,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "285",
+    "addr:postcode": "97050",
+    "addr:street": "Calle 60",
+    "air_conditioning": "yes",
+    "email": "misolhotel@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Misol-Ha Hotel Mérida",
+    "phone": "+52 999 438 6451",
+    "rooms": "35",
+    "smoking": "no",
+    "stars": "2.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "http://misolhahotel.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9641298198,
+  "lat": 20.9927176,
+  "lon": -89.6231603,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "82",
+    "addr:postcode": "97050",
+    "addr:street": "Calle 15",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Suites del Sureste",
+    "phone": "+52 999 495 4463",
+    "rooms": "10",
+    "smoking": "designated",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9641328705,
+  "lat": 20.9947743,
+  "lon": -89.6167315,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "481",
+    "addr:postcode": "97127",
+    "addr:street": "Prolongación Paseo Montejo",
+    "email": "reservaciones@hoteldelfina.com.mx",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Delfina Boutique Hotel",
+    "phone": "+52 999 688 9538",
+    "rooms": "8",
+    "smoking": "designated",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.delfinaboutiquehotel.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9641455191,
+  "lat": 20.9993022,
+  "lon": -89.6153323,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "128",
+    "addr:postcode": "97125",
+    "addr:state": "YUC",
+    "addr:street": "Prolongación Paseo Montejo",
+    "air_conditioning": "yes",
+    "brand": "Hoteles Zar",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Zar Mérida",
+    "pets_allowed": "yes",
+    "rooms": "79",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.hoteleszar.com/merida/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9641466181,
+  "lat": 20.9996152,
+  "lon": -89.6116255,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "104",
+    "addr:postcode": "97125",
+    "addr:state": "YUC",
+    "addr:street": "Calle 27",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa Tuunich",
+    "rooms": "5",
+    "smoking": "dedicated",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9641471325,
+  "lat": 21.0013787,
+  "lon": -89.6562085,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:postcode": "97219",
+    "addr:state": "YUC",
+    "addr:street": "Calle 45",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Nahoch tatoob La casa de los abuelos",
+    "rooms": "6",
+    "smoking": "no",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9641581284,
+  "lat": 21.0221970,
+  "lon": -89.5762753,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "510",
+    "addr:postcode": "97134",
+    "addr:state": "YUC",
+    "addr:street": "Calle 7",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/Posada-San-Felipe-de-Jes%C3%BAs-153249091451269/",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Posada San Felipe de Jesús",
+    "phone": "+52 999 265 8979",
+    "rooms": "16",
+    "smoking": "no",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9643439645,
+  "lat": 21.0368960,
+  "lon": -89.6018588,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "298",
+    "addr:postcode": "97113",
+    "addr:state": "YUC",
+    "addr:street": "Avenida Andrés García Lavín",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "brand": "Camino Real Hotels",
+    "brand:wikidata": "Q5026777",
+    "brand:wikipedia": "en:Camino_Real_Hotels",
+    "email": "reservaciones@caminoreal.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Camino Real Mérida",
+    "rooms": "126",
+    "smoking": "dedicated",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.caminoreal.com/en/caminoreal/camino-real-merida"
+  }
+},
+{
+  "type": "node",
+  "id": 9643487047,
+  "lat": 21.0321670,
+  "lon": -89.6285570,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "290",
+    "addr:postcode": "97115",
+    "addr:state": "YUC",
+    "addr:street": "Calle 5-B",
+    "air_conditioning": "yes",
+    "brand": "Fiesta Inn",
+    "brand:wikidata": "Q5447318",
+    "brand:wikipedia": "en:Fiesta_Inn",
+    "internet_access": "wlan",
+    "internet_access:fee": "yes",
+    "name": "Fiesta Inn Mérida",
+    "phone": "+52 999 964 3500",
+    "rooms": "166",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.fiestainn.com/fiesta-inn-merida"
+  }
+},
+{
+  "type": "node",
+  "id": 9643592687,
+  "lat": 21.0348420,
+  "lon": -89.6328928,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "288",
+    "addr:postcode": "92704",
+    "addr:state": "YUC",
+    "addr:street": "Calle 20-A",
+    "air_conditioning": "yes",
+    "brand": "Hampton by Hilton",
+    "brand:wikidata": "Q5646230",
+    "brand:wikipedia": "en:Hampton_by_Hilton",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hampton Inn by Hilton Merida",
+    "pets_allowed": "yes",
+    "phone": "+52 999 964 2345",
+    "rooms": "130",
+    "smoking": "dedicated",
+    "tourism": "hotel",
+    "website": "https://www.hilton.com/en/hotels/midhxhx-hampton-merida/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9643608123,
+  "lat": 21.0359735,
+  "lon": -89.6274975,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "493",
+    "addr:postcode": "97118",
+    "addr:state": "YUC",
+    "addr:street": "Calle 50",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Siglo 21",
+    "phone": "+52 999 289 5733",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.siglo21hotel.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9643632812,
+  "lat": 21.0429254,
+  "lon": -89.6212851,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "244",
+    "addr:postcode": "97115",
+    "addr:street": "Calle 36",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Casa de Camposampiero Hotel Boutique",
+    "phone": "+52 999 285 2320",
+    "rooms": "5",
+    "smoking": "no",
+    "stars": "3.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://casadecamposampiero.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9643646120,
+  "lat": 21.0372528,
+  "lon": -89.6343385,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "272",
+    "addr:postcode": "92704",
+    "addr:state": "YUC",
+    "addr:street": "Calle 3-A",
+    "air_conditioning": "yes",
+    "brand": "Residence Inn by Marriott",
+    "brand:wikidata": "Q7315394",
+    "brand:wikipedia": "en:Residence Inn by Marriott",
+    "contact:facebook": "https://www.facebook.com/residenceinnmerida/",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Residence Inn by Marriott Merida",
+    "pets_allowed": "yes",
+    "phone": "+52 999 689 2300",
+    "rooms": "151",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.marriott.com/en-us/hotels/midri-residence-inn-merida/overview/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9643735162,
+  "lat": 21.0466112,
+  "lon": -89.6094885,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:postcode": "97302",
+    "addr:street": "Periferico Norte",
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "B's Hotel",
+    "phone": "+52 999 688 5848",
+    "rooms": "21",
+    "smoking": "no",
+    "stars": "3.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.bsuiteshotel.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9643759060,
+  "lat": 21.0566079,
+  "lon": -89.5982197,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "s/n",
+    "addr:postcode": "97305",
+    "addr:street": "Calle 24",
+    "air_conditioning": "yes",
+    "brand": "Holiday Inn",
+    "brand:wikidata": "Q2717882",
+    "brand:wikipedia": "en:Holiday Inn",
+    "email": "xochitl.perez@hotelesprisma.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Holiday Inn & Suites Merida La Isla",
+    "pets": "no",
+    "phone": "+52 999 461 3500",
+    "rooms": "93",
+    "smoking": "designated",
+    "stars": "3.5",
+    "tourism": "hotel",
+    "website": "https://www.ihg.com/holidayinn/hotels/us/en/merida/midnt/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-MX-_-MIDNT",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9643780955,
+  "lat": 21.0604275,
+  "lon": -89.6316429,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "KM 10.3",
+    "addr:postcode": "97300",
+    "addr:street": "Carretera Merida - Progreso",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "email": "hoteldubrovnikmerida@live.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Dubrovnik Mérida",
+    "opening_hours": "24/7",
+    "phone": "+52 999 941 2012",
+    "rooms": "23",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.hoteldubrovnikmerida.com.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9643802169,
+  "lat": 21.0631953,
+  "lon": -89.6321813,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "KM 11",
+    "addr:postcode": "97300",
+    "addr:street": "Carretera Mérida-Progreso",
+    "air_conditioning": "yes",
+    "email": "gerencianorte@tecnohotel.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "TecnoHotel Mérida Norte",
+    "phone": "+52 999 941 2088",
+    "rooms": "68",
+    "smoking": "designated",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.tecnohotel.mx/hoteles/norte.php",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9646680892,
+  "lat": 21.0752770,
+  "lon": -89.6282103,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "s/n",
+    "addr:postcode": "97302",
+    "addr:street": "Calle 20",
+    "air_conditioning": "yes",
+    "email": "hacienda-xcanatun@angsana.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hacienda Xcanatun by Angsana",
+    "pets": "allowed",
+    "phone": "+52 999 930 2140",
+    "rooms": "18",
+    "smoking": "no",
+    "stars": "4",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.angsana.com/mexico/hacienda-xcanatun",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9659291672,
+  "lat": 20.9706356,
+  "lon": -89.5280889,
+  "tags": {
+    "addr:city": "Tixpéhual",
+    "addr:housenumber": "KM 5",
+    "addr:postcode": "97387",
+    "addr:street": "Carretera Mérida-Tixkokob-Tekantó",
+    "name": "Casa Viva Mérida",
+    "phone": "+52 999 163 3352",
+    "rooms": "4",
+    "smoking": "designated",
+    "stars": "2.5",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9733620417,
+  "lat": 20.9678284,
+  "lon": -89.6241808,
+  "tags": {
+    "addr:housenumber": "499",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 62",
+    "amenity": "cafe",
+    "name": "The Italian coffee",
+    "opening_hours": "Mo-Fr 07:30-22:00; Sa-Su 08:00-22:00",
+    "website": "https://www.italiancoffee.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9738766118,
+  "lat": 20.9661284,
+  "lon": -89.6245681,
+  "tags": {
+    "addr:postcode": "97000",
+    "addr:street": "Calle 62",
+    "amenity": "cafe",
+    "name": "La abidia",
+    "name:en": "Coffee",
+    "name:es": "La abadia",
+    "name:fr": "Café"
+  }
+},
+{
+  "type": "node",
+  "id": 9738784818,
+  "lat": 20.9645389,
+  "lon": -89.6247597,
+  "tags": {
+    "addr:housenumber": "522",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 62",
+    "name": "La Paz",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9738785018,
+  "lat": 20.9639125,
+  "lon": -89.6283803,
+  "tags": {
+    "addr:street": "Calle 67",
+    "name": "Posada del angel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9738785117,
+  "lat": 20.9639170,
+  "lon": -89.6286265,
+  "tags": {
+    "addr:street": "Calle 67",
+    "name": "Posada central",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9859052695,
+  "lat": 20.9753292,
+  "lon": -89.6209845,
+  "tags": {
+    "amenity": "cafe",
+    "description": "It offers tea, smoothie, healthy breakfast protein or detox.",
+    "name": "Health Ha"
+  }
+},
+{
+  "type": "node",
+  "id": 10054652017,
+  "lat": 20.9702479,
+  "lon": -89.6236319,
+  "tags": {
+    "addr:housenumber": "470",
+    "addr:street": "Calle 62",
+    "internet_access": "wlan",
+    "name": "Hotel Urban",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10111300317,
+  "lat": 21.0878689,
+  "lon": -89.6709751,
+  "tags": {
+    "addr:housenumber": "1073",
+    "addr:postcode": "97302",
+    "addr:street": "Calle 45G",
+    "phone": "126124",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 10169210617,
+  "lat": 20.9957510,
+  "lon": -89.7186921,
+  "tags": {
+    "name:fr": "Casa",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10297224409,
+  "lat": 20.9718855,
+  "lon": -89.6268346,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Blue Bag Coffee Roasters"
+  }
+},
+{
+  "type": "node",
+  "id": 10553619151,
+  "lat": 20.9750391,
+  "lon": -89.6203927,
+  "tags": {
+    "air_conditioning": "no",
+    "amenity": "cafe",
+    "brand": "Café Cafico",
+    "brand:wikidata": "Q873767",
+    "capacity": "3",
+    "check_date": "2023-08-15",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Café Cafico",
+    "outdoor_seating": "no",
+    "takeaway": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10584314825,
+  "lat": 20.9736418,
+  "lon": -89.6174927,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/p/Arista-Barista-100085489204985/",
+    "contact:instagram": "https://www.instagram.com/aristabarista_mid",
+    "contact:tiktok": "https://tiktok.com/@aristabarista_mid",
+    "diet:vegetarian": "yes",
+    "email": "aristabaristamx@gmail.com",
+    "name": "Arista Barista",
+    "opening_hours": "We-Th 08:00-14:00; Fr-Su 09:00-19:00",
+    "phone": "+52 56 3913 2911",
+    "website": "https://beacons.ai/aristabarista"
+  }
+},
+{
+  "type": "node",
+  "id": 10608061457,
+  "lat": 20.9891354,
+  "lon": -89.6278265,
+  "tags": {
+    "addr:city": "Merida",
+    "addr:housenumber": "543",
+    "addr:neighbourhood": "Santiago",
+    "addr:postcode": "97000",
+    "addr:state": "yt",
+    "addr:street": "Calle 55",
+    "amenity": "cafe",
+    "check_date:currency:XBT": "2023-02-05",
+    "cuisine": "coffee_shop",
+    "currency:XBT": "yes",
+    "internet_access": "yes",
+    "name": "Blue Bag coffee",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "payment:lightning": "yes",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "yes",
+    "phone": "+528182874653",
+    "website": "https://bluebagcoffee.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10637686852,
+  "lat": 20.9859369,
+  "lon": -89.6393896,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "243",
+    "addr:postcode": "97070",
+    "addr:street": "Avenida Itzaes",
+    "contact:email": "hotelmody@gmail.com",
+    "contact:phone": "+52 999 303 9218",
+    "name": "Hotel Mody",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10684490907,
+  "lat": 20.9569479,
+  "lon": -89.6268434,
+  "tags": {
+    "addr:housenumber": "597",
+    "addr:street": "Calle 62",
+    "internet_access": "wlan",
+    "level": "2",
+    "name": "Casona Garra Charrúa",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 10927920905,
+  "lat": 20.9666734,
+  "lon": -89.6302022,
+  "tags": {
+    "name": "Hostal Xiinbal Mérida",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 10934459705,
+  "lat": 20.9667205,
+  "lon": -89.6300556,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-02-25",
+    "check_date:opening_hours": "2026-02-25",
+    "name": "El Gato Gordo",
+    "opening_hours": "Mo-Su 09:00-20:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10949332724,
+  "lat": 20.9651034,
+  "lon": -89.6286624,
+  "tags": {
+    "addr:housenumber": "518-A",
+    "addr:street": "Calle 68",
+    "check_date": "2026-03-22",
+    "name": "La Casa del Kéej",
+    "phone": "+529995322360",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 10979936727,
+  "lat": 20.9656143,
+  "lon": -89.6273194,
+  "tags": {
+    "addr:housenumber": "524",
+    "addr:street": "Calle 66",
+    "check_date": "2026-03-20",
+    "email": "contacto@casagarzahostal.com",
+    "name": "Casa Garza",
+    "tourism": "hostel",
+    "website": "https://www.casagarzahostal.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11027852405,
+  "lat": 20.9605610,
+  "lon": -89.5370057,
+  "tags": {
+    "addr:housenumber": "270",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 67D",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 11232602938,
+  "lat": 20.9759805,
+  "lon": -89.6198084,
+  "tags": {
+    "addr:postcode": "97000",
+    "addr:street": "Calle 56 A 497, entre calles 45 y 47, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc.",
+    "name": "Hotel Kavia Premium",
+    "phone": "+52 999 924 8011",
+    "tourism": "hotel",
+    "website": "https://hoteleskavia.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11287387069,
+  "lat": 20.9667116,
+  "lon": -89.6249647,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-03-23",
+    "name": "Central Mid"
+  }
+},
+{
+  "type": "node",
+  "id": 11418198739,
+  "lat": 20.9619108,
+  "lon": -89.6124319,
+  "tags": {
+    "bar": "no",
+    "check_date": "2023-12-14",
+    "contact:instagram": "https://www.instagram.com/nuikcasatropical",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Nuik Casa Tropical",
+    "tourism": "hotel",
+    "website": "https://www.nuikcasatropical.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11529062215,
+  "lat": 20.9678688,
+  "lon": -89.6121427,
+  "tags": {
+    "addr:housenumber": "483",
+    "addr:street": "Calle 44",
+    "name": "Kala'an Tolok Petite Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11660875569,
+  "lat": 21.0007440,
+  "lon": -89.6278360,
+  "tags": {
+    "addr:housenumber": "335A",
+    "addr:postcode": "97210",
+    "addr:street": "Calle 20",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Manga-Jō Café",
+    "phone": "+52 999 119 8374"
+  }
+},
+{
+  "type": "node",
+  "id": 11957748516,
+  "lat": 20.9786317,
+  "lon": -89.6013540,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "La Cafe de la Uno"
+  }
+},
+{
+  "type": "node",
+  "id": 11964421069,
+  "lat": 20.9631582,
+  "lon": -89.6299616,
+  "tags": {
+    "addr:housenumber": "563 F",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 69",
+    "internet_access": "wlan",
+    "name": "Hotel Central Merida",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 12198109466,
+  "lat": 20.9945528,
+  "lon": -89.5802056,
+  "tags": {
+    "amenity": "cafe",
+    "name": "El Negrito"
+  }
+},
+{
+  "type": "node",
+  "id": 12198320258,
+  "lat": 20.9804142,
+  "lon": -89.6041549,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "JC's Tree Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12200840339,
+  "lat": 20.9935813,
+  "lon": -89.6531309,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Cielito Lindo"
+  }
+},
+{
+  "type": "node",
+  "id": 12210733051,
+  "lat": 20.9782656,
+  "lon": -89.6123485,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "De la Reina Roja Café"
+  }
+},
+{
+  "type": "node",
+  "id": 12210733057,
+  "lat": 20.9783081,
+  "lon": -89.6122645,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Te Invoco Y Suspiro Café"
+  }
+},
+{
+  "type": "node",
+  "id": 12210733069,
+  "lat": 20.9787342,
+  "lon": -89.6120486,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Bejar Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12210733075,
+  "lat": 20.9786658,
+  "lon": -89.6117854,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Abuelo Guillén"
+  }
+},
+{
+  "type": "node",
+  "id": 12210733078,
+  "lat": 20.9788953,
+  "lon": -89.6120027,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Relato"
+  }
+},
+{
+  "type": "node",
+  "id": 12345212847,
+  "lat": 21.0374016,
+  "lon": -89.6042403,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "City Center",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12345230637,
+  "lat": 21.0304121,
+  "lon": -89.6249375,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Gran Plaza",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "level": "0",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12349511638,
+  "lat": 20.9753862,
+  "lon": -89.5951696,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Plaza Patio",
+    "name": "Italian Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12349511662,
+  "lat": 20.9765382,
+  "lon": -89.5972830,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "mexican",
+    "name": "Taco City Café"
+  }
+},
+{
+  "type": "node",
+  "id": 12437469922,
+  "lat": 20.9717160,
+  "lon": -89.6326347,
+  "tags": {
+    "addr:housenumber": "582C",
+    "addr:street": "Calle 57",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Manier Café",
+    "website": "https://manier.mx/"
+  }
+},
+{
+  "type": "node",
+  "id": 12441988542,
+  "lat": 20.9847286,
+  "lon": -89.6217235,
+  "tags": {
+    "name": "Hotel Sureño",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 12512993002,
+  "lat": 20.9595374,
+  "lon": -89.6031286,
+  "tags": {
+    "addr:street": "Calle 65",
+    "name": "My Family in Merida Hostel",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 12532983601,
+  "lat": 20.9602274,
+  "lon": -89.6189545,
+  "tags": {
+    "name": "Kambal Peregrino Hostal",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 12550416401,
+  "lat": 20.9768989,
+  "lon": -89.6190502,
+  "tags": {
+    "name": "Hotel Chariot",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 12580931350,
+  "lat": 21.0124449,
+  "lon": -89.5831260,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "Good Tea",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12580931352,
+  "lat": 21.0126107,
+  "lon": -89.5831809,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12580931353,
+  "lat": 21.0158257,
+  "lon": -89.5899652,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Café Lote Único",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12580931388,
+  "lat": 21.0226023,
+  "lon": -89.6055416,
+  "tags": {
+    "amenity": "cafe",
+    "name": "T-bar"
+  }
+},
+{
+  "type": "node",
+  "id": 12580931430,
+  "lat": 21.0223159,
+  "lon": -89.6047220,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ceci Medina"
+  }
+},
+{
+  "type": "node",
+  "id": 12581477133,
+  "lat": 21.1112736,
+  "lon": -89.6116004,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12581598271,
+  "lat": 20.9749642,
+  "lon": -89.6188651,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Baretto - Espresso House"
+  }
+},
+{
+  "type": "node",
+  "id": 12586258807,
+  "lat": 21.0114225,
+  "lon": -89.5799340,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Yolo Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12588854592,
+  "lat": 21.0324581,
+  "lon": -89.6027843,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Agua de Menta"
+  }
+},
+{
+  "type": "node",
+  "id": 12596310641,
+  "lat": 20.9967717,
+  "lon": -89.6515288,
+  "tags": {
+    "amenity": "cafe",
+    "name": "La Cata Bakery & Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12601772977,
+  "lat": 20.9515050,
+  "lon": -89.5619740,
+  "tags": {
+    "name": "Real las Palmas Motel",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 12629392324,
+  "lat": 20.9743002,
+  "lon": -89.6217106,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Café Riqueza",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12758737616,
+  "lat": 20.9900719,
+  "lon": -89.6629890,
+  "tags": {
+    "amenity": "cafe",
+    "craft": "confectionery",
+    "cuisine": "dessert",
+    "name": "Churrería Don Porfirio"
+  }
+},
+{
+  "type": "node",
+  "id": 12771231803,
+  "lat": 20.9698860,
+  "lon": -89.6226584,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Marago Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12784971388,
+  "lat": 21.0413535,
+  "lon": -89.6516479,
+  "tags": {
+    "name": "Motel Senses",
+    "rooms": "0",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 12819649527,
+  "lat": 20.9710220,
+  "lon": -89.6368383,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "615A",
+    "addr:neighbourhood": "Barrio de Santiago",
+    "addr:postcode": "97000",
+    "addr:state": "Yucatan",
+    "addr:street": "Calle 59",
+    "air_conditioning": "yes",
+    "brand": "Villa Merida Boutique Hotel",
+    "check_date:currency:XBT": "2025-06-03",
+    "contact:facebook": "https://www.facebook.com/TheVillaMerida/",
+    "contact:instagram": "https://www.instagram.com/thevillamerida/",
+    "contact:twitter": "https://twitter.com/VillaMeridaHost",
+    "currency:XBT": "yes",
+    "email": "info@villamerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Villa Merida Boutique Hotel",
+    "payment:contactless": "yes",
+    "payment:lightning": "yes",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "yes",
+    "payment:visa": "yes",
+    "phone": "+529996487409",
+    "rooms": "9",
+    "survey:date": "2025-05-08",
+    "tourism": "hotel",
+    "website": "https://www.villameridaboutiquehotel.com/en"
+  }
+},
+{
+  "type": "node",
+  "id": 12824907302,
+  "lat": 20.9740083,
+  "lon": -89.6137679,
+  "tags": {
+    "addr:housenumber": "440",
+    "addr:street": "Calle 47",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "contact:facebook": "HostikHostalMx",
+    "contact:instagram": "hostik_mx",
+    "email": "hostikhostalmid@gmail.com",
+    "group_only": "no",
+    "internet_access": "wlan",
+    "name": "Hostik",
+    "phone": "+52 999 351 9324",
+    "rooms": "21",
+    "swimming_pool": "yes",
+    "tourism": "hostel",
+    "washing_machine": "no",
+    "website": "https://www.hostik.com.mx"
+  }
+},
+{
+  "type": "node",
+  "id": 12876358353,
+  "lat": 20.9915818,
+  "lon": -89.7065222,
+  "tags": {
+    "addr:city": "Merida",
+    "addr:housenumber": "#709",
+    "addr:neighbourhood": "Los Almendros II, Cd. Caucel",
+    "addr:state": "Yucatán",
+    "addr:street": "Calle 90",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.con/bunnamid",
+    "outdoor_seating": "yes",
+    "phone": "+52 990 291 8757"
+  }
+},
+{
+  "type": "node",
+  "id": 12896056801,
+  "lat": 21.0286958,
+  "lon": -89.5730820,
+  "tags": {
+    "addr:housenumber": "323",
+    "addr:postcode": "97130",
+    "addr:street": "Calle 11",
+    "name": "MOTEL SEXTO SENTIDO",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 12896404001,
+  "lat": 21.0356761,
+  "lon": -89.5907089,
+  "tags": {
+    "addr:housenumber": "302",
+    "addr:postcode": "97305",
+    "addr:street": "Calle 9 A",
+    "name": "Motel Recinto Real",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 12911209279,
+  "lat": 21.0524363,
+  "lon": -89.6252650,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "yes",
+    "name": "Panarelo"
+  }
+},
+{
+  "type": "node",
+  "id": 12911209280,
+  "lat": 21.0518918,
+  "lon": -89.6248206,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "yes",
+    "name": "La cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13012312498,
+  "lat": 20.9776905,
+  "lon": -89.6212607,
+  "tags": {
+    "amenity": "cafe",
+    "name": "La 60 Café Atelier"
+  }
+},
+{
+  "type": "node",
+  "id": 13024850769,
+  "lat": 20.9944762,
+  "lon": -89.6402371,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "153",
+    "addr:neighbourhood": "San Damián",
+    "addr:postcode": "97218",
+    "addr:state": "Yucatán",
+    "addr:street": "Calle 36",
+    "amenity": "cafe",
+    "brand": "Coffee Brew Lab SCR",
+    "check_date": "2025-07-26",
+    "check_date:currency:XBT": "2026-01-23",
+    "contact:facebook": "coffeebrewlabscr",
+    "contact:instagram": "coffeebrewlabscr",
+    "cuisine": "coffee_shop;tostadores_de_café",
+    "currency:XBT": "yes",
+    "description": "Casa tostadora y barra de café especial para llevar🥤 (Contamos con un pequeño espacio en la terraza por si gustas quedarte) Tenemos con un cajero bitcoin lightning network ⚡ para que compres bitcoin y aproveches los descuentos usando esta forma de pago 🟠",
+    "indoor_seating": "no",
+    "name": "Coffee Brew Lab SCR",
+    "not:brand:wikidata": "Q112042753",
+    "opening_hours": "Mo 08:00-14:30,19:00-20:30; Tu off; We-Fr 08:00-14:30,19:00-20:30; Sa 08:00-14:30; Su off",
+    "operator": "Joel",
+    "organic": "only",
+    "outdoor_seating": "yes",
+    "payment:blink": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:lightning": "yes",
+    "payment:lightning_contactless": "yes",
+    "payment:liquid": "yes",
+    "payment:onchain": "yes",
+    "takeaway": "only",
+    "toilets": "no",
+    "website": "https://coffeebrewlab.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13048692667,
+  "lat": 20.9722319,
+  "lon": -89.6237437,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "502N",
+    "addr:neighbourhood": "Centro",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 53",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "cuisine": "ice_cream;coffee_shop",
+    "currency:XBT": "yes",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "White Paper House",
+    "organic": "yes",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:lightning": "yes",
+    "payment:onchain": "yes",
+    "payment:visa": "yes",
+    "survey:date": "2025-10-08",
+    "website": "https://www.whitepaper.house/"
+  }
+},
+{
+  "type": "node",
+  "id": 13059004980,
+  "lat": 20.9888552,
+  "lon": -89.6319564,
+  "tags": {
+    "addr:housenumber": "197A",
+    "addr:street": "Caille 19",
+    "check_date": "2025-08-08",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "La casa del Turix",
+    "tourism": "guest_house",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13097908722,
+  "lat": 21.0482636,
+  "lon": -89.6445215,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13302914043,
+  "lat": 21.0448936,
+  "lon": -89.5578005,
+  "tags": {
+    "addr:city": "Cholul",
+    "addr:street": "Calle 22",
+    "amenity": "cafe",
+    "name": "cafelia"
+  }
+},
+{
+  "type": "node",
+  "id": 13336396158,
+  "lat": 21.0160993,
+  "lon": -89.5705863,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Tbar"
+  }
+},
+{
+  "type": "node",
+  "id": 13523293501,
+  "lat": 20.9777397,
+  "lon": -89.6372880,
+  "tags": {
+    "name": "Casa Petroila",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 13543569601,
+  "lat": 20.9592278,
+  "lon": -89.6307358,
+  "tags": {
+    "addr:housenumber": "539",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 75",
+    "amenity": "cafe",
+    "name": "Alma Cálida"
+  }
+},
+{
+  "type": "node",
+  "id": 13578801101,
+  "lat": 20.9701368,
+  "lon": -89.6349614,
+  "tags": {
+    "addr:housenumber": "498-B, 59 y 61",
+    "addr:street": "Calle 78",
+    "name": "Casa Akbal B&B",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 13598581201,
+  "lat": 20.9807365,
+  "lon": -89.6183641,
+  "tags": {
+    "addr:housenumber": "468",
+    "addr:postcode": "97000",
+    "addr:street": "Paseo de Montejo",
+    "alt_name": "CLNDSTNO",
+    "amenity": "cafe",
+    "check_date": "2026-03-23",
+    "check_date:opening_hours": "2026-02-25",
+    "cuisine": "american;breakfast;mexican",
+    "internet_access": "wlan",
+    "name": "Clandestino",
+    "opening_hours": "Mo-Th 08:00-21:00; Fr-Su 09:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13672001001,
+  "lat": 20.9700131,
+  "lon": -89.6212322,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-03-23",
+    "name": "Zynergia"
+  }
+},
+{
+  "type": "node",
+  "id": 13672007202,
+  "lat": 20.9700523,
+  "lon": -89.6238499,
+  "tags": {
+    "addr:housenumber": "479",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 62",
+    "amenity": "cafe",
+    "check_date": "2026-03-23",
+    "check_date:opening_hours": "2026-03-23",
+    "cuisine": "coffee_shop;sandwich",
+    "internet_access": "wlan",
+    "level": "1",
+    "name": "Sempere",
+    "opening_hours": "We-Su 08:00-20:00; Mo 09:00-16:00",
+    "phone": "+52 999 142 1999"
+  }
+},
+{
+  "type": "node",
+  "id": 13673375601,
+  "lat": 20.9658529,
+  "lon": -89.6275272,
+  "tags": {
+    "check_date": "2026-03-23",
+    "name": "Casa Bowen",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 13873881018,
+  "lat": 21.0409779,
+  "lon": -89.6310765,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 14007740426,
+  "lat": 20.9723132,
+  "lon": -89.6206835,
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "444",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "Calle 58",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/tinoc.cafe/",
+    "contact:instagram": "https://www.instagram.com/tinoc.cafe",
+    "contact:tiktok": "tinoc.cafe",
+    "diet:vegetarian": "yes",
+    "email": "tinoc.mail@gmail.com",
+    "name": "Tinoc Café",
+    "opening_hours": "Mo-Sa 07:30-20:00; Su 07:30-14:30",
+    "phone": "+52 999 338 5297",
+    "website": "https://linktr.ee/tinoccafe"
+  }
+},
+{
+  "type": "node",
+  "id": 14329841101,
+  "lat": 20.9629462,
+  "lon": -89.6422113,
+  "tags": {
+    "check_date": "2026-10-28",
+    "name": "Casa Colonial Centro",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 14336120801,
+  "lat": 21.0374568,
+  "lon": -89.6374054,
+  "tags": {
+    "check_date": "2026-10-31",
+    "name": "Casa Terracotta",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 14337110216,
+  "lat": 20.9637937,
+  "lon": -89.6251612,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-10-31",
+    "name": "Jungla"
+  }
+},
+{
+  "type": "node",
+  "id": 14384846001,
+  "lat": 20.9785807,
+  "lon": -89.6187351,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "bagel;breakfast;cake;coffee_shop;diner;pancake;tea",
+    "internet_access": "wlan",
+    "name:pt": "Santa Gloria"
+  }
+},
+{
+  "type": "way",
+  "id": 368527504,
+  "center": {
+    "lat": 21.0493885,
+    "lon": -89.6411192
+  },
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "building": "yes",
+    "internet_access": "wlan",
+    "name": "Cafeteria Fiuady",
+    "outdoor_seating": "yes",
+    "smoking": "no",
+    "toilets": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 532065299,
+  "center": {
+    "lat": 21.0337703,
+    "lon": -89.6324951
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:country": "MX",
+    "addr:housenumber": "300A",
+    "addr:postcode": "97204",
+    "addr:state": "YUC",
+    "addr:street": "Calle 20 A",
+    "air_conditioning": "yes",
+    "brand": "Holiday Inn Express",
+    "brand:wikidata": "Q5880423",
+    "brand:wikipedia": "en:Holiday Inn Express",
+    "building": "yes",
+    "email": "reservaciones@heizmerida.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Holiday Inn Express",
+    "pets_allowed": "no",
+    "phone": "+52 999 964 2200",
+    "rooms": "125",
+    "smoking": "no",
+    "swimming_pool": "yes",
+    "tourism": "hotel",
+    "website": "https://www.ihg.com/holidayinnexpress/hotels/us/en/merida/midsa/hoteldetail",
+    "wheelchair": "limited",
+    "wheelchair:description": "2 accessible rooms, elevators, ramp access"
+  }
+},
+{
+  "type": "way",
+  "id": 679351299,
+  "center": {
+    "lat": 20.9523076,
+    "lon": -89.5751465
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Hacienda Misne",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 878483029,
+  "center": {
+    "lat": 20.9480307,
+    "lon": -89.5580403
+  },
+  "tags": {
+    "addr:street": "C alle 19",
+    "name": "Spring Cancún",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 896760910,
+  "center": {
+    "lat": 20.9865506,
+    "lon": -89.6189438
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "451",
+    "addr:postcode": "97000",
+    "addr:state": "Yucatán",
+    "addr:street": "Avenida Colón",
+    "brand": "Fiesta Americana Hotels & Resorts",
+    "building": "yes",
+    "height": "44",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "layer": "1",
+    "name": "Hotel Fiesta Americana",
+    "phone": "+52 999 942 1111",
+    "rooms": "350",
+    "tourism": "hotel",
+    "website": "https://www.fiestamericana.com/hoteles-y-resorts/fiesta-americana-merida"
+  }
+},
+{
+  "type": "way",
+  "id": 1049342046,
+  "center": {
+    "lat": 21.0281014,
+    "lon": -89.5716075
+  },
+  "tags": {
+    "brand": "City Express",
+    "brand:wikidata": "Q109329542",
+    "building": "hotel",
+    "building:levels": "8",
+    "name": "City Express",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1055765846,
+  "center": {
+    "lat": 20.9889065,
+    "lon": -89.7351721
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "pizza;regional;mexican;argentinian",
+    "layer": "2",
+    "name": "Cafetería ENES Mérida",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1152562031,
+  "center": {
+    "lat": 20.9681024,
+    "lon": -89.6226904
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "496",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 60",
+    "air_conditioning": "yes",
+    "building": "yes",
+    "email": "elgranhotelmerida@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Gran Hotel",
+    "phone": "+52 999 923 6963",
+    "rooms": "28",
+    "smoking": "no",
+    "stars": "3",
+    "swimming_pool": "outdoor",
+    "tourism": "hotel",
+    "website": "https://www.granhoteldemerida.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1177972986,
+  "center": {
+    "lat": 20.9725850,
+    "lon": -89.5570142
+  },
+  "tags": {
+    "addr:city": "Kanasín",
+    "addr:housenumber": "287",
+    "addr:postcode": "97370",
+    "addr:street": "Calle 51",
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "Midna´s Frappe",
+    "outdoor_seating": "no",
+    "phone": "+52 999 609 3349"
+  }
+},
+{
+  "type": "way",
+  "id": 1177973219,
+  "center": {
+    "lat": 20.9766752,
+    "lon": -89.5893982
+  },
+  "tags": {
+    "addr:city": "Merida",
+    "addr:housenumber": "536-B",
+    "addr:postcode": "97157",
+    "addr:street": "43",
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "Midna´s Frappé  (Suc. Nueva Mayapan)",
+    "phone": "+52 999 609 3349"
+  }
+},
+{
+  "type": "way",
+  "id": 1245607118,
+  "center": {
+    "lat": 21.0054292,
+    "lon": -89.6883803
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:postcode": "97314",
+    "addr:street": "59-a",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "opening_hours": "Mo-Su 06:00-23:00",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1245924788,
+  "center": {
+    "lat": 20.9852297,
+    "lon": -89.6195289
+  },
+  "tags": {
+    "brand": "Hyatt Regency",
+    "brand:wikidata": "Q1425063",
+    "building": "yes",
+    "height": "78",
+    "internet_access": "yes",
+    "name": "Hyatt Regency Merida",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1248815303,
+  "center": {
+    "lat": 20.9694439,
+    "lon": -89.6331516
+  },
+  "tags": {
+    "building": "yes",
+    "layer": "1",
+    "name": "Hotel El Cid",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1248815305,
+  "center": {
+    "lat": 20.9721571,
+    "lon": -89.6279757
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "Maiz Candela y Cilantro"
+  }
+},
+{
+  "type": "way",
+  "id": 1248815306,
+  "center": {
+    "lat": 20.9717160,
+    "lon": -89.6254859
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Hotel Medio Mundo",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1248815310,
+  "center": {
+    "lat": 20.9683601,
+    "lon": -89.6179006
+  },
+  "tags": {
+    "building": "yes",
+    "check_date": "2026-02-20",
+    "name": "Hotel Mision Panamerica",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1270252485,
+  "center": {
+    "lat": 20.9651708,
+    "lon": -89.6175305
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "452",
+    "addr:neighbourhood": "Centro",
+    "addr:postcode": "97000",
+    "addr:state": "Yucanta",
+    "addr:street": "Calle 63",
+    "building": "yes",
+    "email": "reservahit@hotelhitmerida.com",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Hit Merida",
+    "phone": "+52 999 244 4160",
+    "rooms": "40",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1272145503,
+  "center": {
+    "lat": 20.9849892,
+    "lon": -89.6181641
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1272145507,
+  "center": {
+    "lat": 20.9854248,
+    "lon": -89.6188150
+  },
+  "tags": {
+    "brand": "Holiday Inn",
+    "brand:wikidata": "Q2717882",
+    "building": "yes",
+    "name": "Holiday Inn Mérida",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1272284171,
+  "center": {
+    "lat": 20.9858333,
+    "lon": -89.6202699
+  },
+  "tags": {
+    "building": "yes",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1272985479,
+  "center": {
+    "lat": 20.9858149,
+    "lon": -89.6213961
+  },
+  "tags": {
+    "building": "yes",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1275247720,
+  "center": {
+    "lat": 21.0288910,
+    "lon": -89.6253966
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1280105198,
+  "center": {
+    "lat": 21.0319924,
+    "lon": -89.6302460
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Extended Suites Mérida",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1291208473,
+  "center": {
+    "lat": 20.9424552,
+    "lon": -89.6285720
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Hotel Alberto's",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1299189444,
+  "center": {
+    "lat": 20.9712342,
+    "lon": -89.6221526
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "coffee_shop"
+  }
+},
+{
+  "type": "way",
+  "id": 1299372359,
+  "center": {
+    "lat": 20.9730957,
+    "lon": -89.6230718
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:neighbourhood": "Centro",
+    "addr:postcode": "97000",
+    "addr:state": "YUC",
+    "addr:street": "C. 62, Parque Santa Lucia, Centro,",
+    "building": "yes",
+    "email": "contacto.santaelena1@gmail.com",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Hotel Boutique Santa Helena",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+52 999 642 6744",
+    "reservation": "yes",
+    "rooms": "12",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1313930076,
+  "center": {
+    "lat": 20.9455076,
+    "lon": -89.6992702
+  },
+  "tags": {
+    "building": "yes",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "way",
+  "id": 1313930077,
+  "center": {
+    "lat": 20.9457108,
+    "lon": -89.6993327
+  },
+  "tags": {
+    "building": "yes",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "way",
+  "id": 1318571646,
+  "center": {
+    "lat": 20.9776298,
+    "lon": -89.6045298
+  },
+  "tags": {
+    "addr:housenumber": "450",
+    "addr:neighbourhood": "Industrial",
+    "addr:street": "Calle 41",
+    "building": "yes",
+    "name": "Renta de cuartos \"Liz\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1318571647,
+  "center": {
+    "lat": 20.9775849,
+    "lon": -89.6032469
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "436D",
+    "addr:postcode": "97150",
+    "addr:street": "Calle 41",
+    "air_conditioning": "yes",
+    "building": "yes",
+    "email": "contacto@kinyaah.mx",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Kinyaah Hotel",
+    "phone": "+52 999 289 3683",
+    "rooms": "29",
+    "smoking": "designated",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "https://kinyaah.mx/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1320040983,
+  "center": {
+    "lat": 20.9482552,
+    "lon": -89.6800794
+  },
+  "tags": {
+    "name": "Hacienda Opichén",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1320327521,
+  "center": {
+    "lat": 20.9688068,
+    "lon": -89.6689964
+  },
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1337102851,
+  "center": {
+    "lat": 20.9218018,
+    "lon": -89.6860652
+  },
+  "tags": {
+    "building": "yes",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255056,
+  "center": {
+    "lat": 21.0125442,
+    "lon": -89.5829509
+  },
+  "tags": {
+    "brand": "Hilton Garden Inn",
+    "brand:wikidata": "Q1162859",
+    "building": "yes",
+    "building:levels": "10",
+    "name": "Hilton Garden Inn",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359777316,
+  "center": {
+    "lat": 21.0290201,
+    "lon": -89.5730697
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Sexto Sentido",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359777318,
+  "center": {
+    "lat": 21.0265149,
+    "lon": -89.5700116
+  },
+  "tags": {
+    "building": "yes",
+    "layer": "1",
+    "name": "El Señorial Norte",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359781393,
+  "center": {
+    "lat": 21.0360672,
+    "lon": -89.5907354
+  },
+  "tags": {
+    "building": "yes",
+    "name": "El Recinto Real",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359949044,
+  "center": {
+    "lat": 21.0148594,
+    "lon": -89.5829696
+  },
+  "tags": {
+    "building": "commercial",
+    "name": "ApartHotel siete32",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359967096,
+  "center": {
+    "lat": 21.0223723,
+    "lon": -89.6066048
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Juan Valdez Café",
+    "brand:wikidata": "Q6301102",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "Juan Valdez Café",
+    "shop": "coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1376164839,
+  "center": {
+    "lat": 21.0203663,
+    "lon": -89.6206385
+  },
+  "tags": {
+    "brand": "City Express",
+    "brand:wikidata": "Q109329542",
+    "building": "yes",
+    "name": "City Express",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1376566053,
+  "center": {
+    "lat": 20.9978056,
+    "lon": -89.6122852
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1378591057,
+  "center": {
+    "lat": 20.9591088,
+    "lon": -89.6689916
+  },
+  "tags": {
+    "building": "yes",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1383300177,
+  "center": {
+    "lat": 20.9483529,
+    "lon": -89.6522304
+  },
+  "tags": {
+    "building": "yes",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1421078056,
+  "center": {
+    "lat": 20.9906611,
+    "lon": -89.6490864
+  },
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Plaza Las Américas",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1424440712,
+  "center": {
+    "lat": 20.9711699,
+    "lon": -89.6232189
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "513",
+    "addr:postcode": "97000",
+    "addr:street": "Calle 55",
+    "air_conditioning": "yes",
+    "building": "yes",
+    "email": "hgcentenario@hotmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Gran Centenario",
+    "phone": "+52 999 923 5478",
+    "rooms": "18",
+    "smoking": "designated",
+    "stars": "2",
+    "tourism": "hotel",
+    "website": "https://www.hotelgrancentenario.com/"
+  }
+}
+
+  ]
+}
