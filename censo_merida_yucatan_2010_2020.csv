@@ -1,0 +1,11 @@
+geografia,cve_geo,indicador,anio,valor,unidad,fuente,url
+Mérida (municipio),31050,Crecimiento de población 2010-2020,2020,19.8,%,Calculado con las filas de población,
+Mérida (municipio),31050,Población total,2010,830732,personas,"INEGI, Compendio de información geográfica municipal 2010 (Censo de Población y Vivienda 2010)",https://www.inegi.org.mx/contenidos/app/mexicocifras/datos_geograficos/31/31050.pdf
+Mérida (municipio),31050,Población total,2020,995129,personas,"INEGI, Panorama sociodemográfico de Yucatán 2020 (Censo de Población y Vivienda 2020)",https://en.www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825198046.pdf
+Mérida (municipio),31050,Promedio de ocupantes por vivienda,2020,3.3,personas por vivienda,"INEGI, Panorama sociodemográfico de Yucatán 2020",https://en.www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825198046.pdf
+Mérida (municipio),31050,Superficie,2020,874.4,km2,"INEGI, Panorama sociodemográfico de Yucatán 2020",https://en.www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825198046.pdf
+Mérida (municipio),31050,Viviendas particulares habitadas,2020,303783,viviendas,"INEGI, Panorama sociodemográfico de Yucatán 2020",https://en.www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825198046.pdf
+Yucatán (estado),31,% viviendas deshabitadas y de uso temporal,2020,21.4,%,Calculado con las dos filas anteriores,https://www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/cpv2020_pres_res_yuc.pdf
+Yucatán (estado),31,Viviendas deshabitadas y de uso temporal,2020,178983,viviendas,"INEGI, Censo 2020, presentación de resultados Yucatán",https://www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/cpv2020_pres_res_yuc.pdf
+Yucatán (estado),31,Viviendas habitadas,2020,658351,viviendas,"INEGI, Censo 2020, presentación de resultados Yucatán",https://www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/cpv2020_pres_res_yuc.pdf
+Yucatán (estado),31,Viviendas visitadas en el levantamiento,2020,837334,viviendas,"INEGI, Censo 2020, presentación de resultados Yucatán",https://www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/cpv2020_pres_res_yuc.pdf
