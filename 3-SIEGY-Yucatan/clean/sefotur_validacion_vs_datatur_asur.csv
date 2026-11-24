@@ -1,0 +1,54 @@
+fecha,indicador,valor_sefotur,valor_fuente_original,fuente_original,diferencia,coincide
+2024-01-01,Pasajeros aeropuerto MID,309264,309264,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2025-01-01,Pasajeros aeropuerto MID,316481,316481,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2025-04-01,Pasajeros aeropuerto MID,320325,320325,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2025-05-01,Pasajeros aeropuerto MID,309872,309872,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2025-06-01,Pasajeros aeropuerto MID,311644,311644,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2025-07-01,Pasajeros aeropuerto MID,351297,351297,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2025-08-01,Pasajeros aeropuerto MID,350100,350100,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2025-09-01,Pasajeros aeropuerto MID,314119,314119,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2025-10-01,Pasajeros aeropuerto MID,330325,330325,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2025-11-01,Pasajeros aeropuerto MID,354178,354178,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2025-12-01,Pasajeros aeropuerto MID,378715,378715,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2026-01-01,Pasajeros aeropuerto MID,357388,357388,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2026-02-01,Pasajeros aeropuerto MID,310160,310160,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2026-03-01,Pasajeros aeropuerto MID,351343,351343,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2026-04-01,Pasajeros aeropuerto MID,340312,340312,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2026-05-01,Pasajeros aeropuerto MID,342829,342829,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2026-06-01,Pasajeros aeropuerto MID,300196,300196,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2026-07-01,Pasajeros aeropuerto MID,362828,362828,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2026-08-01,Pasajeros aeropuerto MID,374375,374375,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2026-09-01,Pasajeros aeropuerto MID,311242,311242,ASUR Trafico_de_pasajeros_ASUR.xlsx,0,True
+2024-01-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",159446,159446,DataTur reporte 481,0,True
+2024-02-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",161124,161124,DataTur reporte 481,0,True
+2024-03-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",186367,186367,DataTur reporte 481,0,True
+2024-04-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",146995,146995,DataTur reporte 481,0,True
+2024-05-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",143371,143371,DataTur reporte 481,0,True
+2024-06-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",150181,150181,DataTur reporte 481,0,True
+2024-07-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",165118,165118,DataTur reporte 481,0,True
+2024-08-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",169324,169324,DataTur reporte 481,0,True
+2024-09-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",125521,125521,DataTur reporte 481,0,True
+2024-10-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",145813,145813,DataTur reporte 481,0,True
+2024-11-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",192742,192742,DataTur reporte 481,0,True
+2024-12-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",195822,195822,DataTur reporte 481,0,True
+2025-01-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",177262,177262,DataTur reporte 481,0,True
+2025-02-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",179889,179889,DataTur reporte 481,0,True
+2025-03-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",191602,191602,DataTur reporte 481,0,True
+2025-04-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",194407,194407,DataTur reporte 481,0,True
+2025-05-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",177011,177011,DataTur reporte 481,0,True
+2025-06-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",159145,159145,DataTur reporte 481,0,True
+2025-07-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",215558,215558,DataTur reporte 481,0,True
+2025-08-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",204324,204324,DataTur reporte 481,0,True
+2025-09-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",171853,171853,DataTur reporte 481,0,True
+2025-10-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",188645,188645,DataTur reporte 481,0,True
+2025-11-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",206319,206319,DataTur reporte 481,0,True
+2025-12-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",195851,195851,DataTur reporte 481,0,True
+2026-01-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",199587,199587,DataTur reporte 481,0,True
+2026-02-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",182996,182996,DataTur reporte 481,0,True
+2026-03-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",194477,194477,DataTur reporte 481,0,True
+2026-04-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",176662,176662,DataTur reporte 481,0,True
+2026-05-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",176092,176092,DataTur reporte 481,0,True
+2026-06-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",155230,155230,DataTur reporte 481,0,True
+2026-07-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",202168,202168,DataTur reporte 481,0,True
+2026-08-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",207564,207564,DataTur reporte 481,0,True
+2026-09-01,"Turistas con pernocta, Mérida (Sefotur: diferencia de acumulados)",176851,176851,DataTur reporte 481,0,True
