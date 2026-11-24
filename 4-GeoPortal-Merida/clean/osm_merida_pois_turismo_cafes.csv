@@ -1,0 +1,405 @@
+osm_id,osm_type,nombre,categoria,subcategoria,calle,numero,colonia,codigo_postal,sitio_web,latitud,longitud
+12210733075,node,Abuelo Guillén,Cafeteria,cafe,,,,,,20.978666,-89.611785
+12588854592,node,Agua de Menta,Cafeteria,cafe,,,,,,21.032458,-89.602784
+13543569601,node,Alma Cálida,Cafeteria,cafe,Calle 75,539,,97000,,20.959228,-89.630736
+8986763660,node,Alma cafe MID,Cafeteria,cafe,"calle 113 entre 146 y 148 Fraccionamiento los heroes Plaza Heroes, 97306 Mérida, Yuc.",,,97306,,20.991163,-89.538288
+10584314825,node,Arista Barista,Cafeteria,cafe,,,,,https://beacons.ai/aristabarista,20.973642,-89.617493
+12581598271,node,Baretto - Espresso House,Cafeteria,cafe,,,,,,20.974964,-89.618865
+12210733069,node,Bejar Coffee,Cafeteria,cafe,,,,,,20.978734,-89.612049
+5501740722,node,Bendito Café,Cafeteria,cafe,Calle 55,461C,,,,20.971382,-89.625242
+4085361694,node,Bengal Kaffehaus,Cafeteria,cafe,Calle 60,,,,,20.9715,-89.622159
+5310352121,node,Bengala Kaffeehaus,Cafeteria,cafe,Calle 60,53,,97000,https://bengalakaffeehaus.shop/,20.971561,-89.622091
+6040037888,node,Blue Bag Coffee Shop,Cafeteria,cafe,,,,,,20.97537,-89.625551
+10608061457,node,Blue Bag coffee,Cafeteria,cafe,Calle 55,543,Santiago,97000,https://bluebagcoffee.com/,20.989135,-89.627826
+368527504,way,Cafeteria Fiuady,Cafeteria,cafe,,,,,,21.049388,-89.641119
+4551562890,node,Cafeteria Pop,Cafeteria,cafe,,,,,,20.969998,-89.623211
+1055765846,way,Cafetería ENES Mérida,Cafeteria,cafe,,,,,,20.988906,-89.735172
+4803875140,node,Cafetería La Primera de San Cristóbal,Cafeteria,cafe,,,,,,20.961444,-89.618428
+10553619151,node,Café Cafico,Cafeteria,cafe,,,,,,20.975039,-89.620393
+5112149460,node,Café Espiral,Cafeteria,cafe,,,,,,20.999029,-89.655662
+12580931353,node,Café Lote Único,Cafeteria,cafe,,,,,,21.015826,-89.589965
+4334764676,node,Café Louvre,Cafeteria,cafe,Avenida Jose Diaz Bolio,75,,97125,,21.001897,-89.60748
+12629392324,node,Café Riqueza,Cafeteria,cafe,,,,,,20.9743,-89.621711
+6898349785,node,Café Voltaire,Cafeteria,cafe,,,,,,20.975189,-89.628479
+7114661578,node,Café del Sol,Cafeteria,cafe,Calle 47,,,,,20.975334,-89.621177
+12580931430,node,Ceci Medina,Cafeteria,cafe,,,,,,21.022316,-89.604722
+11287387069,node,Central Mid,Cafeteria,cafe,,,,,,20.966712,-89.624965
+12758737616,node,Churrería Don Porfirio,Cafeteria,cafe,,,,,,20.990072,-89.662989
+12200840339,node,Cielito Lindo,Cafeteria,cafe,,,,,,20.993581,-89.653131
+13598581201,node,Clandestino,Cafeteria,cafe,Paseo de Montejo,468,,97000,,20.980736,-89.618364
+13024850769,node,Coffee Brew Lab SCR,Cafeteria,cafe,Calle 36,153,San Damián,97218,https://coffeebrewlab.com/,20.994476,-89.640237
+12210733051,node,De la Reina Roja Café,Cafeteria,cafe,,,,,,20.978266,-89.612348
+4384694190,node,Dulcería y Sorbetería Colón,Cafeteria,cafe,,,,,https://www.elcolon.mx,20.979818,-89.618516
+10934459705,node,El Gato Gordo,Cafeteria,cafe,,,,,,20.966721,-89.630056
+12198109466,node,El Negrito,Cafeteria,cafe,,,,,,20.994553,-89.580206
+4316605490,node,Expandio de leche pura de vaca,Cafeteria,cafe,,,,,,20.962734,-89.628484
+9356763818,node,Gloria Jean's,Cafeteria,cafe,,,,,,20.96949,-89.62728
+12580931350,node,Good Tea,Cafeteria,cafe,,,,,,21.012445,-89.583126
+9859052695,node,Health Ha,Cafeteria,cafe,,,,,,20.975329,-89.620985
+4835220021,node,Impala,Cafeteria,cafe,,,,,,20.975244,-89.619473
+2028735442,node,Italian Coffe,Cafeteria,cafe,,,,,,21.016904,-89.624979
+2026936989,node,Italian Coffee,Cafeteria,cafe,,,,,,21.029981,-89.641544
+12349511638,node,Italian Coffee,Cafeteria,cafe,,,,,,20.975386,-89.59517
+6661240925,node,Itzaes,Cafeteria,cafe,,,,,,20.93388,-89.663261
+12198320258,node,JC's Tree Coffee,Cafeteria,cafe,,,,,,20.980414,-89.604155
+1359967096,way,Juan Valdez Café,Cafeteria,cafe,,,,,,21.022372,-89.606605
+14337110216,node,Jungla,Cafeteria,cafe,,,,,,20.963794,-89.625161
+13012312498,node,La 60 Café Atelier,Cafeteria,cafe,,,,,,20.977691,-89.621261
+11957748516,node,La Cafe de la Uno,Cafeteria,cafe,,,,,,20.978632,-89.601354
+12596310641,node,La Cata Bakery & Coffee,Cafeteria,cafe,,,,,,20.996772,-89.651529
+6652960511,node,La Crepería,Cafeteria,cafe,,,,,https://www.creperia.com.mx/,21.039588,-89.631685
+2303170293,node,La Vía,Cafeteria,cafe,,,,,,20.994572,-89.618688
+9738766118,node,La abidia,Cafeteria,cafe,Calle 62,,,97000,,20.966128,-89.624568
+12911209280,node,La cafe,Cafeteria,cafe,,,,,,21.051892,-89.624821
+5850108186,node,Maid Cafe,Cafeteria,cafe,,,,,,20.966634,-89.618405
+1248815305,way,Maiz Candela y Cilantro,Cafeteria,cafe,,,,,,20.972157,-89.627976
+5292778521,node,Maiz Canela y Cilantro,Cafeteria,cafe,,,,,,20.972128,-89.627981
+11660875569,node,Manga-Jō Café,Cafeteria,cafe,Calle 20,335A,,97210,,21.000744,-89.627836
+12437469922,node,Manier Café,Cafeteria,cafe,Calle 57,582C,,,https://manier.mx/,20.971716,-89.632635
+5411151722,node,Manifesto,Cafeteria,cafe,,,,,,20.969301,-89.627321
+12771231803,node,Marago Coffee,Cafeteria,cafe,,,,,,20.969886,-89.622658
+1625735024,node,Mi Viejo Molino,Cafeteria,cafe,,,,,,21.01983,-89.578482
+2026898898,node,Mi Viejo Molino,Cafeteria,cafe,,,,,,21.028096,-89.627386
+1177972986,way,Midna´s Frappe,Cafeteria,cafe,Calle 51,287,,97370,,20.972585,-89.557014
+1177973219,way,Midna´s Frappé (Suc. Nueva Mayapan),Cafeteria,cafe,43,536-B,,97157,,20.976675,-89.589398
+7107954328,node,Márago Coffee,Cafeteria,cafe,,,,,,20.979502,-89.61905
+5063087717,node,Neek'Ich Organic Juice Bar,Cafeteria,cafe,,,,,,20.970624,-89.622337
+5432506022,node,Organico,Cafeteria,cafe,,,,,,20.971925,-89.622411
+5432024842,node,Origen Tostadores de Cafe,Cafeteria,cafe,Calle 77,528,,97000,,20.957745,-89.631028
+12911209279,node,Panarelo,Cafeteria,cafe,,,,,,21.052436,-89.625265
+5541593323,node,Pastelicioso Gourmet,Cafeteria,cafe,Calle 18,232,,97133,http://pastelicioso.com,21.024477,-89.57666
+4584167894,node,Pistache,Cafeteria,cafe,,,,,,20.980504,-89.618428
+8263119752,node,Placer & Delirio,Cafeteria,cafe,Calle 59,,,,,20.969846,-89.630751
+12210733078,node,Relato,Cafeteria,cafe,,,,,,20.978895,-89.612003
+6652951676,node,Rosquillas & Coffee,Cafeteria,cafe,,,,,http://www.rosquillasandcoffee.com/,21.039631,-89.631611
+5292403527,node,SIN NOMBRE,Cafeteria,cafe,,,,,,20.974924,-89.617798
+5292425221,node,SIN NOMBRE,Cafeteria,cafe,,,,,,21.060921,-89.645608
+10297224409,node,SIN NOMBRE,Cafeteria,cafe,,,,,,20.971885,-89.626835
+12876358353,node,SIN NOMBRE,Cafeteria,cafe,Calle 90,#709,"Los Almendros II, Cd. Caucel",,,20.991582,-89.706522
+13097908722,node,SIN NOMBRE,Cafeteria,cafe,,,,,,21.048264,-89.644521
+14384846001,node,SIN NOMBRE,Cafeteria,cafe,,,,,,20.978581,-89.618735
+1299189444,way,SIN NOMBRE,Cafeteria,cafe,,,,,,20.971234,-89.622153
+5603511262,node,Sabor a cielo,Cafeteria,cafe,,,,,,21.103568,-89.66295
+6652951681,node,Segafredo,Cafeteria,cafe,,,,,https://www.segafredo.it/,21.039456,-89.631465
+13672007202,node,Sempere,Cafeteria,cafe,Calle 62,479,,97000,,20.970052,-89.62385
+1625735022,node,Starbucks,Cafeteria,cafe,,,,,,21.017516,-89.585112
+2028779188,node,Starbucks,Cafeteria,cafe,Gonzalo Guerrero,,,,,21.028858,-89.625478
+5670808327,node,Starbucks,Cafeteria,cafe,,,,,,20.968238,-89.62269
+6245876544,node,Starbucks,Cafeteria,cafe,,,,,,21.019779,-89.596311
+6601491204,node,Starbucks,Cafeteria,cafe,,,,,,21.046103,-89.630694
+12345212847,node,Starbucks,Cafeteria,cafe,,,,,,21.037402,-89.60424
+12345230637,node,Starbucks,Cafeteria,cafe,,,,,,21.030412,-89.624938
+12580931352,node,Starbucks,Cafeteria,cafe,,,,,,21.012611,-89.583181
+12581477133,node,Starbucks,Cafeteria,cafe,,,,,,21.111274,-89.6116
+13873881018,node,Starbucks,Cafeteria,cafe,,,,,,21.040978,-89.631077
+1245607118,way,Starbucks,Cafeteria,cafe,59-a,,,97314,,21.005429,-89.68838
+1272145503,way,Starbucks,Cafeteria,cafe,,,,,,20.984989,-89.618164
+1275247720,way,Starbucks,Cafeteria,cafe,,,,,,21.028891,-89.625397
+1376566053,way,Starbucks,Cafeteria,cafe,,,,,,20.997806,-89.612285
+1421078056,way,Starbucks,Cafeteria,cafe,,,,,,20.990661,-89.649086
+12580931388,node,T-bar,Cafeteria,cafe,,,,,,21.022602,-89.605542
+12349511662,node,Taco City Café,Cafeteria,cafe,,,,,,20.976538,-89.597283
+13336396158,node,Tbar,Cafeteria,cafe,,,,,,21.016099,-89.570586
+12210733057,node,Te Invoco Y Suspiro Café,Cafeteria,cafe,,,,,,20.978308,-89.612264
+5025946224,node,The Italian Coffe Factory,Cafeteria,cafe,,,,,,20.998465,-89.61335
+9733620417,node,The Italian coffee,Cafeteria,cafe,Calle 62,499,,97000,https://www.italiancoffee.com/,20.967828,-89.624181
+14007740426,node,Tinoc Café,Cafeteria,cafe,Calle 58,444,,97000,https://linktr.ee/tinoccafe,20.972313,-89.620683
+4835385923,node,Uj Cafetería,Cafeteria,cafe,,,,,,20.988971,-89.617093
+2124462124,node,VIP's,Cafeteria,cafe,,,,,,21.024703,-89.623694
+13048692667,node,White Paper House,Cafeteria,cafe,Calle 53,502N,Centro,97000,https://www.whitepaper.house/,20.972232,-89.623744
+12586258807,node,Yolo Coffee,Cafeteria,cafe,,,,,,21.011422,-89.579934
+13672001001,node,Zynergia,Cafeteria,cafe,,,,,,20.970013,-89.621232
+13302914043,node,cafelia,Cafeteria,cafe,Calle 22,,,,,21.044894,-89.5578
+4381762591,node,zitto,Cafeteria,cafe,,,,,,20.965371,-89.610466
+5813071254,node,Air Bnb Albany,Hospedaje,guest_house,,,,,,20.974224,-89.629018
+5813237253,node,Albany air bnb,Hospedaje,guest_house,,,,,,20.972148,-89.616737
+13578801101,node,Casa Akbal B&B,Hospedaje,guest_house,Calle 78,"498-B, 59 y 61",,,,20.970137,-89.634961
+14329841101,node,Casa Colonial Centro,Hospedaje,guest_house,,,,,,20.962946,-89.642211
+5210568325,node,Casa La Negrita,Hospedaje,guest_house,Calle 49,511,,,,20.974383,-89.623197
+4716641090,node,Casa Mayab,Hospedaje,guest_house,,,,,,20.962943,-89.612992
+13523293501,node,Casa Petroila,Hospedaje,guest_house,,,,,,20.97774,-89.637288
+5942670634,node,Casa Vida Gitana,Hospedaje,guest_house,Calle 47,450B,,,,20.974312,-89.614945
+2136656439,node,Casa de Ambar B&B,Hospedaje,guest_house,,,,,,20.968101,-89.633609
+6830690957,node,Casa de Naola & Sébastien,Hospedaje,guest_house,,,,,,20.968252,-89.605287
+4152351389,node,Casa del Unicornio,Hospedaje,guest_house,,,,,,20.971217,-89.622258
+4929569325,node,Hostal $150 mxn,Hospedaje,guest_house,,,,,,20.969065,-89.617784
+13059004980,node,La casa del Turix,Hospedaje,guest_house,Caille 19,197A,,,,20.988855,-89.631956
+6581626386,node,M,Hospedaje,guest_house,,,,,,21.002328,-89.578389
+5869601788,node,Motel El Arca,Hospedaje,guest_house,,,,,,20.945713,-89.553041
+6581627092,node,R,Hospedaje,guest_house,,,,,,21.018223,-89.577508
+4253568792,node,SANGUINO C HUESPEDES,Hospedaje,guest_house,13,547,,,,20.9944,-89.649313
+5633893321,node,SIN NOMBRE,Hospedaje,guest_house,,,,,,20.995187,-89.616617
+10111300317,node,SIN NOMBRE,Hospedaje,guest_house,Calle 45G,1073,,97302,,21.087869,-89.670975
+11027852405,node,SIN NOMBRE,Hospedaje,guest_house,Calle 67D,270,,97000,,20.960561,-89.537006
+4751451624,node,TIM,Hospedaje,guest_house,,,,,,21.021092,-89.590399
+5146357422,node,mi casa es tu casa,Hospedaje,guest_house,,,,,,20.969145,-89.615787
+5851939517,node,Albergue Buena Voluntad,Hospedaje,hostel,Calle 20,,,,,21.022581,-89.584346
+9420992917,node,Casa Cueva & Amaro,Hospedaje,hostel,Calle 54,583,,97000,,20.956609,-89.621475
+10979936727,node,Casa Garza,Hospedaje,hostel,Calle 66,524,,,https://www.casagarzahostal.com/,20.965614,-89.627319
+9600960253,node,Casa Jade,Hospedaje,hostel,Calle 63,528A,,97000,,20.96692,-89.626741
+8901501417,node,Casa Kuxul,Hospedaje,hostel,,,,,,20.972085,-89.628287
+4929569324,node,Casa de Alma,Hospedaje,hostel,,,,,,21.003375,-89.580174
+8316882717,node,Casa estrella,Hospedaje,hostel,,,,,,20.957549,-89.618629
+6103918585,node,Casona Boutique Hostel (red building),Hospedaje,hostel,,,,,,20.965942,-89.626563
+10684490907,node,Casona Garra Charrúa,Hospedaje,hostel,Calle 62,597,,,,20.956948,-89.626843
+7997409269,node,El Tigre de Santiago,Hospedaje,hostel,Calle 74,459,,,https://www.eltigredesantiago.com/,20.97297,-89.630579
+7195312985,node,Hostal La 59,Hospedaje,hostel,Calle 59,569,,97000,,20.970067,-89.631127
+10927920905,node,Hostal Xiinbal Mérida,Hospedaje,hostel,,,,,,20.966673,-89.630202
+9607388904,node,Hostel Le Juj,Hospedaje,hostel,Calle 59,596A,,97000,https://hostellejuj.mxhotel.site/es/,20.970049,-89.632203
+12824907302,node,Hostik,Hospedaje,hostel,Calle 47,440,,,https://www.hostik.com.mx,20.974008,-89.613768
+6677737485,node,Hotel Boutique Luna Nueva,Hospedaje,hostel,Calle 49,487,,97000,,20.974146,-89.61998
+12532983601,node,Kambal Peregrino Hostal,Hospedaje,hostel,,,,,,20.960227,-89.618955
+10949332724,node,La Casa del Kéej,Hospedaje,hostel,Calle 68,518-A,,,,20.965103,-89.628662
+4316953095,node,La Ermita,Hospedaje,hostel,Calle 77,528,,97000,,20.957668,-89.631036
+8893628717,node,La Morada,Hospedaje,hostel,,,,,,20.974318,-89.622545
+12512993002,node,My Family in Merida Hostel,Hospedaje,hostel,Calle 65,,,,,20.959537,-89.603129
+1873895337,node,Nomadas,Hospedaje,hostel,,,,,,20.973229,-89.623385
+4286269603,node,Zócalo,Hospedaje,hostel,Calle 63,508,,97000,https://www.hostalzocalo.com.mx/,20.966536,-89.624304
+9621420569,node,Antelar,Hospedaje,hotel,Calle 66,446,,97000,https://www.hotelantelar.com/,20.973676,-89.625797
+1359949044,way,ApartHotel siete32,Hospedaje,hotel,,,,,,21.014859,-89.58297
+9603733674,node,Art 57 Hotel,Hospedaje,hotel,Calle 57,543A,,97000,https://www.art57hotel.com/,20.970653,-89.627136
+9621326374,node,Art 64 Hotel Boutique,Hospedaje,hotel,Calle 64,446,,97000,https://www.art64hotel.com/,20.973028,-89.624628
+2192915201,node,B&B Casa Esperanza Inn,Hospedaje,hotel,,,,,,20.970018,-89.618257
+9643735162,node,B's Hotel,Hospedaje,hotel,Periferico Norte,,,97302,https://www.bsuiteshotel.com/,21.046611,-89.609488
+9624712383,node,Boutique by the Museo,Hospedaje,hotel,Calle 58,481,,97000,https://boutiquebythemuseo.com/,20.97791,-89.619841
+5290657422,node,Calle 72 423 Ejido del Centro,Hospedaje,hotel,,,,,,20.977593,-89.627785
+9643439645,node,Camino Real Mérida,Hospedaje,hotel,Avenida Andrés García Lavín,298,,97113,https://www.caminoreal.com/en/caminoreal/camino-real-merida,21.036896,-89.601859
+8263135214,node,Caribe,Hospedaje,hotel,Calle 59,500,,97000,http://www.caribehotelmerida.com/,20.968258,-89.622263
+2192920392,node,Casa Ana B & B,Hospedaje,hotel,,,,,,20.971506,-89.61675
+9626840658,node,Casa Azul,Hospedaje,hotel,Calle 60,343,,97000,http://www.casaazulhotel.com/,20.98221,-89.620566
+13673375601,node,Casa Bowen,Hospedaje,hotel,,,,,,20.965853,-89.627527
+4840996946,node,Casa Catrina&Diego,Hospedaje,hotel,,,,,,20.961857,-89.626901
+7304608608,node,Casa Chakan,Hospedaje,hotel,57 entre 52 y 54,470,,97000,,20.968919,-89.617559
+9627589845,node,Casa Continental Hotel,Hospedaje,hotel,Calle 47,480,,97000,https://www.hotelcasacontinental.com/,20.974989,-89.61903
+9626614110,node,Casa Dos Lirios Boutique B&B,Hospedaje,hotel,Calle 45,552A,,97000,https://www.casadoslirios.com/,20.977924,-89.629733
+9630123603,node,Casa Espejo Da Luca,Hospedaje,hotel,Avenida Pérez Ponce,403b,,97100,,20.986237,-89.611997
+9626637441,node,Casa Flor de Mayo,Hospedaje,hotel,Calle 54,378B,,97000,https://hotelflordemayo.com/,20.978968,-89.616651
+9627564309,node,Casa Lecanda Boutique Hotel,Hospedaje,hotel,Calle 47,471,,97000,https://www.casalecanda.com/,20.974943,-89.61764
+2192886765,node,Casa Lorenzo,Hospedaje,hotel,,,,,,20.97962,-89.622898
+4808605446,node,Casa Nohoch,Hospedaje,hotel,,,,,,20.975048,-89.621539
+9621533097,node,Casa Tavera,Hospedaje,hotel,Calle 49,493,,97000,https://casatavera.com/,20.97533,-89.615459
+14336120801,node,Casa Terracotta,Hospedaje,hotel,,,,,,21.037457,-89.637405
+9641466181,node,Casa Tuunich,Hospedaje,hotel,Calle 27,104,,97125,,20.999615,-89.611626
+9659291672,node,Casa Viva Mérida,Hospedaje,hotel,Carretera Mérida-Tixkokob-Tekantó,KM 5,,97387,,20.970636,-89.528089
+9583883060,node,Casa de Campo,Hospedaje,hotel,Calle 24,95,,97345,https://www.casadecampoconkal.com/,21.079311,-89.522648
+9643632812,node,Casa de Camposampiero Hotel Boutique,Hospedaje,hotel,Calle 36,244,,97115,https://casadecamposampiero.com/,21.042925,-89.621285
+2192837748,node,Casa de Huespedes Alvarez,Hospedaje,hotel,,,,,,20.97252,-89.623171
+9622433907,node,Casa de Las Palomas,Hospedaje,hotel,Calle 64,417,,97000,https://www.palomasgroup.com/casa-de-las-palomas/,20.974499,-89.624559
+9621249484,node,Casa de las Columnas,Hospedaje,hotel,Calle 59,636,,97000,,20.970689,-89.636549
+297860708,node,Casa del Balam,Hospedaje,hotel,Calle 60,488,,,https://www.casadelbalam.com/,20.96997,-89.622416
+2192907913,node,Casa del Maya,Hospedaje,hotel,Calle 66,410A,,97000,https://www.casadelmaya.com/,20.976347,-89.625451
+2192871978,node,Cascadas de Merida,Hospedaje,hotel,,,,,,20.971774,-89.632526
+9601693249,node,Casona 61,Hospedaje,hotel,Calle 61,527,,97000,https://www.casona61.com/,20.968344,-89.627717
+9627453225,node,Casona de las 3 Marias Boutique Hotel,Hospedaje,hotel,Calle 64,,,97000,,20.973817,-89.624456
+9629816731,node,Chanpaal Hotel Boutique,Hospedaje,hotel,Avenida Colón,506B,,97000,,20.98647,-89.623431
+1049342046,way,City Express,Hospedaje,hotel,,,,,,21.028101,-89.571607
+1376164839,way,City Express,Hospedaje,hotel,,,,,,21.020366,-89.620638
+9627599953,node,City Express Plus Mérida,Hospedaje,hotel,Calle 60,346,,97000,https://www.cityexpress.com/en/plus/hotels-mexico/yucatan/merida/merida,20.983502,-89.619652
+9604295905,node,Colon,Hospedaje,hotel,Calle 62,483,,,https://www.hotelcolonmerida.com/index,20.969649,-89.623938
+9604310259,node,Colonial,Hospedaje,hotel,Calle 62,476,,97000,https://www.hotelcolonial.com.mx/,20.969786,-89.623734
+9264240109,node,Courtyard Mérida Downtown,Hospedaje,hotel,Avenida Colón,504,,97000,https://www.marriott.com/hotels/hotel-rooms/midcy-courtyard-merida-downtown/,20.985895,-89.621395
+9621387603,node,Decu Mérida,Hospedaje,hotel,Calle 56,468,,97000,https://decuhotels.com/hoteles.php?hotel=6&titulo=Decu%20Downtown,20.971136,-89.619747
+9641328705,node,Delfina Boutique Hotel,Hospedaje,hotel,Prolongación Paseo Montejo,481,,97127,https://www.delfinaboutiquehotel.com/,20.994774,-89.616732
+5020812121,node,Departamentos en Renta,Hospedaje,hotel,,,,,,20.987041,-89.630073
+9626758393,node,Diez Diez Collection,Hospedaje,hotel,Calle 37,487,,97000,https://diez-diez-collection-com.negocio.site/,20.98143,-89.617651
+9641148483,node,Downtown Mérida Hotel,Hospedaje,hotel,Calle 62,295A,,97050,https://www.downtownmeridahotels.com/,20.990124,-89.622174
+9356750519,node,Dpas 52,Hospedaje,hotel,Calle 52,381-G,,97000,,20.983634,-89.614462
+2304011733,node,El Marqués,Hospedaje,hotel,Calle 54,373,,97000,https://www.hotelmarques.com.mx/,20.982811,-89.616173
+9624569590,node,El Palacito Secreto,Hospedaje,hotel,Calle 66,393,,97000,https://www.elpalacitosecreto.com/,20.976823,-89.625614
+2303923556,node,Elia Noemí,Hospedaje,hotel,Calle 33,475,,97100,http://www.hotelelianoemi.com/,20.984766,-89.612455
+9601746903,node,Embajadores,Hospedaje,hotel,Calle 61,534,,97000,https://www.hotelembajadores.com.mx/,20.968286,-89.628425
+8830357694,node,Extended Suites Mérida,Hospedaje,hotel,,,,,https://www.extendedsuites.com.mx/destinos-extended-suites-mexico/hotel-en-merida,21.032057,-89.630287
+1280105198,way,Extended Suites Mérida,Hospedaje,hotel,,,,,,21.031992,-89.630246
+9643487047,node,Fiesta Inn Mérida,Hospedaje,hotel,Calle 5-B,290,,97115,https://www.fiestainn.com/fiesta-inn-merida,21.032167,-89.628557
+297861165,node,Gamma Mérida El Castellano,Hospedaje,hotel,Calle 57,513,,97000,https://www.gammahoteles.com/gamma-merida-el-castellano,20.970266,-89.624648
+1152562031,way,Gran Hotel,Hospedaje,hotel,Calle 60,496,,97000,https://www.granhoteldemerida.com/,20.968102,-89.62269
+9595800598,node,Guaya Hostel,Hospedaje,hotel,Calle 71,538,,97000,https://guayahostel.com/,20.961825,-89.631581
+679351299,way,Hacienda Misne,Hospedaje,hotel,,,,,,20.952308,-89.575147
+2118699656,node,Hacienda Misné,Hospedaje,hotel,Calle 19,172,,97173,https://www.haciendamisne.com.mx/,20.952372,-89.575098
+4401879365,node,Hacienda Mérida,Hospedaje,hotel,Calle 62,439,,97000,https://hotelhaciendamerida.com/,20.972965,-89.623375
+1320040983,way,Hacienda Opichén,Hospedaje,hotel,,,,,,20.948255,-89.680079
+2118691656,node,Hacienda San Pedro Nohpat,Hospedaje,hotel,Calle 22,,,97370,http://haciendaholidays.com/,20.948805,-89.553493
+9595632349,node,Hacienda Santa Cruz,Hospedaje,hotel,Calle 86,s/n,,97315,https://www.haciendasantacruz.com/,20.879587,-89.653366
+9583921609,node,Hacienda Santa Lucía Kantoyná,Hospedaje,hotel,Tablaje,3610,,97345,https://haciendasantaluciakantoyna.com/,21.109944,-89.52127
+9646680892,node,Hacienda Xcanatun by Angsana,Hospedaje,hotel,Calle 20,s/n,,97302,https://www.angsana.com/mexico/hacienda-xcanatun,21.075277,-89.62821
+9643592687,node,Hampton Inn by Hilton Merida,Hospedaje,hotel,Calle 20-A,288,,92704,https://www.hilton.com/en/hotels/midhxhx-hampton-merida/,21.034842,-89.632893
+1359255056,way,Hilton Garden Inn,Hospedaje,hotel,,,,,,21.012544,-89.582951
+1270252485,way,Hit Merida,Hospedaje,hotel,Calle 63,452,Centro,97000,,20.965171,-89.617531
+9643759060,node,Holiday Inn & Suites Merida La Isla,Hospedaje,hotel,Calle 24,s/n,,97305,https://www.ihg.com/holidayinn/hotels/us/en/merida/midnt/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-MX-_-MIDNT,21.056608,-89.59822
+532065299,way,Holiday Inn Express,Hospedaje,hotel,Calle 20 A,300A,,97204,https://www.ihg.com/holidayinnexpress/hotels/us/en/merida/midsa/hoteldetail,21.03377,-89.632495
+9604304293,node,Holiday Inn Express Merida Centro,Hospedaje,hotel,Calle 60,,,97000,,20.970256,-89.62261
+1272145507,way,Holiday Inn Mérida,Hospedaje,hotel,,,,,,20.985425,-89.618815
+5658986775,node,Hospedaje Doña Rita,Hospedaje,hotel,,,,,,20.996938,-89.640422
+8238493419,node,Hostal Rosa Mexicano,Hospedaje,hotel,Calle 50,398,,97109,,20.986053,-89.611527
+3593760497,node,"Hotel ""El Centenario""",Hospedaje,hotel,,,,,,20.971904,-89.638481
+1291208473,way,Hotel Alberto's,Hospedaje,hotel,,,,,,20.942455,-89.628572
+9604204744,node,Hotel Ambassador Merida,Hospedaje,hotel,Calle 59,546,,97000,https://www.ambassadormerida.com/,20.969318,-89.628038
+4542260391,node,Hotel Aventura,Hospedaje,hotel,Calle 61,580,,97000,https://www.aurorahotel-aventura.com/,20.968951,-89.632928
+4581845359,node,Hotel Boulevard Infante,Hospedaje,hotel,,,,,,20.961158,-89.641955
+9604233628,node,Hotel Boutique La Casona,Hospedaje,hotel,Calle 59,532,,,https://www.hotellacasonamerida.com/,20.969248,-89.626929
+9600791975,node,Hotel Boutique Mansión Lavanda,Hospedaje,hotel,Calle 64,547,,97000,https://hotellavanda.com/,20.963302,-89.626821
+9627628548,node,Hotel Boutique Real San Juan Center,Hospedaje,hotel,Calle 62,309-D,,97000,http://realsanjuancenter.com/,20.984261,-89.621959
+1299372359,way,Hotel Boutique Santa Helena,Hospedaje,hotel,"C. 62, Parque Santa Lucia, Centro,",,Centro,97000,,20.973096,-89.623072
+9595649456,node,Hotel Casa 401,Hospedaje,hotel,Calle 115,401,,97279,,20.938611,-89.612838
+9601954768,node,Hotel Casa Fernanda,Hospedaje,hotel,Calle 57,472,,97000,,20.969006,-89.617571
+9600911066,node,Hotel Casa Lidia,Hospedaje,hotel,Calle 66,521,,97000,,20.966341,-89.627441
+3248444885,node,Hotel Casa Lucía,Hospedaje,hotel,Calle 60,474A,,97000,https://www.casalucia.com.mx/,20.971408,-89.622213
+9641199479,node,Hotel Casa Nobel,Hospedaje,hotel,Calle 72,403C,,97000,,20.98076,-89.626762
+9601832369,node,Hotel Casa Nova,Hospedaje,hotel,Calle 57,491,,97000,,20.96975,-89.62169
+8231645525,node,Hotel Casa Palomino,Hospedaje,hotel,Calle 60,374,,97000,http://www.hotelcasapalomino.com.mx/,20.980528,-89.620616
+9621431262,node,Hotel Casa Pellegrin,Hospedaje,hotel,Calle 49,490,,97000,https://www.hotelcasapellegrin.com/,20.97381,-89.618733
+9621526914,node,Hotel Casa San Ángel,Hospedaje,hotel,Calle 56A,,,97000,https://www.hotelcasasanangel.com/,20.97412,-89.619487
+11964421069,node,Hotel Central Merida,Hospedaje,hotel,Calle 69,563 F,,97000,,20.963158,-89.629962
+12550416401,node,Hotel Chariot,Hospedaje,hotel,,,,,,20.976899,-89.61905
+9595719681,node,Hotel Cortijo de Cortes,Hospedaje,hotel,Calle 81B,79,,97260,,20.949896,-89.646335
+5312184723,node,Hotel Del Prado,Hospedaje,hotel,,,,,,20.961979,-89.617696
+9643780955,node,Hotel Dubrovnik Mérida,Hospedaje,hotel,Carretera Merida - Progreso,KM 10.3,,97300,https://www.hoteldubrovnikmerida.com.mx/,21.060427,-89.631643
+9595782126,node,Hotel El Arca,Hospedaje,hotel,Calle 48,524,,,https://hotelarca.com.mx/,20.95872,-89.617111
+9601982176,node,Hotel El Cid,Hospedaje,hotel,Calle 61,573-A,,97000,https://www.hotelelcidmerida.com.mx/,20.969171,-89.633239
+1248815303,way,Hotel El Cid,Hospedaje,hotel,,,,,,20.969444,-89.633152
+388181149,node,Hotel El Conquistador,Hospedaje,hotel,,,,,,20.982508,-89.61799
+9595798001,node,Hotel El Español Centro Histórico,Hospedaje,hotel,Calle 69,543C,,97000,https://www.espanolcentromerida.com/,20.963203,-89.630688
+9626651146,node,Hotel El Español Paseo de Montejo,Hospedaje,hotel,Paseo Montejo,484,,97000,https://www.elespanoldemontejo.com.mx/,20.978739,-89.61865
+896760910,way,Hotel Fiesta Americana,Hospedaje,hotel,Avenida Colón,451,,97000,https://www.fiestamericana.com/hoteles-y-resorts/fiesta-americana-merida,20.986551,-89.618944
+9604271929,node,Hotel Flamingo,Hospedaje,hotel,Calle 57,485,,97000,https://www.hotelflamingo.com.mx/,20.969631,-89.620931
+4401873049,node,Hotel Gran Centenario,Hospedaje,hotel,Calle 55,513,,97000,https://www.hotelgrancentenario.com/,20.971115,-89.623227
+1424440712,way,Hotel Gran Centenario,Hospedaje,hotel,Calle 55,513,,97000,https://www.hotelgrancentenario.com/,20.97117,-89.623219
+9603670532,node,Hotel Gran Real Yucatán,Hospedaje,hotel,Calle 56,474,,97000,https://granrealyucatan.com/,20.970436,-89.619872
+645899188,node,Hotel Hacienda Inn,Hospedaje,hotel,Avenida Aviación,709,,97259,https://www.hacienda-inn.com/,20.947964,-89.651786
+2118546471,node,Hotel Hacienda Noc-Ac,Hospedaje,hotel,Calle 31,s/n,,97303,https://www.haciendanocac.com/,21.07919,-89.719072
+2304011726,node,Hotel Holly,Hospedaje,hotel,Calle 37,480,,97000,https://www.hotelholly.com/,20.981105,-89.616542
+11232602938,node,Hotel Kavia Premium,Hospedaje,hotel,"Calle 56 A 497, entre calles 45 y 47, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc.",,,97000,https://hoteleskavia.com/,20.97598,-89.619808
+9595782121,node,Hotel Kuklin,Hospedaje,hotel,Calle 48,532B,,97000,https://www.hotelkuklin.mx/,20.957871,-89.617273
+9356763819,node,Hotel Kuxtal,Hospedaje,hotel,,,,,,20.969654,-89.627365
+2304011748,node,Hotel Las Américas Mérida,Hospedaje,hotel,Calle 35,494,,97144,,20.982476,-89.616551
+9600990773,node,Hotel Las Margaritas Mérida,Hospedaje,hotel,Calle 27,220A,,97070,https://www.hotelmargaritasmerida.com/,20.985835,-89.638369
+3078494758,node,Hotel Los Aluxes,Hospedaje,hotel,Calle 60,444,,97000,https://www.aluxes.com/,20.973966,-89.621528
+4439705290,node,Hotel Los Arcos,Hospedaje,hotel,Calle 63,,,,,20.966787,-89.625213
+3594977310,node,Hotel Luz en Yucatán,Hospedaje,hotel,Calle 55,499,,97000,https://www.luzenyucatan.com/,20.970889,-89.621657
+2192835660,node,Hotel Marionetas,Hospedaje,hotel,Calle 49,516,,97000,https://www.hotelmarionetas.com/,20.974328,-89.623973
+9600987616,node,Hotel María del Carmen,Hospedaje,hotel,Calle 63,550,,97000,https://www.hotelmariadelcarmen.com.mx/,20.967275,-89.629277
+2192901324,node,Hotel Medio Mundo,Hospedaje,hotel,Calle 55,533,,97000,,20.971591,-89.625553
+1248815306,way,Hotel Medio Mundo,Hospedaje,hotel,,,,,,20.971716,-89.625486
+9601540396,node,Hotel Mejorada Mérida,Hospedaje,hotel,Calle 59,434,,97000,https://www.hotelmejoradamerida.com/,20.967703,-89.616941
+9607391692,node,Hotel Meridano,Hospedaje,hotel,Calle 54,478,,97000,http://www.hotelmeridano.com/,20.96985,-89.618395
+1248815310,way,Hotel Mision Panamerica,Hospedaje,hotel,,,,,,20.96836,-89.617901
+10637686852,node,Hotel Mody,Hospedaje,hotel,Avenida Itzaes,243,,97070,,20.985937,-89.63939
+9604268164,node,Hotel Mucuy,Hospedaje,hotel,Calle 57,481,,97000,,20.969565,-89.620403
+9603628985,node,Hotel Mérida,Hospedaje,hotel,Calle 60,491B,,97000,https://www.hotelmeridayucatan.com.mx/,20.969939,-89.622668
+9600953714,node,Hotel Nacional Mérida,Hospedaje,hotel,Calle 61,474,,97000,https://www.hotelnacionalmerida.com/,20.966839,-89.619402
+9641471325,node,Hotel Nahoch tatoob La casa de los abuelos,Hospedaje,hotel,Calle 45,,,97219,,21.001379,-89.656209
+9626805054,node,Hotel Palacio Maya,Hospedaje,hotel,Calle 62,327,,97000,https://www.hotelpalaciomaya.com.mx/,20.981707,-89.6221
+8502132817,node,Hotel Plaza Mirador,Hospedaje,hotel,Calle 70,54,,97000,https://www.plazamirador.com.mx/,20.96423,-89.630593
+3657265446,node,"Hotel Posada ""El Cortijo""",Hospedaje,hotel,Calle 32,442,,97150,https://hotelposadaelcortijo.mxhotel.site/,20.977547,-89.603839
+9603600666,node,Hotel Posada 57,Hospedaje,hotel,Calle 57,519,,97000,https://hotelposada57merida.negocio.site/,20.970358,-89.625709
+4450621972,node,Hotel Posada Principal,Hospedaje,hotel,Calle 58,,,,,20.960314,-89.62324
+7120446749,node,Hotel PosadaToledo,Hospedaje,hotel,Calle 58,487,,97000,,20.970393,-89.622814
+4719486415,node,Hotel Residencial,Hospedaje,hotel,Calle 59,589,,97000,https://www.hotelresidencial.com.mx/,20.970684,-89.633857
+4803875827,node,Hotel Rodríguez,Hospedaje,hotel,,,,,,20.96187,-89.621094
+4450624186,node,Hotel Rosana Pastora,Hospedaje,hotel,,,,,,20.959899,-89.623285
+9600951190,node,Hotel San José,Hospedaje,hotel,Calle 63,503G,,97000,,20.966736,-89.624823
+4578248191,node,Hotel San Juan,Hospedaje,hotel,Calle 55,497,,97000,https://www.hotelsanjuanmerida.com/,20.970821,-89.62116
+9601977619,node,Hotel San Patricio,Hospedaje,hotel,Calle 57,474-C,,97000,,20.969085,-89.618055
+4401871109,node,Hotel Santa Lucía,Hospedaje,hotel,Calle 55,508,,97000,,20.970902,-89.622901
+9603714414,node,Hotel Santa Maria,Hospedaje,hotel,Calle 55,493,,97000,,20.970693,-89.620635
+9643608123,node,Hotel Siglo 21,Hospedaje,hotel,Calle 50,493,,97118,https://www.siglo21hotel.com/,21.035974,-89.627498
+9624615797,node,Hotel Suites Flamboyanes,Hospedaje,hotel,Avenida Itzaes,266,,97070,https://www.hotelsuitesflamboyanes.com/,20.984097,-89.639076
+12441988542,node,Hotel Sureño,Hospedaje,hotel,,,,,,20.984729,-89.621724
+9600804944,node,Hotel Tierra del Sol,Hospedaje,hotel,Calle 69,570B,,97000,,20.963159,-89.632028
+9621379349,node,Hotel Uknown,Hospedaje,hotel,Calle 53,559B,,97000,https://www.unknownhotel.mx/,20.973499,-89.630867
+10054652017,node,Hotel Urban,Hospedaje,hotel,Calle 62,470,,,,20.970248,-89.623632
+9641214908,node,Hotel Victoria,Hospedaje,hotel,Avenida Carlos Torre Repetto,495,,97000,https://hotelvictoriamerida.com/,20.988668,-89.616753
+9641177011,node,Hotel Virreyes,Hospedaje,hotel,Avenida Cupules,60,,97050,https://virreyeshotel.com.mx/,20.990714,-89.62443
+9630154849,node,Hotel Youssef Exceptionnel,Hospedaje,hotel,Calle 52,379,,97000,https://www.hotelyoussef.com/,20.984273,-89.614336
+9616187231,node,Hotel Zamná,Hospedaje,hotel,Calle 53,547,,97000,https://www.hotelzamna.com/,20.972833,-89.628675
+9641455191,node,Hotel Zar Mérida,Hospedaje,hotel,Prolongación Paseo Montejo,128,,97125,https://www.hoteleszar.com/merida/,20.999302,-89.615332
+297860850,node,Hotel del Gobernador,Hospedaje,hotel,Calle 59,535,,97000,https://www.gobernadormerida.com.mx/,20.969353,-89.626536
+9615997083,node,Hotel del Pelegrino,Hospedaje,hotel,Calle 51,488,,97000,https://www.hoteldelperegrino.com/,20.97252,-89.619087
+6334607485,node,Hotel desde 400,Hospedaje,hotel,,,,,,20.951576,-89.646017
+7294611086,node,Hotel margarita,Hospedaje,hotel,,,,,,20.967925,-89.626902
+1245924788,way,Hyatt Regency Merida,Hospedaje,hotel,,,,,,20.98523,-89.619529
+8830613017,node,Hôtel Las Monjas,Hospedaje,hotel,,,,,,20.96754,-89.628051
+6652960505,node,Ibis Styles Mérida Galerías,Hospedaje,hotel,Calle 3,218,,97205,https://all.accor.com/hotel/A7V8/index.en.shtml,21.039426,-89.633206
+11529062215,node,Kala'an Tolok Petite Hotel,Hospedaje,hotel,Calle 44,483,,,,20.967869,-89.612143
+1318571647,way,Kinyaah Hotel,Hospedaje,hotel,Calle 41,436D,,97150,https://kinyaah.mx/,20.977585,-89.603247
+9595773901,node,Kuka y Naranjo,Hospedaje,hotel,Calle 62,562,,97000,https://www.kukaynaranjo.com/,20.961493,-89.625457
+9621355303,node,Künük Hotel Boutique,Hospedaje,hotel,Calle 59,609,,97000,https://kunukhotel.com/,20.970906,-89.636234
+4581845363,node,La Catedral,Hospedaje,hotel,Calle 61,499,,97000,,20.96758,-89.622838
+9601686450,node,La Misión de Fray Diego,Hospedaje,hotel,Calle 61,524,,97000,https://www.lamisiondefraydiego.com/,20.968025,-89.626523
+9600830059,node,La Pantera Negra,Hospedaje,hotel,Calle 67,547B,,97000,https://www.lapanteranegra.com/,20.964017,-89.629342
+9738784818,node,La Paz,Hospedaje,hotel,Calle 62,522,,97000,,20.964539,-89.62476
+9601766248,node,La Piazzetta,Hospedaje,hotel,Calle 50 A,493A,,97000,https://hotel-la-piazzetta.negocio.site/,20.968402,-89.616774
+9601809982,node,Las Dalias Inn,Hospedaje,hotel,Calle 57,435,,97000,http://www.lasdaliasinn.com/,20.968779,-89.614954
+7262200650,node,Las Margaritas,Hospedaje,hotel,,,,,,20.967566,-89.627007
+2192880769,node,Los Arcos Bed & Breakfast,Hospedaje,hotel,,,,,,20.973304,-89.626019
+9615093405,node,Maison del Embajador Hotel,Hospedaje,hotel,Calle 60,472,,97000,https://www.maisondelembajador.com/,20.971557,-89.622172
+3472501906,node,Mansión Mérida,Hospedaje,hotel,Calle 59,498,,97000,https://www.mansionmerida.com/,20.968453,-89.622228
+674452176,node,Maria Jose,Hospedaje,hotel,Calle 64,456,,97000,https://www.mariajosehotels.com/,20.972192,-89.62469
+4578247386,node,Maya Yucatán,Hospedaje,hotel,Calle 58,483,,97000,http://www.hotelmayayucatan.com.mx/,20.97031,-89.621303
+9624511842,node,Mayan Sun B&B,Hospedaje,hotel,Calle 76,457B,,97000,,20.976276,-89.632234
+2192859246,node,Merida Santiago Hotel Boutique,Hospedaje,hotel,Calle 74A,499,,97000,https://www.hotelmeridasantiago.com,20.970926,-89.632395
+9601659472,node,Misión Mérida Panamericana,Hospedaje,hotel,Calle 59,455,,97000,https://www.hotelesmision.com.mx/,20.96805,-89.617958
+9641270961,node,Misol-Ha Hotel Mérida,Hospedaje,hotel,Calle 60,285,,97050,http://misolhahotel.com/,20.991988,-89.620662
+3220978686,node,Montejo,Hospedaje,hotel,Calle 57,507,,97000,,20.96944,-89.624194
+9607455247,node,Montejo,Hospedaje,hotel,Calle 57,507,,97000,https://www.hotelmontejo.com/,20.970112,-89.62401
+9627612190,node,NH Collection Merida Paseo Montejo,Hospedaje,hotel,Calle 60,346,,97000,https://www.nh-hotels.com/hotel/nh-collection-merida-paseo-montejo,20.984242,-89.619829
+11418198739,node,Nuik Casa Tropical,Hospedaje,hotel,,,,,https://www.nuikcasatropical.com,20.961911,-89.612432
+9626707198,node,Ochenta y Dos,Hospedaje,hotel,Calle 45,467C,,97000,https://www.meridabnb.com/,20.979437,-89.635464
+5986379085,node,Paris,Hospedaje,hotel,,,,,,20.971098,-89.627747
+9601689492,node,Piedra de Agua,Hospedaje,hotel,Calle 60,496,,97000,https://www.piedradeagua.com/,20.967905,-89.622865
+3657265447,node,"Posada ""Los cuatro hermanos""",Hospedaje,hotel,Calle 32,,,97150,,20.976783,-89.603958
+5658986774,node,Posada Castillo,Hospedaje,hotel,,,,,,20.995408,-89.640398
+7294611088,node,Posada Espinosa,Hospedaje,hotel,Calle 50,479D,,97000,,20.970325,-89.615777
+5628766721,node,Posada Hotel Real Mercedes,Hospedaje,hotel,Avenida Itzaes,261,,97070,,20.98472,-89.639479
+9615525849,node,Posada Porto 51,Hospedaje,hotel,Calle 51,468,,97000,,20.97231,-89.617396
+9641581284,node,Posada San Felipe de Jesús,Hospedaje,hotel,Calle 7,510,,97134,,21.022197,-89.576275
+9738785117,node,Posada central,Hospedaje,hotel,Calle 67,,,,,20.963917,-89.628626
+9738785018,node,Posada del angel,Hospedaje,hotel,Calle 67,,,,,20.963912,-89.62838
+9601796992,node,Reforma,Hospedaje,hotel,Calle 59,508,,97000,https://hotelreforma.mxhotel.site/,20.968759,-89.623813
+1318571646,way,"Renta de cuartos ""Liz""",Hospedaje,hotel,Calle 41,450,Industrial,,,20.97763,-89.60453
+9643646120,node,Residence Inn by Marriott Merida,Hospedaje,hotel,Calle 3-A,272,,92704,https://www.marriott.com/en-us/hotels/midri-residence-inn-merida/overview/,21.037253,-89.634338
+6037892585,node,Rosas & Xocolate,Hospedaje,hotel,Paseo Montejo,480,,97000,https://rosasandxocolate.com/,20.978906,-89.618591
+10169210617,node,SIN NOMBRE,Hospedaje,hotel,,,,,,20.995751,-89.718692
+1272284171,way,SIN NOMBRE,Hospedaje,hotel,,,,,,20.985833,-89.62027
+1272985479,way,SIN NOMBRE,Hospedaje,hotel,,,,,,20.985815,-89.621396
+1320327521,way,SIN NOMBRE,Hospedaje,hotel,,,,,,20.968807,-89.668996
+1378591057,way,SIN NOMBRE,Hospedaje,hotel,,,,,,20.959109,-89.668992
+1383300177,way,SIN NOMBRE,Hospedaje,hotel,,,,,,20.948353,-89.65223
+9624628820,node,Santa Ana Hotel,Hospedaje,hotel,Calle 45,503,,97000,http://www.santaanahotel.com.mx/,20.976829,-89.621851
+5515481130,node,Santiago,Hospedaje,hotel,Calle 62,464,,97000,https://www.hotelsantiagomerida.com/,20.970677,-89.623546
+5611708523,node,Santiago,Hospedaje,hotel,,,,,,20.965211,-89.624931
+878483029,way,Spring Cancún,Hospedaje,hotel,C alle 19,,,,,20.948031,-89.55804
+9626736022,node,Suites del Sol,Hospedaje,hotel,Calle 58,405,,97000,https://www.suitesdelsolmerida.com/,20.979903,-89.61941
+9641298198,node,Suites del Sureste,Hospedaje,hotel,Calle 15,82,,97050,,20.992718,-89.62316
+9626805147,node,TecnoHotel,Hospedaje,hotel,Calle 86,444B,,97000,https://www.tecnohotel.mx/hoteles/itzaes.php,20.981598,-89.639288
+9643802169,node,TecnoHotel Mérida Norte,Hospedaje,hotel,Carretera Mérida-Progreso,KM 11,,97300,https://www.tecnohotel.mx/hoteles/norte.php,21.063195,-89.632181
+9621400522,node,The Diplomat Boutique Hotel,Hospedaje,hotel,Calle 78,493A,,97000,https://www.thediplomatmerida.com/,20.971199,-89.634836
+9615196644,node,The Villa Tievoli,Hospedaje,hotel,Calle 54,455,,97000,http://thevillatievoli.com/index.html,20.971959,-89.618076
+9626594239,node,Treehouse Boutique Hotel,Hospedaje,hotel,Calle 43,489,,97000,https://treehouseboutiquehotel.com/,20.97799,-89.62037
+9603571338,node,Urban,Hospedaje,hotel,Calle 62,470,,97000,https://www.hotelurbanmerida.com/,20.970238,-89.623671
+2304011705,node,Villa Mercedes Merida,Hospedaje,hotel,Avenida Colón,500,,97000,https://www.hilton.com/en/hotels/midvmqq-villa-mercedes-merida/,20.98582,-89.620263
+12819649527,node,Villa Merida Boutique Hotel,Hospedaje,hotel,Calle 59,615A,Barrio de Santiago,97000,https://www.villameridaboutiquehotel.com/en,20.971022,-89.636838
+9624646184,node,Villa Octavia,Hospedaje,hotel,Calle 72,432D,,97000,https://villaoctavia.com.mx/,20.976967,-89.627812
+9607456231,node,Villa Orquidea,Hospedaje,hotel,Calle 52,483,,97000,https://www.villaorquidea.com/,20.970144,-89.617082
+9604247912,node,Viva Merida Hotel Boutique,Hospedaje,hotel,Calle 59,553,,97000,https://www.vivameridahotel.com/,20.969605,-89.628188
+9630131797,node,Wayam Mundo Imperial,Hospedaje,hotel,Avenida Colón,508,,97070,https://www.mundoimperial.com/wayam/,20.986679,-89.625383
+9624632307,node,Woo Rooms,Hospedaje,hotel,Calle 41,432B,,97150,https://woorooms.com.mx/,20.977327,-89.600673
+9641168337,node,Wyndham Merida,Hospedaje,hotel,Avenida Colón,505A,,97000,https://www.wyndhamhotels.com/es-xl/wyndham/merida-mexico/wyndham-merida/overview?CID=LC:HR::GGL:RIO:National:48323&iata=00093796,20.98721,-89.626028
+7304608609,node,Ya´ax Hotel Boutique,Hospedaje,hotel,Calle 57,461,,97000,https://www.yaaxmerida.com/,20.96925,-89.618117
+4819123423,node,casa mejorada,Hospedaje,hotel,calle 46 x 59 y 61,492,,97000,,20.966522,-89.61398
+5850099092,node,ibis Merida,Hospedaje,hotel,Calle 58-A,495,,97000,https://all.accor.com/hotel/6928/index.en.shtml,20.989059,-89.618378
+9603553485,node,Óntico Urban Design Hotel,Hospedaje,hotel,Calle 54,474,,97000,https://www.hotelontico.com.mx/,20.970343,-89.618299
+5033157722,node,Avendia,Hospedaje,motel,,,,,,20.983573,-89.63916
+1359781393,way,El Recinto Real,Hospedaje,motel,,,,,,21.036067,-89.590735
+1359777318,way,El Señorial Norte,Hospedaje,motel,,,,,,21.026515,-89.570012
+5393729522,node,Las 3 J,Hospedaje,motel,,,,,,20.958961,-89.576141
+12896056801,node,MOTEL SEXTO SENTIDO,Hospedaje,motel,Calle 11,323,,97130,,21.028696,-89.573082
+12896404001,node,Motel Recinto Real,Hospedaje,motel,Calle 9 A,302,,97305,,21.035676,-89.590709
+12784971388,node,Motel Senses,Hospedaje,motel,,,,,,21.041353,-89.651648
+6917341985,node,Posada Victoria Inn,Hospedaje,motel,Calle 22,97,,,,21.01266,-89.634344
+12601772977,node,Real las Palmas Motel,Hospedaje,motel,,,,,,20.951505,-89.561974
+1873895336,node,SIN NOMBRE,Hospedaje,motel,,,,,,20.963405,-89.61699
+1313930076,way,SIN NOMBRE,Hospedaje,motel,,,,,,20.945508,-89.69927
+1313930077,way,SIN NOMBRE,Hospedaje,motel,,,,,,20.945711,-89.699333
+1337102851,way,SIN NOMBRE,Hospedaje,motel,,,,,,20.921802,-89.686065
+1359777316,way,Sexto Sentido,Hospedaje,motel,,,,,,21.02902,-89.57307
