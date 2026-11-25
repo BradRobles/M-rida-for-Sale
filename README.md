@@ -35,6 +35,12 @@ Extracción, limpieza y estandarización de fuentes para el dashboard grupal sob
   - **Escena AR 2 (DataTur):** llegadas mensuales y anuales de turistas nacionales vs. extranjeros en Mérida (2015–2026).
   - **Escena AR 3 (ASUR):** tráfico mensual y crecimiento anual de pasajeros en Mérida (`MID`), Cancún (`CUN`) y Oaxaca (`OAX`) (2000–2026).
 
+## Dashboard v1
+
+- **[`dashboard/`](dashboard/README.md)**: dashboard local en Streamlit con la historia completa (portada y cinco capítulos), hecho a partir de los `clean/` de las secciones 1 a 9. Para abrirlo: `streamlit run dashboard/app.py`. El README del dashboard trae **capturas de cada sección** para un vistazo rápido sin correrlo.
+
+![Portada del Dashboard v1](dashboard/screenshots/00_portada.png)
+
 ## Entorno reproducible
 
 ```bash

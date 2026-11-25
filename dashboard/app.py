@@ -248,10 +248,11 @@ with right:
              "Keyword mentions in YouTube comments.", key="yt_kw")
         vids = csv("youtube_top_videos.csv")
         st.dataframe(vids, hide_index=True, alt="Five most watched YouTube videos about moving to Mérida.",
-                     column_config={"title": st.column_config.TextColumn("Title", width="large"),
-                                    "channel": "Channel", "published": "Published",
-                                    "views": st.column_config.NumberColumn("Views", format="localized"),
-                                    "language": "Language"})
+                     column_order=["title", "views", "published", "channel"],
+                     column_config={"title": st.column_config.TextColumn("Title", width="medium"),
+                                    "views": st.column_config.NumberColumn("Views", format="localized", width="small"),
+                                    "published": st.column_config.TextColumn("Published", width="small"),
+                                    "channel": st.column_config.TextColumn("Channel", width="small")})
     gd = csv("gdelt_voices.csv").set_index("voice")
     total = int(gd["articles"].sum())
     st.html('<div class="mfs-strip">'
