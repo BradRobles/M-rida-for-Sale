@@ -4,3 +4,19 @@ __pycache__/
 .DS_Store
 .Rhistory
 *.swp
+
+# Sección 6: HTML/texto completo de terceros y cachés regenerables
+6-Web-Scraping/raw/html/
+6-Web-Scraping/raw/sitemaps/
+6-Web-Scraping/raw/youtube/
+
+# Sección 7: estado local del grabador y fotos de campo (pesadas / con personas)
+7-Self-Produced/raw/gdelt_stream/_recorder.pid
+7-Self-Produced/raw/gdelt_stream/_recorder.log
+7-Self-Produced/raw/campo/fotos_letreros/*
+7-Self-Produced/raw/campo/fotos_menus/*
+!7-Self-Produced/raw/campo/fotos_letreros/.gitkeep
+!7-Self-Produced/raw/campo/fotos_menus/.gitkeep
+
+# Sección 8: rásters de INEGI (~330 MB con extraídos; el script los vuelve a descargar)
+8-LiDAR/raw/inegi_lidar/
