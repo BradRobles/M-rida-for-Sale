@@ -85,7 +85,8 @@ st.html(f'<nav class="mfs-nav" aria-label="Chapters"><a class="mfs-brand" href="
 hero, panel = st.columns([1.7, 1], gap="large", vertical_alignment="bottom")
 with hero:
     st.html(f'<div id="top"><span class="mfs-eyebrow">{T.EYEBROW}</span>'
-            f'<div class="mfs-hero">Mérida<br>for Sale</div><p class="mfs-lede">{T.LEDE}</p></div>')
+            f'<div class="mfs-hero">Mérida<br>for Sale</div><p class="mfs-lede">{T.LEDE}</p>'
+            f'<p class="mfs-byline">By <b>{"</b>, <b>".join(T.TEAM[:-1])}</b> and <b>{T.TEAM[-1]}</b></p></div>')
 with panel:
     st.html(
         '<div class="mfs-kpi-panel"><span class="mfs-eyebrow">The story in four numbers</span><div class="mfs-kpi-grid">'
@@ -93,7 +94,7 @@ with panel:
         f'<div><b>{pct(K["centro_businesses_change_pct"])}</b><span>businesses in the Centro</span></div>'
         f'<div><b>×{K["tax_ratio"]:.1f}</b><span>lodging tax collected</span></div>'
         f'<div><b>{pct(K["shf_yucatan_vs_national_pct"], 0)}</b><span>Yucatán home prices above national</span></div>'
-        f'</div><p style="margin:16px 0 0;font-size:14px;color:{T.COLOR_ON_DARK}">{T.TEAM}</p></div>')
+        '</div></div>')
 
 # ---------------------------------------------------------------------------
 # 01 The arrival
@@ -321,4 +322,5 @@ with st.expander("Methodology and sources"):
         "images, point cloud from 2015), not airborne LiDAR. Heights are the 90th percentile of the surface minus "
         "terrain model per block.\n"
         "- **2026** figures are partial (DataTur and AAFY to September, ASUR to October, press to November).")
-st.html(f'<div class="mfs-footer">{T.FOOTER}<br><br>{T.APP_TITLE} · <a href="#top">Back to top</a></div>')
+st.html(f'<div class="mfs-footer">{T.FOOTER}<br><br>{T.APP_TITLE} · {T.COURSE} · {", ".join(T.TEAM)} · '
+        '<a href="#top">Back to top</a></div>')

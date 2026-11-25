@@ -87,6 +87,8 @@ def css() -> str:
 .mfs-eyebrow {{ font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: {TEXT_MUTED}; }}
 .mfs-hero {{ font-family: {FONT_STACK_TITLE}; font-size: clamp(56px, 11vw, 136px); line-height: 0.9; font-weight: 700;
   letter-spacing: -0.03em; margin: 12px 0 20px; color: {TEXT}; }}
+.mfs-byline {{ font-size: 15px; line-height: 1.5; color: {TEXT_MUTED}; margin-top: 18px; }}
+.mfs-byline b {{ color: {TEXT}; font-weight: 600; }}
 .mfs-lede {{ font-size: 21px; line-height: 1.45; color: {TEXT_SOFT}; max-width: 620px; }}
 .mfs-h2 {{ font-family: {FONT_STACK_TITLE}; font-size: clamp(36px, 6vw, 52px); line-height: 1; font-weight: 700;
   letter-spacing: -0.02em; margin: 8px 0 16px; color: {TEXT}; }}
@@ -129,10 +131,11 @@ def css() -> str:
 # ---------------------------------------------------------------------------
 CHAPTERS = [("arrival", "01 Arrival"), ("shops", "02 Shops"), ("homes", "03 Homes"),
             ("voices", "04 Voices"), ("elsewhere", "05 Elsewhere")]
-EYEBROW = "Data Gathering booklet · UPY 8B"
+EYEBROW = "Visual Modeling for Information · UPY Data 9B"
 LEDE = ("More visitors every year, fewer shops in the Centro, and a lodging tax that tripled. "
         "A story of what tourism is quietly buying in the Mérida metropolitan area.")
-TEAM = "[TEAM MEMBER NAMES]"
+TEAM = ["Julio César De Aquino Castellanos", "Brad Robles García", "Eliana Lorely Osorio Martinez"]
+COURSE = "Visual Modeling for Information · UPY Data 9B"
 FOOTER = ("All figures come from the project's cleaned datasets (repo M-rida-for-Sale). Press articles cover the "
           "Mérida metropolitan area (Mérida, Kanasín, Umán, Progreso, Conkal, Ucú); spatial data covers the "
           "municipality of Mérida. Money in nominal pesos. Wikipedia views fall worldwide after 2023, so compare "

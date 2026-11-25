@@ -1,6 +1,6 @@
 # Mérida for Sale · Dashboard v1
 
-Dashboard local en Streamlit que cuenta la historia del booklet *Mérida for Sale* (turistificación y gentrificación en la Zona Metropolitana de Mérida) en una sola página: portada y cinco capítulos. Es la presentación de los datos ya limpios de las secciones `1-...` a `9-...`; no vuelve a limpiar fuentes.
+Dashboard local en Streamlit (Visual Modeling for Information, UPY Data 9B; equipo: Julio César De Aquino Castellanos, Brad Robles García y Eliana Lorely Osorio Martinez) que cuenta la historia del booklet *Mérida for Sale* (turistificación y gentrificación en la Zona Metropolitana de Mérida) en una sola página: portada y cinco capítulos. Es la presentación de los datos ya limpios de las secciones `1-...` a `9-...`; no vuelve a limpiar fuentes.
 
 **Versión:** v1 (aparece en el título de la app y en el pie de página). Narrativa, textos (en inglés), paleta y gráficas siguen el prototipo aprobado, [`reference/prototype_reference.html`](reference/prototype_reference.html) (formato `.dc.html`: sirve de referencia, no se ejecuta).
 
@@ -81,4 +81,4 @@ Coinciden todas las cifras de la tabla de validación del prompt, salvo una:
 - **Wikipedia:** las vistas caen en todo el mundo después de 2023; hay que comparar ciudades, no años.
 - **YouTube:** la búsqueda por relevancia (25 nov 2026) favorece videos recientes, y algunos resultados son anuncios inmobiliarios.
 - **2026 es parcial:** DataTur y AAFY hasta septiembre, ASUR hasta octubre, prensa hasta noviembre. Se marca con `*` y color más claro.
-- **QR de la escena AR** y **nombres del equipo** siguen como marcadores (`[QR CODE to AR scene]`, `[TEAM MEMBER NAMES]`), como en el prototipo.
+- El **QR de la escena AR** sigue como marcador (`[QR CODE to AR scene]`), como en el prototipo.
