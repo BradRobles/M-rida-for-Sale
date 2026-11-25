@@ -6,6 +6,46 @@ Dashboard local en Streamlit (Visual Modeling for Information, UPY Data 9B; equi
 
 ---
 
+## Overview (capturas a 1280 px)
+
+Capturas de cada sección tal como se ven en el navegador (25 nov 2026). Están en [`screenshots/`](screenshots/); los tooltips, los selectores y la escena 3D giratoria solo funcionan en la app.
+
+### Portada
+Título, entradilla, equipo y los cuatro KPIs de la historia.
+
+![Portada](screenshots/00_portada.png)
+
+### 01 · The arrival
+Turistas de hotel nacionales vs. extranjeros por año, KPI del aeropuerto MID y llegadas mensuales con selector de categoría hotelera.
+
+![Capítulo 01, The arrival](screenshots/01_arrival.png)
+
+### 02 · The Centro empties out
+Cambio de negocios 2019→2025 (selector Centro / municipio), mapa de AGEB con cafeterías que abrieron o cerraron y licencias de funcionamiento en el Centro.
+
+![Capítulo 02, The Centro empties out](screenshots/02_shops.png)
+
+### 03 · The invisible hotel
+Impuesto al hospedaje vs. turistas (índice 2019 = 100), KPIs de vivienda y la escena 3D de manzanas del Centro con el modelo de elevación de INEGI (2015).
+
+![Capítulo 03, The invisible hotel](screenshots/03_homes.png)
+
+### 04 · Who tells the story
+Con el selector en **Local press**: % de notas sobre vivienda e inmobiliarias en la prensa local, titulares reales y colonias más mencionadas.
+
+![Capítulo 04, Local press](screenshots/04_voices.png)
+
+Con el selector en **Seen from outside**: palabras clave en comentarios de YouTube y los 5 videos más vistos. Abajo, la franja de GDELT.
+
+![Capítulo 04, Seen from outside](screenshots/04_voices_outside.png)
+
+### 05 · Not Cancún, not yet
+Comparación con Cancún, Oaxaca, Quintana Roo, Guanajuato y San Miguel de Allende (aeropuertos, vivienda y Wikipedia), pasajeros mensuales, metodología y pie de página.
+
+![Capítulo 05, Not Cancún, not yet](screenshots/05_elsewhere.png)
+
+---
+
 ## Cómo instalarlo y correrlo (Windows, PowerShell, desde la raíz del repo)
 
 ```powershell
