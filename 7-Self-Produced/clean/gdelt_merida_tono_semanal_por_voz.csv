@@ -24,9 +24,9 @@ semana_iso,voz,n_articulos,tono_promedio,fuente_tono,n_con_tono,tono_stream,tono
 2026-W45,nacional,12,-0.631,doc_api_timelinetone,0,,-0.631,13
 2026-W46,local,6,-2.177,doc_api_timelinetone,0,,-2.177,4
 2026-W46,nacional,6,-1.828,doc_api_timelinetone,0,,-1.828,8
-2026-W47,internacional,0,1.253,doc_api_timelinetone,0,,1.253,1
-2026-W47,local,0,-0.187,doc_api_timelinetone,0,,-0.187,5
-2026-W47,nacional,0,3.921,doc_api_timelinetone,0,,3.921,4
+2026-W47,internacional,1,1.253,doc_api_timelinetone,0,,1.253,1
+2026-W47,local,5,-0.187,doc_api_timelinetone,0,,-0.187,5
+2026-W47,nacional,4,3.921,doc_api_timelinetone,0,,3.921,4
 2026-W48,internacional,1,-0.038,doc_api_timelinetone,0,,-0.038,5
 2026-W48,local,0,-0.987,doc_api_timelinetone,0,,-0.987,3
 2026-W48,nacional,1,-0.922,doc_api_timelinetone,0,,-0.922,11

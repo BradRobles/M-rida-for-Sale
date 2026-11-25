@@ -68,6 +68,7 @@ Extracción y limpieza de fuentes web para la sección **6. Web scraping** del p
 - **Limpieza:** solo meses completos (enero 2016 – octubre 2026); `indice_2019_100` = vistas del mes / promedio mensual de 2019 del mismo artículo × 100.
 - **Validación rápida (vistas anuales 2025 con 2019 = 100):** Mérida en inglés 128.3 (sube) y en español 62.2; Oaxaca en inglés 168.5; San Miguel de Allende en inglés 62.2; Playa del Carmen en inglés 54.7. Wikipedia en español cae en general, así que conviene comparar ciudades entre sí, no contra 2019 a secas.
 - **Archivo limpio:** `wikipedia_vistas_mensuales.csv`: **1,040** filas (`mes`, `ciudad`, `idioma`, `articulo`, `vistas`, `indice_2019_100`).
+- **Actualizar:** las respuestas quedan en caché en `raw/wikipedia/`; para sumar meses nuevos, borra esa carpeta y corre `--solo wikipedia`.
 
 ### Nota sobre Sefotur
 El informe mensual de Sefotur que en la tabla U3 aparecía como fuente de scraping **ya lo cubre la sección 3** (`3-SIEGY-Yucatan/`, cifras transcritas con URL en `raw/sefotur_cifras_transcritas.csv`); aquí no se repite.
