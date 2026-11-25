@@ -443,6 +443,22 @@ def descargar_articulos(sel: pd.DataFrame) -> dict[str, str]:
     return out
 
 
+# Núcleo temático y Zona Metropolitana (se aplican a título + extracto, normalizados sin acentos y en minúsculas).
+NUCLEO_RE = re.compile(r"gentrific|turistific|airbnb|renta|alquiler|plusval|extranjer|nomada|especulac|inmobiliari")
+RUIDO_RE = re.compile(r"desalojan? (?:el|la|los|las|a los|preescolar|escuela|plantel|hospital|edificio)"
+                      r"|emergencia|ebrio|inundac|incendio|simulacro|amenaza de bomba|fuga de gas")
+# Con \b: sin límites de palabra, "uman" atrapa "humanos".
+ZM_RE = re.compile(r"\b(?:merida|kanasin|uman|conkal|ucu)\b"
+                   r"|puerto progreso|en progreso|de progreso|progreso,|progreso yucatan")
+
+
+def marcar_nucleo_zm(art: pd.DataFrame) -> pd.DataFrame:
+    texto = (art["titulo"].fillna("") + " " + art["extracto"].fillna("")).map(normalizar)
+    art["nucleo_tema"] = texto.map(lambda t: bool(NUCLEO_RE.search(t)) and not RUIDO_RE.search(t))
+    art["zona_metropolitana"] = texto.map(lambda t: bool(ZM_RE.search(t)))
+    return art
+
+
 def prensa() -> None:
     print("Prensa local:")
     parsers = guardar_robots()
@@ -484,8 +500,10 @@ def prensa() -> None:
     art["anio"] = pd.to_numeric(art["fecha_publicacion"].str[:4], errors="coerce").astype("Int64")
     art = art[(art["anio"].isna()) | (art["anio"] >= ANIO_INICIO)]
     art = art.sort_values(["fecha_publicacion", "fuente"]).reset_index(drop=True)
+    art = marcar_nucleo_zm(art)
     cols = ["fuente", "url", "fecha_publicacion", "anio", "titulo", "seccion", "palabras_clave_detectadas",
-            "temas", "colonias_mencionadas", "unidades_habitacionales", "n_palabras", "extracto", "estado_descarga"]
+            "temas", "colonias_mencionadas", "unidades_habitacionales", "n_palabras", "extracto", "estado_descarga",
+            "nucleo_tema", "zona_metropolitana"]
     art = art[cols]
     art.to_csv(CLEAN_DIR / "prensa_local_articulos.csv", index=False)
 
@@ -509,6 +527,7 @@ def prensa() -> None:
     print(f"  - prensa_local_articulos.csv: {len(art)} artículos "
           f"({(art['estado_descarga'] == 'ok').sum()} con cuerpo)")
     print("    por fuente: " + ", ".join(f"{k}={v}" for k, v in art["fuente"].value_counts().items()))
+    print(f"    nucleo_tema & zona_metropolitana: {int((art['nucleo_tema'] & art['zona_metropolitana']).sum())} notas")
     print(f"  - prensa_local_menciones_colonia.csv: {len(mc)} filas")
     print(f"  - prensa_local_temas_anual.csv: {len(ta)} filas")
 
