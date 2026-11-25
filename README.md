@@ -24,7 +24,7 @@ Extracción, limpieza y estandarización de fuentes para el dashboard grupal sob
 - **[`6-Web-Scraping/`](6-Web-Scraping/README.md)**
   - **Prensa local (Diario de Yucatán, Por Esto!, La Jornada Maya):** 1,495 notas de 2018 a 2026 sobre rentas, desalojos, despojo, inmobiliarias y gentrificación, con temas, colonias del GeoPortal mencionadas y extracto de máximo 200 caracteres (el texto completo no va en git); 9,339 URL candidatas como universo.
   - **Wikipedia:** vistas mensuales (2016–2026) de Mérida, Oaxaca, San Miguel de Allende y Playa del Carmen en inglés y español, con índice 2019 = 100.
-  - **YouTube Data API:** script listo; falta la llave (`YOUTUBE_API_KEY`).
+  - **YouTube Data API:** 349 videos de "moving to / living in / mudarse a Mérida" con vistas y likes, y conteos de palabras clave (rent, safe, cheap, gentrification…) en comentarios de los 150 más vistos, sin autores ni texto.
 - **[`7-Self-Produced/`](7-Self-Produced/README.md)**
   - **GDELT:** grabador propio del GKG cada 15 minutos (corriendo, pero el GKG público casi no trae Mérida) y respaldo de la DOC API: 655 artículos sobre Mérida (31 ago – 23 nov 2026) clasificados por voz local / nacional / internacional, con tono semanal y temas.
   - **Trabajo de campo (letreros e "índice del americano"):** plantillas y script de limpieza listos; pendiente de levantar.
