@@ -20,3 +20,5 @@ __pycache__/
 
 # Sección 8: rásters de INEGI (~330 MB con extraídos; el script los vuelve a descargar)
 8-LiDAR/raw/inegi_lidar/
+7-Self-Produced/raw/gdelt_stream/_recorder.lock
+7-Self-Produced/raw/gdelt_stream/_procesados.txt
