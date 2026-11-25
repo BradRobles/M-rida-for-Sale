@@ -51,22 +51,22 @@ Datos producidos por el equipo para la sección **7. Self-produced** del proyect
 - **Fuente:** `https://api.gdeltproject.org/api/v2/doc/doc`, consulta `("Mérida" OR "Merida") (Yucatán OR Yucatan)`, del **2026-08-31 al 2026-11-24** (la API solo cubre ~3 meses).
   - `mode=timelinetone` y `mode=timelinevolraw` (serie diaria) para todas las fuentes y por voz: local = `domainis:` de los tres diarios principales (con más dominios el servidor corta la conexión), nacional = `sourcecountry:mexico` sin esos tres, internacional = `-sourcecountry:mexico`.
   - `mode=artlist`, `maxrecords=250`, en 13 ventanas semanales (lunes a lunes; si una semana llegara a 250 se partiría en días; ninguna llegó).
-- **Ritmo:** la API pide 1 petición cada 5 s, pero en la práctica respondía 429 por debajo de ~15 s; el script espera 15 s y reintenta con espera creciente. Todas las respuestas quedan en `raw/gdelt_doc/` (386 KB, sí van en git).
+- **Ritmo:** la API pide 1 petición cada 5 s, pero en la práctica respondía 429 por debajo de ~15 s; el script espera 15 s y reintenta con espera creciente. Todas las respuestas quedan en `raw/gdelt_doc/` (394 KB, sí van en git).
 - **Huecos del propio GDELT** (la serie diaria no tiene datos): 14–19 sep, 3–14 oct y 28 oct – 2 nov 2026; además el volumen de noviembre es muy bajo (0–17 notas al día). Las semanas 5–12 oct y 26 oct – 2 nov devolvieron 0 artículos por eso.
-- **Falta:** la ventana 16–23 nov no respondió tras 10 reintentos. No se guarda en caché, así que la siguiente corrida de `clean_gdelt.py` la vuelve a pedir (hay tiempo hasta ~feb 2027).
+- Las ventanas que fallan (16–23 nov falló dos veces) no se guardan en caché: la siguiente corrida de `clean_gdelt.py` las vuelve a pedir. Las 13 ventanas ya están completas.
 
 #### Clasificación (`scripts/clasificacion.py`)
 - **`voz`:** `local` si el dominio está en la lista de medios de Yucatán (los seis de la especificación: yucatan.com.mx, poresto.com, lajornadamaya.mx, laverdadnoticias.com, novedadesyucatan.com, sipse.com; más los encontrados o conocidos: yucatan.quadratin.com.mx, diariodelsureste.com.mx, yucatanahora.mx, lectormx.com, reporteroshoy.mx, infolliteras.com, notirasa.com, desdeelbalcon.com, yucatanmagazine.com, theyucatantimes.com y otros); `nacional` si el dominio es `.mx`, está en la lista de medios nacionales o la DOC API dice `sourcecountry = Mexico`; si no, `internacional`.
 - **`temas`:** vivienda/rentas, bienes raíces, turismo, seguridad, migración/expats, servicios/agua u otros, a partir de temas GKG específicos (solo en el stream) y palabras del título.
-- **Ojo:** en GDELT solo aparecen como "local" el Diario de Yucatán (250), Quadratín Yucatán (36) y La Verdad (5); **Por Esto! y La Jornada Maya no están indexados por la DOC API** (por eso la sección 6 los raspa directo). Como la DOC API solo da título, el **82–85%** de los artículos de cada voz queda en "otros": la cobertura de Mérida es mayormente clima, política y sucesos.
+- **Ojo:** en GDELT solo aparecen como "local" el Diario de Yucatán (255), Quadratín Yucatán (36) y La Verdad (5); **Por Esto! y La Jornada Maya no están indexados por la DOC API** (por eso la sección 6 los raspa directo). Como la DOC API solo da título, el **81–85%** de los artículos de cada voz queda en "otros": la cobertura de Mérida es mayormente clima, política y sucesos.
 
 #### Validación
-- Artículos deduplicados por URL normalizada (sin `http(s)://`, `www.` ni `/` final): 646 → **645**.
+- Artículos deduplicados por URL normalizada (sin `http(s)://`, `www.` ni `/` final): 656 → **655**.
 - `n_articulos` semanal por voz (tabla de artículos) se compara con el volumen de la serie diaria (`n_articulos_doc_api`); difieren poco y en las semanas con huecos de GDELT.
 - Tono: con 0 filas del stream, el tono semanal sale de `timelinetone` ponderado por `timelinevolraw` (`fuente_tono = doc_api_timelinetone`). Cuando el stream tenga ≥ 3 artículos con tono en una semana y voz, se usará ese promedio (`stream_gkg`). Promedio de semanas: local −0.33, nacional −0.53, internacional −0.01.
 
 #### Archivos limpios (`clean/`)
-- `gdelt_merida_articulos.csv`: **645** artículos únicos (local 291, nacional 275, internacional 79; español 594, alemán 26, inglés 22), con `fecha`, `fecha_hora_utc`, `semana_iso`, `voz`, `dominio`, `pais_fuente`, `idioma`, `titulo`, `url`, `temas`, `tono`, `positivo`, `negativo` (vacíos si no vienen del stream) y `fuente_datos`.
+- `gdelt_merida_articulos.csv`: **655** artículos únicos (local 296, nacional 279, internacional 80; español 604, alemán 26, inglés 22), con `fecha`, `fecha_hora_utc`, `semana_iso`, `voz`, `dominio`, `pais_fuente`, `idioma`, `titulo`, `url`, `temas`, `tono`, `positivo`, `negativo` (vacíos si no vienen del stream) y `fuente_datos`.
 - `gdelt_merida_tono_semanal_por_voz.csv`: **31** filas (`semana_iso`, `voz`, `n_articulos`, `tono_promedio`, `fuente_tono`, más columnas de control).
 - `gdelt_merida_temas_por_voz.csv`: **19** filas (`voz`, `tema`, `n`, `n_articulos_voz`, `porcentaje`; un artículo puede tener varios temas).
 - `gdelt_merida_timeline_diaria_por_voz.csv`: **252** filas (serie diaria de la DOC API: `fecha`, `voz` incluida `todas`, `n_articulos`, `tono_promedio`).
@@ -90,7 +90,6 @@ Datos producidos por el equipo para la sección **7. Self-produced** del proyect
 ---
 
 ## Pendientes
-- Completar la ventana 16–23 nov de la DOC API (basta volver a correr `clean_gdelt.py`).
 - Mantener vivo el grabador y revisar si GDELT vuelve a traer documentos de Mérida al GKG público.
 - Trabajo de campo de los complementos A y B.
 
