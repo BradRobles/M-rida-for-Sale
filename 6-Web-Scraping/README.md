@@ -24,7 +24,9 @@ Extracción y limpieza de fuentes web para la sección **6. Web scraping** del p
 │   ├── prensa_local_menciones_colonia.csv
 │   ├── prensa_local_temas_anual.csv
 │   ├── prensa_local_candidatos_url.csv
-│   └── wikipedia_vistas_mensuales.csv
+│   ├── wikipedia_vistas_mensuales.csv
+│   ├── youtube_videos_merida.csv
+│   └── youtube_comentarios_palabras_clave.csv
 └── README.md
 ```
 
@@ -56,11 +58,16 @@ Extracción y limpieza de fuentes web para la sección **6. Web scraping** del p
   - `prensa_local_temas_anual.csv`: **171** filas (`anio`, `fuente`, `tema`, `n_articulos`, `n_articulos_fuente_anio`, `porcentaje`; una nota puede tener varios temas).
   - `prensa_local_candidatos_url.csv`: **9,339** URL candidatas con fecha, sección, palabras de la URL, `seccion_relevante` y `seleccionado` (solo metadatos).
 
-### 2. Complemento A — YouTube Data API v3 ⚠️ (script listo, falta la llave)
-- **Fuente:** `https://www.googleapis.com/youtube/v3` (`search.list`, `videos.list`, `commentThreads.list`). Docs: `https://developers.google.com/youtube/v3`.
-- **Estado:** la variable de entorno `YOUTUBE_API_KEY` no existe en esta máquina, así que esta parte **no se corrió**. Para correrla: crear una llave en Google Cloud Console (habilitar *YouTube Data API v3*), definirla en PowerShell con `$env:YOUTUBE_API_KEY = "<tu llave>"` y correr `python 6-Web-Scraping/scripts/clean_web_scraping.py --solo youtube`.
-- **Qué hace:** 5 búsquedas ("moving to Merida", "living in Merida Mexico", "Merida Yucatan expat", "cost of living Merida Mexico", "mudarse a Mérida"), 2 páginas de 50 resultados cada una. **Cuota:** 10 × `search.list` = 1,000 unidades, más ~1 unidad por lote de videos y por video comentado (~1,200 de las 10,000 diarias).
-- **Salidas que generará:** `youtube_videos_merida.csv` (`video_id`, `titulo`, `canal`, `fecha_publicacion`, `vistas`, `likes`, `n_comentarios`, `idioma`, `consulta`, `temas`) y `youtube_comentarios_palabras_clave.csv` (por video: comentarios leídos y cuántos mencionan precio, cheap, safe, rent, gentrification, locals). **Nunca** se guardan autores ni texto de comentarios: los JSON de comentarios se borran al terminar de contar.
+### 2. Complemento A — YouTube Data API v3 ✅
+- **Fuente:** `https://www.googleapis.com/youtube/v3` (`search.list`, `videos.list`, `commentThreads.list`). Docs: `https://developers.google.com/youtube/v3`. Se corrió el 25 nov 2026.
+- **Llave:** se lee de la variable de entorno `YOUTUBE_API_KEY`; **nunca** se escribe en archivos ni en git. Para volver a correr: `$env:YOUTUBE_API_KEY = "<tu llave>"` y `python 6-Web-Scraping/scripts/clean_web_scraping.py --solo youtube`.
+- **Búsquedas:** "moving to Merida", "living in Merida Mexico", "Merida Yucatan expat", "cost of living Merida Mexico" y "mudarse a Mérida", 2 páginas de 50 resultados cada una (orden de relevancia). **Cuota usada:** 10 × `search.list` = 1,000 unidades, más 7 lotes de `videos.list` y 150 de `commentThreads.list` (~1,160 de las 10,000 diarias).
+- **Comentarios (solo conteos):** hasta 100 comentarios principales de los 150 videos más vistos con comentarios; se cuenta cuántos mencionan precio, cheap, safe, rent, gentrification y locals. Los JSON de comentarios, que traen autores y texto, **se borran al terminar de contar**. En `raw/youtube/` quedan solo las búsquedas y los metadatos de videos (en `.gitignore`).
+- **Validación:** 349 videos únicos por `video_id` (un mismo video puede salir en varias búsquedas; la columna `consulta` las lista separadas por `;`). Idioma (de `defaultAudioLanguage`): inglés 256, español 92. Publicación: de 2015 a 2026, con 139 videos de 2026 y 77 de 2025. Mediana de vistas: 2,426; máximo: 813,748.
+- **Ojo:** el orden de relevancia de YouTube cambia con el tiempo, así que una corrida nueva da otra muestra. Algunos resultados son anuncios inmobiliarios ("casa en venta Mérida") y no testimonios. En comentarios, `rent` (216) y `safe` (144) aparecen mucho más que `gentrification` (19) en 6,216 comentarios leídos.
+- **Archivos limpios (`clean/`):**
+  - `youtube_videos_merida.csv`: **349** videos (`video_id`, `titulo`, `canal`, `fecha_publicacion`, `vistas`, `likes`, `n_comentarios`, `idioma`, `consulta`, `temas`).
+  - `youtube_comentarios_palabras_clave.csv`: **150** videos (`video_id`, `n_comentarios_leidos` y `n_menciona_<palabra>` para las seis palabras clave).
 
 ### 3. Complemento B — Vistas de Wikipedia ✅
 - **Fuente:** Wikimedia Pageviews API, `https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/{idioma}.wikipedia/all-access/user/{artículo}/monthly/2016010100/...` (solo usuarios, sin bots). Docs: `https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews`.
@@ -76,7 +83,6 @@ El informe mensual de Sefotur que en la tabla U3 aparecía como fuente de scrapi
 ---
 
 ## Pendientes
-- YouTube: conseguir la llave y correr `--solo youtube` (ver arriba).
 - Volumen completo de La Jornada Maya: hoy depende de lo que Internet Archive haya guardado; se podría pedir al diario un sitemap histórico.
 
 ---
