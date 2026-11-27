@@ -242,43 +242,50 @@ function renderShopsDiverging(allData, areaKey) {
 }
 
 /* -------------------------------------------------------------------------
- * 02 · Mapa de AGEB de cafeterías (D3, escala divergente + barra de color)
+ * 02 · Mapa interactivo de AGEB de cafeterías (D3 + d3-tile + CARTO Positron)
  * ------------------------------------------------------------------------- */
 function renderAgebMap(agebGeo, centroGeo) {
   const box = d3.select("#chart-ageb-map");
   box.selectAll("*").remove();
+
+  const stage = box.append("div").attr("class", "map-stage");
   const W = 600, H = 460;
-  const svg = box.append("svg").attr("viewBox", `0 0 ${W} ${H}`);
+  const svg = stage.append("svg").attr("viewBox", `0 0 ${W} ${H}`);
 
-  const cosLat = Math.cos((20.97 * Math.PI) / 180);
-  const allPts = [];
-  agebGeo.features.forEach((f) => {
-    const walk = (c) => (typeof c[0] === "number" ? allPts.push([c[0] * cosLat, -c[1]]) : c.forEach(walk));
-    walk(f.geometry.coordinates);
-  });
-  const minX = d3.min(allPts, (p) => p[0]), maxX = d3.max(allPts, (p) => p[0]);
-  const minY = d3.min(allPts, (p) => p[1]), maxY = d3.max(allPts, (p) => p[1]);
-  const pad = 18;
-  const scale = Math.min((W - 70 - pad) / (maxX - minX), (H - 2 * pad) / (maxY - minY));
-  const tx = (W - 55 - (maxX - minX) * scale) / 2 - minX * scale;
-  const ty = (H - (maxY - minY) * scale) / 2 - minY * scale;
+  // Capa de tiles CARTO Positron (fondo) + capa vectorial D3 (AGEBs + Centro)
+  const gTiles = svg.append("g").attr("class", "map-tiles");
+  const gVec = svg.append("g").attr("class", "map-vectors");
 
-  const proj = d3.geoTransform({
-    point(lon, lat) { this.stream.point(lon * cosLat * scale + tx, -lat * scale + ty); },
+  // Proyección Web Mercator exacta en coordenadas normalizadas [0, 1] -> inmune a winding order
+  const mercX = (lon) => (lon + 180) / 360;
+  const mercY = (lat) => {
+    const rad = (lat * Math.PI) / 180;
+    return (1 - Math.log(Math.tan(rad) + 1 / Math.cos(rad)) / Math.PI) / 2;
+  };
+
+  // Escala y centro iniciales (Mérida: lat 20.985, lon -89.62, zoom ~11.2)
+  const initScale = Math.pow(2, 11.2) * 256;
+  const initTx = W / 2 - mercX(-89.62) * initScale;
+  const initTy = H / 2 - mercY(20.985) * initScale;
+
+  const baseProj = d3.geoTransform({
+    point(lon, lat) {
+      this.stream.point(mercX(lon) * initScale + initTx, mercY(lat) * initScale + initTy);
+    },
   });
-  const path = d3.geoPath().projection(proj);
+  const path = d3.geoPath().projection(baseProj);
 
   const color = d3.scaleLinear()
     .domain([-5, -2.5, 0, 2.5, 5])
     .range(["#1F5F5B", "#7FA9A4", "#F4EFE6", "#DDB067", "#8A5A17"])
     .clamp(true);
 
-  svg.append("rect").attr("width", W).attr("height", H).attr("fill", "#F8F6F1");
-
-  svg.append("g").selectAll("path").data(agebGeo.features).join("path")
+  const agebPaths = gVec.append("g").selectAll("path").data(agebGeo.features).join("path")
     .attr("d", path)
     .attr("fill", (d) => color(+d.properties.cafes_change || 0))
-    .attr("stroke", "#FFFFFF").attr("stroke-width", 0.45)
+    .attr("fill-opacity", 0.85)
+    .attr("stroke", "#FFFFFF")
+    .attr("stroke-width", 0.45)
     .on("mousemove", (e, d) => {
       const p = d.properties;
       const ch = +p.cafes_change;
@@ -286,17 +293,68 @@ function renderAgebMap(agebGeo, centroGeo) {
     })
     .on("mouseleave", hideTip);
 
-  svg.append("g").selectAll("path").data(centroGeo.features).join("path")
-    .attr("d", path).attr("fill", "none").attr("stroke", T.TEXT).attr("stroke-width", 2.2)
+  const centroPaths = gVec.append("g").selectAll("path").data(centroGeo.features).join("path")
+    .attr("d", path)
+    .attr("fill", "none")
+    .attr("stroke", T.TEXT)
+    .attr("stroke-width", 2.2)
     .style("pointer-events", "none");
 
-  // Barra de color vertical a la derecha (igual a 02_shops.png)
+  const tiler = d3.tile().size([W, H]);
+
+  function renderTransform(transform) {
+    // Transformar vectores D3
+    gVec.attr("transform", transform);
+    agebPaths.attr("stroke-width", 0.45 / transform.k);
+    centroPaths.attr("stroke-width", 2.2 / transform.k);
+
+    // Calcular tiles CARTO Positron equivalentes al mismo zoom/pan
+    // d3.tile espera translate en el origen (lon=0, lat=0) = (0.5, 0.5) de Web Mercator
+    const totalScale = initScale * transform.k;
+    const totalTx = transform.x + (0.5 * initScale + initTx) * transform.k;
+    const totalTy = transform.y + (0.5 * initScale + initTy) * transform.k;
+    const tiles = tiler.scale(totalScale).translate([totalTx, totalTy])();
+
+    const imgs = gTiles.selectAll("image")
+      .data(tiles, (d) => `${d[2]}/${d[0]}/${d[1]}`);
+
+    imgs.join(
+      (enter) => enter.append("image")
+        .attr("href", (d) => `https://a.basemaps.cartocdn.com/light_all/${d[2]}/${d[0]}/${d[1]}@2x.png`)
+        .attr("preserveAspectRatio", "none"),
+      (update) => update,
+      (exit) => exit.remove()
+    )
+      .attr("x", (d) => Math.round((d[0] + tiles.translate[0]) * tiles.scale))
+      .attr("y", (d) => Math.round((d[1] + tiles.translate[1]) * tiles.scale))
+      .attr("width", Math.ceil(tiles.scale) + 1)
+      .attr("height", Math.ceil(tiles.scale) + 1);
+  }
+
+  const zoom = d3.zoom()
+    .scaleExtent([0.5, 8])
+    .on("zoom", (evt) => renderTransform(evt.transform));
+
+  svg.call(zoom);
+  renderTransform(d3.zoomIdentity);
+
+  // Botones de zoom (+ / −)
+  const btns = stage.append("div").attr("class", "map-zoom-btns");
+  btns.append("button").attr("type", "button").attr("aria-label", "Acercar").text("+")
+    .on("click", () => svg.transition().duration(250).call(zoom.scaleBy, 1.45));
+  btns.append("button").attr("type", "button").attr("aria-label", "Alejar").text("−")
+    .on("click", () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.45));
+
+  // Atribución CARTO / OpenStreetMap
+  stage.append("div").attr("class", "map-attr").text("© OpenStreetMap contributors © CARTO");
+
+  // Barra de color vertical a la derecha (fija sobre el mapa, igual al original)
   const defs = svg.append("defs");
   const grad = defs.append("linearGradient").attr("id", "agebGrad").attr("x1", "0%").attr("y1", "100%").attr("x2", "0%").attr("y2", "0%");
   [[0, "#1F5F5B"], [25, "#7FA9A4"], [50, "#F4EFE6"], [75, "#DDB067"], [100, "#8A5A17"]].forEach(([o, c]) =>
     grad.append("stop").attr("offset", `${o}%`).attr("stop-color", c)
   );
-  const cb = svg.append("g").attr("transform", `translate(${W - 52}, 95)`);
+  const cb = svg.append("g").attr("transform", `translate(${W - 52}, 95)`).style("pointer-events", "none");
   cb.append("rect").attr("x", -8).attr("y", -24).attr("width", 52).attr("height", 268).attr("rx", 4).attr("fill", "rgba(255,255,255,0.85)");
   cb.append("text").attr("x", 0).attr("y", -8).attr("fill", T.TEXT_SOFT).attr("font-size", 11).text("Cambio");
   cb.append("rect").attr("width", 11).attr("height", 230).attr("fill", "url(#agebGrad)");

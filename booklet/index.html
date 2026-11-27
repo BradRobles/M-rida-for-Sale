@@ -7,8 +7,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=3" />
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-tile@1/dist/d3-tile.min.js"></script>
 </head>
 <body>
   <div id="d3-tip" class="d3-tip"></div>
@@ -241,7 +242,7 @@
         </aside>
       </div>
       <p class="mfs-note">
-        Código QR a escenas AR (<code>bradrobles.github.io/M-rida-for-Sale/booklet/ar/</code>) · Modelo fotogramétrico satelital (INEGI, 2015), no LiDAR aerotransportado.
+        Modelo fotogramétrico satelital (INEGI, 2015), no LiDAR aerotransportado.
       </p>
     </section>
 
@@ -295,12 +296,20 @@
             </div>
             <div id="chart-yt-kw" class="mfs-chart-surface"></div>
 
-            <table class="mfs-table" aria-label="Cinco videos más vistos sobre mudarse a Mérida">
-              <thead>
-                <tr><th>Título</th><th class="num">Vistas</th><th>Fecha</th><th>Canal</th></tr>
-              </thead>
-              <tbody id="yt-table-body"></tbody>
-            </table>
+            <div class="mfs-table-wrap">
+              <table class="mfs-table" aria-label="Cinco videos más vistos sobre mudarse a Mérida">
+                <colgroup>
+                  <col style="width:42%" />
+                  <col style="width:15%" />
+                  <col style="width:17%" />
+                  <col style="width:26%" />
+                </colgroup>
+                <thead>
+                  <tr><th>Título</th><th class="num">Vistas</th><th>Fecha</th><th>Canal</th></tr>
+                </thead>
+                <tbody id="yt-table-body"></tbody>
+              </table>
+            </div>
           </div>
 
           <div class="mfs-strip">
@@ -372,24 +381,38 @@
 
       <details class="mfs-method">
         <summary>Metodología y fuentes</summary>
-        <ul>
-          <li><b>Delimitación:</b> la prensa cubre la Zona Metropolitana de Mérida (Mérida, Kanasín, Umán, Progreso, Conkal, Ucú); los datos espaciales (DENUE, AGEB, manzanas) cubren el municipio de Mérida.</li>
-          <li><b>Dinero:</b> todas las cifras en pesos son <b>nominales</b> (sin ajuste por inflación).</li>
-          <li><b>Privacidad:</b> se eliminó la columna <code>titular</code> (nombres de personas físicas) del padrón municipal de licencias y del historial de git.</li>
-          <li><b>Prensa:</b> una nota núcleo menciona vivienda, renta, inmobiliarias, presión turística o extranjeros junto con una localidad de la zona metropolitana (muestra dirigida de 1,495 notas).</li>
-          <li><b>Wikipedia:</b> las vistas caen a nivel global después de 2023; comparar entre ciudades, no entre años.</li>
-          <li><b>Escena 3D:</b> modelo de elevación fotogramétrico satelital de INEGI (2015), no LiDAR aerotransportado; alturas en percentil 90 por manzana.</li>
-          <li><b>2026*:</b> cifras parciales (DataTur y AAFY hasta septiembre, ASUR hasta octubre, prensa hasta noviembre).</li>
-        </ul>
+        <div class="mfs-method-body">
+          <ul>
+            <li><a href="https://github.com/BradRobles/M-rida-for-Sale/blob/main/1-INEGI-DENUE/README.md" target="_blank" rel="noopener">INEGI DENUE y Censo</a> <span class="mfs-code-pill">1-INEGI-DENUE</span></li>
+            <li><a href="https://github.com/BradRobles/M-rida-for-Sale/blob/main/2-Datos-Gob-Mx/README.md" target="_blank" rel="noopener">DataTur y ASUR</a> <span class="mfs-code-pill">2-Datos-Gob-Mx</span></li>
+            <li><a href="https://github.com/BradRobles/M-rida-for-Sale/blob/main/3-SIEGY-Yucatan/README.md" target="_blank" rel="noopener">Sefotur, SHF y ENOE</a> <span class="mfs-code-pill">3-SIEGY-Yucatan</span></li>
+            <li><a href="https://github.com/BradRobles/M-rida-for-Sale/blob/main/4-GeoPortal-Merida/README.md" target="_blank" rel="noopener">GeoPortal de Mérida y mapas INEGI</a> <span class="mfs-code-pill">4-GeoPortal-Merida</span></li>
+            <li><a href="https://github.com/BradRobles/M-rida-for-Sale/blob/main/5-Government-Data-Request/README.md" target="_blank" rel="noopener">Impuesto al hospedaje AAFY y licencias del Centro</a> <span class="mfs-code-pill">5-Government-Data-Request</span></li>
+            <li><a href="https://github.com/BradRobles/M-rida-for-Sale/blob/main/6-Web-Scraping/README.md" target="_blank" rel="noopener">Prensa local, YouTube y Wikipedia</a> <span class="mfs-code-pill">6-Web-Scraping</span></li>
+            <li><a href="https://github.com/BradRobles/M-rida-for-Sale/blob/main/7-Self-Produced/README.md" target="_blank" rel="noopener">GDELT (pipeline propio)</a> <span class="mfs-code-pill">7-Self-Produced</span></li>
+            <li><a href="https://github.com/BradRobles/M-rida-for-Sale/blob/main/8-LiDAR/README.md" target="_blank" rel="noopener">Modelo de elevación INEGI (2015)</a> <span class="mfs-code-pill">8-LiDAR</span></li>
+            <li><a href="https://github.com/BradRobles/M-rida-for-Sale/blob/main/9-Augmented-Reality/README.md" target="_blank" rel="noopener">Escenas AR</a> <span class="mfs-code-pill">9-Augmented-Reality</span></li>
+          </ul>
+          <ul>
+            <li><b>Delimitación:</b> las notas de prensa cubren la Zona Metropolitana de Mérida (Mérida, Kanasín, Umán, Progreso, Conkal, Ucú); los datos espaciales (DENUE, AGEB, manzanas) cubren el municipio de Mérida.</li>
+            <li><b>Dinero:</b> todas las cifras en pesos son <b>nominales</b>. Los valores reales requieren el promedio anual del INPC, que esta versión no incluye.</li>
+            <li><b>Privacidad:</b> se eliminó la columna <code>titular</code> (nombres de personas físicas) del padrón municipal de licencias y del historial de git.</li>
+            <li><b>Prensa:</b> una nota núcleo menciona vivienda, renta, inmobiliarias, presión turística o extranjeros junto con una localidad de la zona metropolitana en su título o extracto (reglas en el README de la sección 6). Las notas recopiladas son una muestra dirigida, no el total de artículos publicados.</li>
+            <li><b>Wikipedia:</b> las vistas caen a nivel global después de 2023, por lo que conviene comparar entre ciudades y no entre años.</li>
+            <li><b>YouTube:</b> los resultados de búsqueda están ordenados por relevancia al momento de la consulta (25 nov 2026), lo que favorece videos recientes; algunos resultados son anuncios inmobiliarios, no testimonios.</li>
+            <li><b>Escena 3D:</b> el modelo de elevación de alta resolución de INEGI para estas cartas es fotogramétrico (imágenes satelitales, nube de puntos de 2015), no LiDAR aerotransportado. Las alturas corresponden al percentil 90 del modelo de superficie menos terreno por manzana.</li>
+            <li><b>2026:</b> las cifras son parciales (DataTur y AAFY hasta septiembre, ASUR hasta octubre, prensa hasta noviembre).</li>
+          </ul>
+        </div>
       </details>
 
       <div class="mfs-footer">
-        Todas las cifras provienen de los conjuntos limpios del proyecto (repo M-rida-for-Sale). La prensa cubre la Zona Metropolitana de Mérida; los datos espaciales cubren el municipio de Mérida. Montos en pesos nominales. Las vistas de Wikipedia caen globalmente después de 2023, por lo que conviene comparar entre ciudades y no entre años.<br><br>
-        Mérida en venta · Booklet (D3.js + AR) · Visual Modeling for Information · UPY Data 9B · Julio César De Aquino Castellanos, Brad Robles García, Eliana Lorely Osorio Martínez · <a href="#top">Volver arriba</a>
+        Todas las cifras provienen de los conjuntos limpios del proyecto (repo M-rida-for-Sale). La prensa cubre la Zona Metropolitana de Mérida (Mérida, Kanasín, Umán, Progreso, Conkal, Ucú); los datos espaciales cubren el municipio de Mérida. Montos en pesos nominales. Las vistas de Wikipedia caen globalmente después de 2023, por lo que conviene comparar entre ciudades y no entre años.<br><br>
+        Mérida en venta · Visual Modeling for Information · UPY Data 9B · Julio César De Aquino Castellanos, Brad Robles García, Eliana Lorely Osorio Martínez · <a href="#top">Volver arriba</a>
       </div>
     </section>
   </div>
 
-  <script src="charts.js"></script>
+  <script src="charts.js?v=3"></script>
 </body>
 </html>
