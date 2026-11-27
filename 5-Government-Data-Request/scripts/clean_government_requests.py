@@ -155,10 +155,6 @@ def build_ayuntamiento_datasets() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFr
         ["FISICA" if (p or m) else "MORAL" for p, m in zip(ap_pat, ap_mat)],
         index=raw_df.index,
     )
-    titular = pd.Series(
-        [" ".join(part for part in (n, p, m) if part) for n, p, m in zip(nombre, ap_pat, ap_mat)],
-        index=raw_df.index,
-    )
 
     giro = raw_df["Giro Desarrollo Urbano"].map(clean_text).replace("", "NO ESPECIFICADO")
     giro = giro.replace(GIRO_NORMALIZACION)
@@ -171,7 +167,6 @@ def build_ayuntamiento_datasets() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFr
             "fecha_mes": fecha_reg.dt.strftime("%Y-%m-01"),
             "vigencia": vigencia.dt.strftime("%Y-%m-%d"),
             "tipo_persona": tipo_persona,
-            "titular": titular,
             "direccion_catastro": raw_df["Dirección Catastro"].map(clean_text),
             "colonia": raw_df["Colonia"].map(clean_text),
             "denominacion": raw_df["Denominacion"].map(clean_text),

@@ -18,6 +18,12 @@ __pycache__/
 !7-Self-Produced/raw/campo/fotos_letreros/.gitkeep
 !7-Self-Produced/raw/campo/fotos_menus/.gitkeep
 
+# Sección 5: archivo crudo con nombres de personas físicas (no versionar por privacidad)
+5-Government-Data-Request/raw/609/licencias para transparencia 2015-2026.xls
+
+# Laboratorio temporal de prototipos AR
+ar-prototypes/
+
 # Sección 8: rásters de INEGI (~330 MB con extraídos; el script los vuelve a descargar)
 8-LiDAR/raw/inegi_lidar/
 7-Self-Produced/raw/gdelt_stream/_recorder.lock

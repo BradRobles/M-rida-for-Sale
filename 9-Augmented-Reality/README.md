@@ -65,6 +65,5 @@ Extracción y limpieza de las tres fuentes requeridas para las escenas de Realid
 ## Cómo regenerar los archivos limpios
 
 ```bash
-/Users/bradechio/Developer/data-lab/merida-gentrificada/.venv/bin/python \
-  /Users/bradechio/Developer/data-lab/merida-gentrificada/9-Augmented-Reality/scripts/clean_ar_scenes.py
+python 9-Augmented-Reality/scripts/clean_ar_scenes.py
 ```

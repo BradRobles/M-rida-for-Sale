@@ -58,6 +58,5 @@ Descargado desde el visor oficial en coordenadas **WGS84 (`EPSG:4326`)** y limpi
 ## Cómo regenerar los archivos limpios
 
 ```bash
-/Users/bradechio/Developer/data-lab/merida-gentrificada/.venv/bin/python \
-  /Users/bradechio/Developer/data-lab/merida-gentrificada/4-GeoPortal-Merida/scripts/clean_geoportal_complements.py
+python 4-GeoPortal-Merida/scripts/clean_geoportal_complements.py
 ```

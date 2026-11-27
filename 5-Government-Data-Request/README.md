@@ -51,7 +51,7 @@ Limpieza y estandarización de las respuestas oficiales obtenidas vía la Plataf
   1. **Unificación de 12 hojas (`2015`–`2026`):** se corrigió el encabezado de la hoja `2026`, cuya primera columna venía nombrada `2026` en lugar de `Fecha Registro`.
   2. **Normalización de texto:** se eliminaron espacios múltiples y el relleno de ancho fijo (~250 caracteres) en `Giro Desarrollo Urbano`, además de unificar la variante `LIBRERIA` → `LIBRERÍA`.
   3. **Valores nulos en giro:** los 2 registros de 2025 sin giro (`NIDUM FROZEN YOGURT Y COFFE BAR` y `LA KEECH`) se conservaron marcados como `NO ESPECIFICADO`.
-  4. **Titular y tipo de persona:** se derivó `tipo_persona` (`FISICA` vs `MORAL`) a partir de los apellidos y se consolidó `titular`.
+  4. **Privacidad / anonimización:** se derivó `tipo_persona` (`FISICA` vs `MORAL`) a partir de la presencia de apellidos y se **omitió la columna `titular`** (y el archivo crudo `.xls` no se versiona en git) para no publicar nombres de personas físicas.
   5. **Filtrado geográfico de Centro:** se excluyó 1 registro de 2021 cuya colonia es `CENTRO POBLACION DZUNUNCAN` (`MOTEL EL BOSQUE`, en la comisaría de Dzununcán, fuera del Centro de Mérida) y se guardó aparte en `clean/ayuntamiento_licencias_excluidas_fuera_centro.csv` para trazabilidad.
   6. **Clasificación analítica (`categoria_giro`):** agrupa los giros en `Hospedaje`, `Alimentos y Bebidas`, `Comercio y otros servicios` y `No especificado`.
 - **Archivos limpios:**
@@ -64,6 +64,5 @@ Limpieza y estandarización de las respuestas oficiales obtenidas vía la Plataf
 ## Cómo regenerar los archivos limpios
 
 ```bash
-/Users/bradechio/Developer/data-lab/merida-gentrificada/.venv/bin/python \
-  /Users/bradechio/Developer/data-lab/merida-gentrificada/5-Government-Data-Request/scripts/clean_government_requests.py
+python 5-Government-Data-Request/scripts/clean_government_requests.py
 ```
