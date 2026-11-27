@@ -3,416 +3,391 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mérida en venta · Booklet de datos (Equipo 9)</title>
+  <title>Mérida en venta · Booklet (Equipo 9)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 <body>
   <div id="d3-tip" class="d3-tip"></div>
 
   <div class="page">
-    <!-- Navegación superior -->
-    <nav class="nav" aria-label="Capítulos">
-      <a class="brand" href="#inicio">Mérida en venta</a>
-      <div class="nav-links">
-        <a href="#llegada">01 La llegada</a>
-        <a href="#centro">02 El Centro se vacía</a>
-        <a href="#hotel-invisible">03 El hotel invisible</a>
-        <a href="#voces">04 Quién cuenta la historia</a>
-        <a href="#no-cancun">05 No somos Cancún</a>
-        <a href="ar/index.html">Visor AR 3D ↗</a>
+    <!-- Barra superior -->
+    <nav class="mfs-nav" aria-label="Capítulos">
+      <a class="mfs-brand" href="#top">Mérida en venta</a>
+      <div class="mfs-nav-links">
+        <a href="#arrival">01 La llegada</a>
+        <a href="#shops">02 Comercios</a>
+        <a href="#homes">03 Vivienda</a>
+        <a href="#voices">04 Voces</a>
+        <a href="#elsewhere">05 Otros destinos</a>
       </div>
     </nav>
 
-    <!-- Portada + Prólogo «La historia en cuatro números» -->
-    <header id="inicio" class="hero-grid">
+    <!-- Portada -->
+    <header id="top" class="grid-hero">
       <div>
-        <span class="eyebrow">Visual Modeling for Information · UPY Data 9B · Equipo 9</span>
-        <h1 class="hero-title">Mérida<br>en venta</h1>
-        <p class="lede">
-          Turistificación, comercio y vivienda en la Zona Metropolitana de Mérida entre 2015 y 2026:
-          una lectura con datos públicos, solicitudes de transparencia y modelos 3D.
+        <span class="mfs-eyebrow">Visual Modeling for Information · UPY Data 9B</span>
+        <div class="mfs-hero">Mérida<br>en venta</div>
+        <p class="mfs-lede">
+          Más visitantes cada año, menos comercios en el Centro y un impuesto al hospedaje que se triplicó.
+          La historia de lo que el turismo está comprando en silencio en la Zona Metropolitana de Mérida.
         </p>
-        <p class="byline">
+        <p class="mfs-byline">
           Por <b>Julio César De Aquino Castellanos</b>, <b>Brad Robles García</b> y <b>Eliana Lorely Osorio Martínez</b>
         </p>
       </div>
 
-      <aside class="kpi-panel" aria-label="Prólogo: La historia en cuatro números">
-        <span class="eyebrow">La historia en cuatro números</span>
-        <div class="kpi-grid">
-          <div>
-            <b>+30%</b>
-            <span>turistas de hotel, de 2019 a 2025</span>
-          </div>
-          <div>
-            <b>−12.9%</b>
-            <span>negocios dentro del Centro Histórico</span>
-          </div>
-          <div>
-            <b>×3.2</b>
-            <span>recaudación del impuesto al hospedaje (pesos nominales)</span>
-          </div>
-          <div>
-            <b>+39%</b>
-            <span>precio mediano de vivienda en Yucatán sobre la mediana nacional</span>
-          </div>
+      <aside class="mfs-kpi-panel" aria-label="La historia en cuatro números">
+        <span class="mfs-eyebrow">La historia en cuatro números</span>
+        <div class="mfs-kpi-grid">
+          <div><b>+30%</b><span>turistas de hotel, de 2019 a 2025</span></div>
+          <div><b>−12.9%</b><span>negocios en el Centro</span></div>
+          <div><b>×3.2</b><span>impuesto al hospedaje recaudado</span></div>
+          <div><b>+39%</b><span>precio de vivienda en Yucatán sobre la mediana nacional</span></div>
         </div>
       </aside>
     </header>
 
     <!-- =================================================================== -->
-    <!-- CAPÍTULO 01 · LA LLEGADA                                            -->
+    <!-- 01 · LA LLEGADA                                                     -->
     <!-- =================================================================== -->
-    <section id="llegada" class="chapter">
-      <span class="eyebrow">Capítulo 01</span>
-      <h2>La llegada: Mérida superó en 30% sus turistas pre-pandemia</h2>
-      <p class="chapter-lead">
-        Los hoteles de Mérida recibieron 2.26 millones de turistas en 2025, un 30% más que en 2019.
-        Uno de cada cinco llegó del extranjero (19.6%), una proporción que casi no cambió: el salto
-        es impulsado por turismo nacional y extranjero por igual.
+    <section id="arrival" class="mfs-section">
+      <span class="mfs-eyebrow">Capítulo 01</span>
+      <h2 class="mfs-h2">La llegada</h2>
+      <p class="mfs-body">
+        Los hoteles de Mérida recibieron 2.26 millones de turistas en 2025, un 30% más que antes de la pandemia.
+        Uno de cada cinco viene del extranjero, una proporción que casi no se ha movido: el crecimiento es tanto
+        nacional como extranjero.
       </p>
 
-      <div class="two-col">
-        <div class="stack">
-          <div class="cards-row">
-            <div class="card">
+      <div class="grid-1-175">
+        <div>
+          <div class="mfs-cards">
+            <div class="mfs-card">
               <span class="lbl">Turistas de hotel, 2025</span>
-              <span class="big" style="color:var(--merida)">2.26 M</span>
-              <span class="sub">19.6% extranjeros · récord histórico</span>
+              <span class="big" style="color:var(--merida)">2.26M</span>
+              <span class="sub">19.6% extranjeros</span>
             </div>
-            <div class="card">
+            <div class="mfs-card">
               <span class="lbl">Aeropuerto MID, 2025</span>
-              <span class="big" style="color:var(--growth)">3.94 M</span>
-              <span class="sub">pasajeros, +41% frente a 2019</span>
+              <span class="big" style="color:var(--growth)">3.94M</span>
+              <span class="sub">pasajeros, +41% vs 2019</span>
             </div>
           </div>
-          <div class="chips">
-            <span>DataTur (SECTUR)</span>
+          <div class="mfs-chips">
+            <span>DataTur (datos.gob.mx)</span>
             <span>ASUR</span>
             <span>Sefotur</span>
           </div>
         </div>
 
-        <div class="fig-card">
-          <div class="fig-top">
-            <div>
-              <h3 class="fig-title">Turistas de hotel en Mérida por año</h3>
-              <span class="fig-sub">Millones de llegadas · 2026* = enero a septiembre</span>
-            </div>
+        <div>
+          <div class="mfs-fig-head">
+            <p class="mfs-fig-title">Turistas hospedados en hoteles de Mérida, por año</p>
+            <span class="mfs-fig-sub">Millones · 2026* = enero a septiembre</span>
           </div>
-          <div class="legend">
-            <span class="swatch"><i class="dot" style="background:var(--merida)"></i>Turistas nacionales</span>
-            <span class="swatch"><i class="dot" style="background:var(--foreign)"></i>Turistas extranjeros</span>
-            <span class="swatch"><i class="dot" style="background:var(--merida-soft)"></i>2026* parcial (9 meses)</span>
-          </div>
-          <div id="chart-tourists" class="chart-box"></div>
-          <p class="fig-note">
-            Fuente: SECTUR / DataTur (reporte mensual de ocupación en hoteles y moteles para Mérida, 2015–2026).
-          </p>
+          <div id="chart-tourists" class="mfs-chart-surface"></div>
         </div>
       </div>
 
-      <!-- Escena AR 2 embebida (se oculta al imprimir) -->
-      <div class="ar-embed-card">
-        <div class="ar-embed-head">
-          <div>
-            <h4>Escena AR 2 · Barras 3D de turistas de hotel (2015–2026*)</h4>
-            <p>Gira el modelo 3D o pulsa «Ver en tu espacio (AR)» desde tu celular. El plano marca el nivel 2019 (1.74M).</p>
+      <div class="spacer-md"></div>
+
+      <div class="mfs-fig-head">
+        <p class="mfs-fig-title">Llegadas mensuales por categoría hotelera</p>
+        <span class="mfs-fig-sub">DataTur, enero de 2015 a septiembre de 2026</span>
+      </div>
+      <div id="cat-seg" class="mfs-seg" role="group" aria-label="Categoría hotelera">
+        <button class="active" data-cat="All categories">Todas las categorías</button>
+        <button data-cat="5 stars">5 estrellas</button>
+        <button data-cat="4 stars">4 estrellas</button>
+        <button data-cat="3 stars">3 estrellas</button>
+        <button data-cat="2 stars">2 estrellas</button>
+        <button data-cat="1 star">1 estrella</button>
+      </div>
+      <div id="chart-tourists-monthly" class="mfs-chart-surface"></div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- 02 · EL CENTRO SE VACÍA                                             -->
+    <!-- =================================================================== -->
+    <section id="shops" class="mfs-section">
+      <span class="mfs-eyebrow">Capítulo 02</span>
+      <h2 class="mfs-h2">El Centro se vacía</h2>
+      <p class="mfs-body">
+        Entre 2019 y 2025 el Centro Histórico perdió 1,189 negocios mientras el resto de la ciudad los ganaba.
+        Las cafeterías son la excepción: subieron 46% en todo el municipio y se extendieron a 212 zonas (AGEB)
+        fuera del casco antiguo.
+      </p>
+
+      <div class="grid-1-175">
+        <div>
+          <span class="mfs-ctrl-lbl">Zona</span>
+          <div id="area-seg" class="mfs-seg" role="group" aria-label="Zona">
+            <button class="active" data-area="Centro">Centro Histórico</button>
+            <button data-area="Municipality">Todo el municipio</button>
           </div>
-          <a class="qr-link" href="ar/index.html?escena=2">Abrir pantalla completa AR ↗</a>
+          <div class="mfs-chips">
+            <span>INEGI DENUE 2019 y 2025</span>
+            <span>Licencias del Ayuntamiento</span>
+            <span>GeoPortal de Mérida</span>
+          </div>
         </div>
-        <model-viewer src="ar/models/escena_2_turistas_barras3d.glb" camera-controls auto-rotate auto-rotate-delay="2500"
-          rotation-per-second="9deg" shadow-intensity="0.85" exposure="1.05" camera-orbit="22deg 64deg 1.65m"
-          ar ar-modes="webxr scene-viewer quick-look">
-          <div class="hotspot" slot="hotspot-2019" data-position="-0.14 0.48 0.0" data-normal="0 1 0">2019 · <b>1.74M</b></div>
-          <div class="hotspot" slot="hotspot-2020" data-position="-0.05 0.21 0.0" data-normal="0 1 0">2020 · <b>0.67M</b></div>
-          <div class="hotspot" slot="hotspot-2025" data-position="0.41 0.61 0.0" data-normal="0 1 0">2025 · <b>2.26M (+30%)</b></div>
-          <button slot="ar-button" class="ar-btn">Ver en tu espacio (AR)</button>
-        </model-viewer>
+
+        <div>
+          <div class="mfs-fig-head">
+            <p class="mfs-fig-title">Cambio en negocios, de 2019 a 2025</p>
+            <span id="shops-sub" class="mfs-fig-sub">Centro Histórico: 9,199 → 8,010 negocios · pasa el cursor para ver conteos</span>
+          </div>
+          <div id="chart-shops" class="mfs-chart-surface"></div>
+        </div>
+      </div>
+
+      <div class="grid-12-1">
+        <div>
+          <div class="mfs-fig-head">
+            <p class="mfs-fig-title">Dónde abrieron o cerraron cafeterías</p>
+            <span class="mfs-fig-sub">Cambio en cafeterías por AGEB, 2019 a 2025 · contorno negro = Centro Histórico</span>
+          </div>
+          <div id="chart-ageb-map" class="mfs-chart-surface flush"></div>
+        </div>
+
+        <div>
+          <div class="mfs-fig-head">
+            <p class="mfs-fig-title">Nuevas licencias de funcionamiento en el Centro, por año</p>
+            <span class="mfs-fig-sub">Menos negocios, más rotación · 2026* = enero a septiembre</span>
+          </div>
+          <div id="chart-licenses" class="mfs-chart-surface"></div>
+        </div>
       </div>
     </section>
 
     <!-- =================================================================== -->
-    <!-- CAPÍTULO 02 · EL CENTRO SE VACÍA                                    -->
+    <!-- 03 · EL HOTEL INVISIBLE + IMAGEN 3D DEL CENTRO CON QR               -->
     <!-- =================================================================== -->
-    <section id="centro" class="chapter">
-      <span class="eyebrow">Capítulo 02</span>
-      <h2>El Centro se vacía mientras las cafeterías se expanden por el municipio</h2>
-      <p class="chapter-lead">
-        Entre 2019 y 2025 el municipio de Mérida sumó 2,831 negocios (+5.3%) y las cafeterías crecieron
-        46.3% en toda la ciudad. Dentro del polígono del Centro Histórico ocurrió lo contrario: se perdieron
-        1,189 establecimientos (−12.9%), incluidas tiendas de abarrotes (−6.6%) y restaurantes (−7.0%).
+    <section id="homes" class="mfs-section">
+      <span class="mfs-eyebrow">Capítulo 03</span>
+      <h2 class="mfs-h2">El hotel invisible</h2>
+      <p class="mfs-body">
+        El hospedaje registrado apenas cambió: 304 establecimientos en 2019, 311 en 2025. Sin embargo, el estado
+        recaudó 3.2 veces más impuesto al hospedaje (en pesos nominales). La brecha apunta a viviendas rentadas por
+        noche: la parte de la industria hotelera que el directorio de negocios no alcanza a ver.
       </p>
 
-      <div class="two-col even">
-        <!-- Escena 2: Negocios Centro vs Municipio -->
-        <div class="fig-card">
-          <div class="fig-top">
-            <div>
-              <h3 class="fig-title">Cambio de negocios: Centro vs. municipio</h3>
-              <span class="fig-sub">Variación porcentual 2019 → 2025 (INEGI DENUE)</span>
-            </div>
-            <div id="shops-toggle" class="seg" role="group" aria-label="Vista de área">
-              <button class="active" data-mode="comparar">Comparar</button>
-              <button data-mode="centro">Centro</button>
-              <button data-mode="municipio">Municipio</button>
-            </div>
-          </div>
-          <div class="legend">
-            <span class="swatch"><i class="dot" style="background:var(--merida)"></i>Centro Histórico</span>
-            <span class="swatch"><i class="dot" style="background:var(--foreign)"></i>Todo el municipio</span>
-          </div>
-          <div id="chart-shops" class="chart-box"></div>
-          <p class="fig-note">
-            Solo las cafeterías (+3.3%) crecieron en el Centro; en el conjunto municipal saltaron de 641 a 938 (+46.3%).
-          </p>
-        </div>
-
-        <!-- Escena 3: Mapa de cafeterías por AGEB -->
-        <div class="fig-card">
-          <div class="fig-top">
-            <div>
-              <h3 class="fig-title">Cafeterías que abrieron o cerraron por AGEB</h3>
-              <span class="fig-sub">Cambio neto 2019 → 2025 en 541 AGEB urbanas · 212 AGEB ganaron cafeterías</span>
-            </div>
-          </div>
-          <div class="legend">
-            <span class="swatch"><i class="dot" style="background:#1F5F5B"></i>Pérdida (−4 o más)</span>
-            <span class="swatch"><i class="dot" style="background:#EFE9DE;border:1px solid #ccc"></i>Sin cambio (0)</span>
-            <span class="swatch"><i class="dot" style="background:#8A5A17"></i>Ganancia (+6 o más)</span>
-            <span class="swatch"><i class="dot" style="background:none;border-top:2px dashed #1E1B18;height:2px;width:14px"></i>Centro Histórico</span>
-          </div>
-          <div id="chart-ageb-map" class="chart-box"></div>
-          <p class="fig-note">
-            Fuentes: INEGI DENUE (nov 2019 y may 2025), Marco Geoestadístico (AGEB urbanas) y GeoPortal de Mérida (Zona de Monumentos Históricos).
-          </p>
-        </div>
-      </div>
-
-      <!-- Escena AR 1 embebida -->
-      <div class="ar-embed-card">
-        <div class="ar-embed-head">
-          <div>
-            <h4>Escena AR 1 · Diorama colonial de la Manzana 0440-009 (Santa Lucía), 2019 vs. 2025</h4>
-            <p>33 negocios reales en una manzana del Centro Histórico: 15 sobrevivieron (verde), 7 abrieron (ámbar) y 11 cerraron (gris). Los 6 hoteles boutique llevan terraza y alberca.</p>
-          </div>
-          <a class="qr-link" href="ar/index.html?escena=1">Abrir pantalla completa AR ↗</a>
-        </div>
-        <model-viewer src="ar/models/escena_1_centro_manzana.glb" camera-controls auto-rotate auto-rotate-delay="2500"
-          rotation-per-second="9deg" shadow-intensity="0.9" exposure="1.05" camera-orbit="38deg 52deg 1.45m"
-          ar ar-modes="webxr scene-viewer quick-look">
-          <div class="hotspot" slot="hotspot-new" data-position="0.0 0.20 -0.31" data-normal="0 1 0">Abrieron · <b>7 negocios</b></div>
-          <div class="hotspot" slot="hotspot-exist" data-position="0.31 0.16 0.0" data-normal="0 1 0">Existían en 2019 · <b>15</b></div>
-          <div class="hotspot" slot="hotspot-closed" data-position="-0.31 0.08 0.0" data-normal="0 1 0">Cerraron · <b>11</b></div>
-          <button slot="ar-button" class="ar-btn">Ver en tu espacio (AR)</button>
-        </model-viewer>
-      </div>
-    </section>
-
-    <!-- =================================================================== -->
-    <!-- CAPÍTULO 03 · EL HOTEL INVISIBLE + 3D DEL CENTRO CON QR             -->
-    <!-- =================================================================== -->
-    <section id="hotel-invisible" class="chapter">
-      <span class="eyebrow">Capítulo 03</span>
-      <h2>El hotel invisible: el impuesto al hospedaje creció ×3.2 mientras los hoteles casi no cambiaron</h2>
-      <p class="chapter-lead">
-        El directorio de negocios apenas registró siete hospedajes más en todo Mérida (de 304 en 2019 a 311 en 2025).
-        Sin embargo, la recaudación estatal del Impuesto sobre Hospedaje se multiplicó por 3.2 en pesos nominales.
-        Esa brecha apunta a la vivienda rentada por noche que no aparece en el padrón hotelero tradicional.
-      </p>
-
-      <div class="two-col">
-        <div class="stack">
-          <div class="cards-row">
-            <div class="card">
+      <div class="grid-1-175">
+        <div>
+          <div class="mfs-cards">
+            <div class="mfs-card">
               <span class="lbl">Precio mediano vivienda, 3T 2025</span>
               <span class="big" style="color:var(--growth)">+39%</span>
-              <span class="sub">Yucatán sobre la mediana nacional (4.º de 32 estados)</span>
+              <span class="sub">Yucatán sobre la mediana nacional (4.º de 32)</span>
             </div>
-            <div class="card">
+            <div class="mfs-card">
               <span class="lbl">Salarios bajos, 2T 2026</span>
-              <span class="big" style="color:var(--merida)">49.4%</span>
-              <span class="sub">gana hasta 1 salario mínimo (619,805 de 1,255,687)</span>
+              <span class="big" style="color:var(--merida)">49%</span>
+              <span class="sub">de trabajadores en Yucatán gana hasta 1 salario mínimo (619,805 de 1,255,687)</span>
             </div>
           </div>
-          <div class="card">
-            <span class="lbl">Vivienda deshabitada o temporal (Censo 2020)</span>
-            <span class="big" style="color:var(--text)">21.4%</span>
-            <span class="sub">de las viviendas particulares en Yucatán estaban deshabitadas o eran de uso temporal.</span>
-          </div>
-          <div class="chips">
-            <span>AAFY (Folio 1191207426000093)</span>
-            <span>Índice SHF</span>
+          <p class="mfs-note">
+            Además: el 21.4% de las viviendas en Yucatán estaban deshabitadas o eran solo de uso temporal en 2020 (Censo INEGI).
+          </p>
+          <div class="mfs-chips">
+            <span>Impuesto al hospedaje AAFY</span>
+            <span>Precios de vivienda SHF</span>
             <span>INEGI ENOE</span>
-            <span>Censo 2020</span>
+            <span>Censo INEGI</span>
           </div>
         </div>
 
-        <!-- Escena 4: Impuesto de hospedaje vs turistas (pesos nominales) -->
-        <div class="fig-card">
-          <div class="fig-top">
-            <div>
-              <h3 class="fig-title">Impuesto de hospedaje contra turistas de hotel</h3>
-              <span class="fig-sub">Índice 2019 = 100 · Recaudación expresada en pesos nominales</span>
-            </div>
-            <span class="badge-nominal">Pesos nominales</span>
+        <div>
+          <div class="mfs-fig-head">
+            <p class="mfs-fig-title">Impuesto al hospedaje contra turistas de hotel</p>
+            <span class="mfs-fig-sub">Índice, 2019 = 100 · recaudación en pesos nominales</span>
           </div>
-          <div class="legend">
-            <span class="swatch"><i class="dot" style="background:var(--foreign)"></i>Impuesto al hospedaje (AAFY, pesos nominales)</span>
-            <span class="swatch"><i class="dot" style="background:var(--merida)"></i>Turistas de hotel (DataTur)</span>
+          <div class="mfs-seg" role="group" aria-label="Tipo de pesos">
+            <button class="active" type="button">Pesos nominales</button>
           </div>
-          <div id="chart-tax" class="chart-box"></div>
-          <p class="fig-note">
-            <strong>Lectura metodológica:</strong> las cifras de recaudación de la AAFY están en <strong>pesos nominales</strong> (sin deflactar por inflación) y el salto posterior a 2021 también refleja la incorporación de plataformas digitales de alojamiento (como Airbnb); la AAFY confirmó que están incluidas en los totales, sin desglose separado.
+          <div id="chart-tax" class="mfs-chart-surface"></div>
+          <p class="mfs-note">
+            Leer con cuidado: las cifras del impuesto están en <b>pesos nominales</b> (sin ajuste por inflación) y el
+            salto posterior a 2021 también refleja que las plataformas digitales comenzaron a retener el impuesto. La AAFY
+            confirmó que los cobros de plataformas están incluidos en los totales, pero no entregó fecha de inicio ni desglose.
           </p>
         </div>
       </div>
 
-      <!-- 3D del Centro Histórico como imagen estática + Código QR -->
-      <div class="ar-hero">
-        <span class="eyebrow">Modelo de elevación de INEGI (2015) · 831 manzanas del Centro</span>
-        <h3>El horizonte bajo del Centro Histórico en 3D</h3>
+      <!-- 3D del Centro como imagen con su QR -->
+      <div class="mfs-ar">
+        <span class="mfs-eyebrow">Modelo de elevación INEGI (2015)</span>
+        <h3>Recorre el horizonte bajo del Centro en 3D</h3>
         <p>
-          En el 92% de las 831 manzanas del Centro la altura (percentil 90) se mantiene debajo de 8 metros:
-          una o dos plantas. Cada bloque se colorea por el cambio neto de negocios entre 2019 y 2025
-          (verde = pérdida, ocre = ganancia). Escanea el QR para explorar las escenas 3D en Realidad Aumentada.
+          831 manzanas del Centro extruidas por la altura de sus edificios (percentil 90, modelo de elevación INEGI, 2015).
+          En el 92% de ellas las construcciones no superan los 8 m: una o dos plantas. Cada manzana se colorea según los
+          negocios perdidos (verde) o ganados (ocre) desde 2019. Alturas exageradas ×3.
         </p>
       </div>
 
-      <div class="centro-3d-grid">
-        <figure class="img-frame" style="margin:0">
-          <img src="assets/centro_3d.png" alt="Mapa 3D de 831 manzanas del Centro Histórico de Mérida extruidas por altura p90 y coloreadas por cambio neto de negocios 2019 a 2025" />
-          <figcaption class="img-caption">
-            831 manzanas extruidas por altura p90 (modelo fotogramétrico satelital INEGI 2015, exagerado ×3; no LiDAR aerotransportado). Verde: pérdida de negocios; crema: sin cambio; ocre: ganancia.
-          </figcaption>
-        </figure>
-
-        <aside class="qr-card">
-          <img src="assets/qr_ar.svg" alt="Código QR hacia el visor de Realidad Aumentada de Mérida en venta" />
-          <h4>Escanea para abrir en AR</h4>
-          <p>Abre las 3 maquetas interactivas en el navegador de tu teléfono (iOS / Android), sin instalar apps.</p>
-          <a class="qr-link" href="ar/index.html">Abrir visor AR ahora ↗</a>
-          <span class="qr-url">bradrobles.github.io/M-rida-for-Sale/booklet/ar/</span>
+      <div class="mfs-3d-row">
+        <div class="mfs-3d-img">
+          <img src="assets/centro_3d.png" alt="Mapa 3D de 831 manzanas del Centro de Mérida extruidas por altura y coloreadas por cambio neto de negocios" />
+        </div>
+        <aside class="mfs-qr-box">
+          <img src="assets/qr_ar.svg" alt="Código QR hacia el visor AR de Mérida en venta" />
+          <h4>Escenas en Realidad Aumentada</h4>
+          <p>Escanea el código QR para explorar el diorama de manzana, turistas y aeropuertos en 3D/AR desde tu celular.</p>
+          <a class="mfs-qr-btn" href="ar/index.html">Abrir visor AR ↗</a>
         </aside>
       </div>
+      <p class="mfs-note">
+        Código QR a escenas AR (<code>bradrobles.github.io/M-rida-for-Sale/booklet/ar/</code>) · Modelo fotogramétrico satelital (INEGI, 2015), no LiDAR aerotransportado.
+      </p>
     </section>
 
     <!-- =================================================================== -->
-    <!-- CAPÍTULO 04 · QUIÉN CUENTA LA HISTORIA                              -->
+    <!-- 04 · QUIÉN CUENTA LA HISTORIA                                       -->
     <!-- =================================================================== -->
-    <section id="voces" class="chapter">
-      <span class="eyebrow">Capítulo 04</span>
-      <h2>Quién cuenta la historia: la prensa local triplicó su cobertura sobre vivienda y rentas</h2>
-      <p class="chapter-lead">
-        En la prensa yucateca (<em>Diario de Yucatán</em>, <em>Por Esto!</em> y <em>La Jornada Maya</em>), la proporción de notas
-        núcleo sobre rentas, desalojos, especulación e inmobiliarias pasó de 11.2% en 2019 a 31.5% en 2025 (332 notas).
-        Mientras tanto, en YouTube el 73.4% de los 349 videos sobre mudarse a Mérida están en inglés y acumulan 5.35 millones de vistas.
+    <section id="voices" class="mfs-section">
+      <span class="mfs-eyebrow">Capítulo 04</span>
+      <h2 class="mfs-h2">Quién cuenta la historia</h2>
+      <p class="mfs-body">
+        Los periódicos locales escriben sobre especulación, fraude y aumento de rentas. En internet, la misma ciudad se
+        vende como segura, hermosa y barata.
       </p>
 
-      <div class="two-col even">
-        <div class="fig-card">
-          <div class="fig-top">
-            <div>
-              <h3 class="fig-title">Prensa local: % de notas núcleo sobre vivienda e inmobiliarias</h3>
-              <span class="fig-sub">Muestra dirigida de 1,495 notas en la Zona Metropolitana (2018–2026*)</span>
-            </div>
+      <div class="grid-1-175">
+        <div>
+          <span class="mfs-ctrl-lbl">Voz</span>
+          <div id="voice-seg" class="mfs-seg" role="group" aria-label="Voz">
+            <button class="active" data-voice="local">Prensa local</button>
+            <button data-voice="external">Vista desde afuera</button>
           </div>
-          <div id="chart-press" class="chart-box"></div>
+          <div id="voice-local-left"><div id="press-quotes" class="mfs-quote"></div></div>
+          <div id="voice-ext-left" class="hidden"><div id="yt-quotes" class="mfs-quote"></div></div>
+          <div class="mfs-chips">
+            <span>Scraping de prensa</span>
+            <span>YouTube Data API</span>
+            <span>GDELT (pipeline propio)</span>
+          </div>
         </div>
 
-        <div class="stack">
-          <h3 class="fig-title" style="margin-bottom:4px">Cuatro titulares reales en la prensa local</h3>
-          <div id="press-headlines" class="quotes"></div>
-          <div class="strip">
-            <div><b>45.2%</b><span>voz local en GDELT (296 notas)</span></div>
-            <div><b>42.6%</b><span>voz nacional (279 notas)</span></div>
-            <div><b>12.2%</b><span>voz internacional (80 notas)</span></div>
+        <div>
+          <div id="voice-local-right">
+            <div class="mfs-fig-head">
+              <p class="mfs-fig-title">Vivienda e inmobiliarias en noticias locales</p>
+              <span class="mfs-fig-sub">Porcentaje de notas recopiladas por año sobre la zona metropolitana · 2026* = hasta nov</span>
+            </div>
+            <div id="chart-press-share" class="mfs-chart-surface"></div>
+
+            <div class="spacer-md"></div>
+            <div class="mfs-fig-head">
+              <p class="mfs-fig-title">Colonias más mencionadas</p>
+              <span class="mfs-fig-sub">Artículos que nombran cada colonia o barrio</span>
+            </div>
+            <div id="chart-press-cols" class="mfs-chart-surface"></div>
+          </div>
+
+          <div id="voice-ext-right" class="hidden">
+            <div class="mfs-fig-head">
+              <p class="mfs-fig-title">De qué hablan los comentarios de YouTube</p>
+              <span class="mfs-fig-sub">Comentarios que mencionan cada palabra, de 6,216 leídos</span>
+            </div>
+            <div id="chart-yt-kw" class="mfs-chart-surface"></div>
+
+            <table class="mfs-table" aria-label="Cinco videos más vistos sobre mudarse a Mérida">
+              <thead>
+                <tr><th>Título</th><th class="num">Vistas</th><th>Fecha</th><th>Canal</th></tr>
+              </thead>
+              <tbody id="yt-table-body"></tbody>
+            </table>
+          </div>
+
+          <div class="mfs-strip">
+            <div><span>GDELT, sep a nov 2026, recolección propia</span><b>655 artículos</b></div>
+            <div><span>Local · nacional</span><b>45% · 43%</b></div>
+            <div><span>Internacional</span><b>12%</b></div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- =================================================================== -->
-    <!-- CAPÍTULO 05 · NO SOMOS CANCÚN, TODAVÍA                              -->
+    <!-- 05 · NO SOMOS CANCÚN, TODAVÍA                                       -->
     <!-- =================================================================== -->
-    <section id="no-cancun" class="chapter">
-      <span class="eyebrow">Capítulo 05</span>
-      <h2>No somos Cancún, todavía</h2>
-      <p class="chapter-lead">
-        En tráfico aéreo, Mérida (+41% vs. 2019) y Oaxaca (+56%) crecieron proporcionalmente más rápido que Cancún (+15%),
-        aunque con una mezcla muy distinta: en Cancún el 66.3% de los pasajeros son internacionales, frente al 10.2% en Mérida.
+    <section id="elsewhere" class="mfs-section">
+      <span class="mfs-eyebrow">Capítulo 05</span>
+      <h2 class="mfs-h2">No somos Cancún, todavía</h2>
+      <p class="mfs-body">
+        El aeropuerto de Mérida sigue siendo mayoritariamente nacional y crece más rápido que el de Cancún. Pero las
+        viviendas en Yucatán ya cuestan más que en Quintana Roo u Oaxaca. El turismo es menor; la presión sobre la
+        vivienda, no.
       </p>
 
-      <div class="two-col">
-        <div class="stack">
-          <div class="card">
-            <span class="lbl">Mérida (MID), 2025</span>
-            <span class="big" style="color:var(--merida)">+41%</span>
-            <span class="sub">3.94 M pasajeros · 10.2% internacional</span>
+      <div class="grid-2col">
+        <div>
+          <div class="mfs-fig-head">
+            <p class="mfs-fig-title">Crecimiento aeroportuario</p>
+            <span class="mfs-fig-sub">Pasajeros 2025, índice 2019 = 100</span>
           </div>
-          <div class="card">
-            <span class="lbl">Oaxaca (OAX), 2025</span>
-            <span class="big" style="color:var(--oaxaca)">+56%</span>
-            <span class="sub">1.86 M pasajeros · 14.6% internacional</span>
-          </div>
-          <div class="card">
-            <span class="lbl">Cancún (CUN), 2025</span>
-            <span class="big" style="color:var(--cancun)">+15%</span>
-            <span class="sub">29.35 M pasajeros · 66.3% internacional</span>
-          </div>
+          <div id="chart-cmp-growth" class="mfs-chart-surface"></div>
         </div>
-
-        <div class="fig-card">
-          <div class="fig-top">
-            <div>
-              <h3 class="fig-title">Crecimiento aeroportuario: Mérida vs. Oaxaca vs. Cancún</h3>
-              <span class="fig-sub">Índice anual de pasajeros totales (2019 = 100), 2015–2025 · Fuente: ASUR</span>
-            </div>
+        <div>
+          <div class="mfs-fig-head">
+            <p class="mfs-fig-title">Pasajeros internacionales</p>
+            <span class="mfs-fig-sub">Proporción del tráfico aeroportuario, 2025</span>
           </div>
-          <div id="chart-airports" class="chart-box"></div>
+          <div id="chart-cmp-intl" class="mfs-chart-surface"></div>
         </div>
       </div>
 
-      <!-- Escena AR 3 embebida -->
-      <div class="ar-embed-card">
-        <div class="ar-embed-head">
-          <div>
-            <h4>Escena AR 3 · Cordilleras 3D de crecimiento aeroportuario (2015–2025)</h4>
-            <p>Trayectoria comparada en índice 2019 = 100 (plano translúcido). Verde: Mérida; terracota: Oaxaca; azul: Cancún.</p>
+      <div class="grid-2col">
+        <div>
+          <div class="mfs-fig-head">
+            <p class="mfs-fig-title">Precio mediano de vivienda</p>
+            <span class="mfs-fig-sub">vs. mediana nacional, SHF 3T 2025</span>
           </div>
-          <a class="qr-link" href="ar/index.html?escena=3">Abrir pantalla completa AR ↗</a>
+          <div id="chart-cmp-homes" class="mfs-chart-surface"></div>
         </div>
-        <model-viewer src="ar/models/escena_3_aeropuertos_cordilleras.glb" camera-controls auto-rotate auto-rotate-delay="2500"
-          rotation-per-second="9deg" shadow-intensity="0.85" exposure="1.05" camera-orbit="32deg 58deg 1.60m"
-          ar ar-modes="webxr scene-viewer quick-look">
-          <div class="hotspot" slot="hotspot-mid" data-position="0.48 0.43 -0.17" data-normal="0 1 0">Mérida · <b>141.2</b></div>
-          <div class="hotspot" slot="hotspot-oax" data-position="0.48 0.47 0.0" data-normal="0 1 0">Oaxaca · <b>155.9</b></div>
-          <div class="hotspot" slot="hotspot-cun" data-position="0.48 0.36 0.17" data-normal="0 1 0">Cancún · <b>115.2</b></div>
-          <button slot="ar-button" class="ar-btn">Ver en tu espacio (AR)</button>
-        </model-viewer>
+        <div>
+          <div class="mfs-fig-head">
+            <p class="mfs-fig-title">Interés en línea</p>
+            <span class="mfs-fig-sub">Vistas de Wikipedia 2025 (en + es), índice 2019 = 100</span>
+          </div>
+          <div id="chart-cmp-wiki" class="mfs-chart-surface"></div>
+        </div>
+      </div>
+
+      <div class="mfs-fig-head">
+        <p class="mfs-fig-title">Pasajeros mensuales frente al mismo mes de 2019</p>
+        <span class="mfs-fig-sub">ASUR, índice mismo mes 2019 = 100, enero de 2019 a octubre de 2026</span>
+      </div>
+      <div id="chart-airports-monthly" class="mfs-chart-surface"></div>
+
+      <div class="mfs-chips">
+        <span>ASUR</span>
+        <span>SHF</span>
+        <span>Vistas de Wikipedia</span>
+      </div>
+
+      <details class="mfs-method">
+        <summary>Metodología y fuentes</summary>
+        <ul>
+          <li><b>Delimitación:</b> la prensa cubre la Zona Metropolitana de Mérida (Mérida, Kanasín, Umán, Progreso, Conkal, Ucú); los datos espaciales (DENUE, AGEB, manzanas) cubren el municipio de Mérida.</li>
+          <li><b>Dinero:</b> todas las cifras en pesos son <b>nominales</b> (sin ajuste por inflación).</li>
+          <li><b>Privacidad:</b> se eliminó la columna <code>titular</code> (nombres de personas físicas) del padrón municipal de licencias y del historial de git.</li>
+          <li><b>Prensa:</b> una nota núcleo menciona vivienda, renta, inmobiliarias, presión turística o extranjeros junto con una localidad de la zona metropolitana (muestra dirigida de 1,495 notas).</li>
+          <li><b>Wikipedia:</b> las vistas caen a nivel global después de 2023; comparar entre ciudades, no entre años.</li>
+          <li><b>Escena 3D:</b> modelo de elevación fotogramétrico satelital de INEGI (2015), no LiDAR aerotransportado; alturas en percentil 90 por manzana.</li>
+          <li><b>2026*:</b> cifras parciales (DataTur y AAFY hasta septiembre, ASUR hasta octubre, prensa hasta noviembre).</li>
+        </ul>
+      </details>
+
+      <div class="mfs-footer">
+        Todas las cifras provienen de los conjuntos limpios del proyecto (repo M-rida-for-Sale). La prensa cubre la Zona Metropolitana de Mérida; los datos espaciales cubren el municipio de Mérida. Montos en pesos nominales. Las vistas de Wikipedia caen globalmente después de 2023, por lo que conviene comparar entre ciudades y no entre años.<br><br>
+        Mérida en venta · Booklet (D3.js + AR) · Visual Modeling for Information · UPY Data 9B · Julio César De Aquino Castellanos, Brad Robles García, Eliana Lorely Osorio Martínez · <a href="#top">Volver arriba</a>
       </div>
     </section>
-
-    <!-- Notas metodológicas -->
-    <section class="methodology">
-      <h3>Notas metodológicas y privacidad</h3>
-      <ul>
-        <li><strong>Pesos nominales:</strong> la serie del Impuesto por Prestación de Servicios de Hospedaje (AAFY, folio <code>1191207426000093</code>) se presenta en <strong>pesos nominales</strong>, sin ajuste por inflación. La AAFY informó que la recaudación de plataformas digitales (Airbnb y similares) está incluida en los totales sin desglose separado.</li>
-        <li><strong>Privacidad:</strong> en el padrón municipal de licencias de funcionamiento (folio <code>1190579126000609</code>) se eliminaron los nombres de personas físicas (columna <code>titular</code>) tanto de los archivos limpios como del historial de git.</li>
-        <li><strong>Elevación 3D:</strong> las alturas del Centro provienen del Modelo Digital de Elevación fotogramétrico de INEGI (2015, resolución 5 m), no de LiDAR aerotransportado.</li>
-        <li><strong>Años parciales (*):</strong> DataTur y prensa local para 2026 cubren corte parcial (enero a septiembre / octubre 2026).</li>
-      </ul>
-    </section>
-
-    <footer>
-      <span>Mérida en venta · Equipo 9 · UPY Data 9B (Visual Modeling for Information)</span>
-      <span>Gráficas en D3.js v7 · Realidad Aumentada con &lt;model-viewer&gt;</span>
-    </footer>
   </div>
 
   <script src="charts.js"></script>
