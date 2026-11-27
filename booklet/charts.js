@@ -252,9 +252,10 @@ function renderAgebMap(agebGeo, centroGeo) {
   const W = 600, H = 460;
   const svg = stage.append("svg").attr("viewBox", `0 0 ${W} ${H}`);
 
-  // Capa de tiles CARTO Positron (fondo) + capa vectorial D3 (AGEBs + Centro)
+  // Capa base Esri Light Gray + vectores D3 (AGEBs + Centro) + capa de etiquetas Esri encima
   const gTiles = svg.append("g").attr("class", "map-tiles");
   const gVec = svg.append("g").attr("class", "map-vectors");
+  const gLabels = svg.append("g").attr("class", "map-labels").style("pointer-events", "none");
 
   // Proyección Web Mercator exacta en coordenadas normalizadas [0, 1] -> inmune a winding order
   const mercX = (lon) => (lon + 180) / 360;
@@ -308,27 +309,36 @@ function renderAgebMap(agebGeo, centroGeo) {
     agebPaths.attr("stroke-width", 0.45 / transform.k);
     centroPaths.attr("stroke-width", 2.2 / transform.k);
 
-    // Calcular tiles CARTO Positron equivalentes al mismo zoom/pan
+    // Calcular tiles Esri World Light Gray (base + etiquetas, sin API key)
     // d3.tile espera translate en el origen (lon=0, lat=0) = (0.5, 0.5) de Web Mercator
+    // Nota: el orden de Esri es /{z}/{y}/{x}
     const totalScale = initScale * transform.k;
     const totalTx = transform.x + (0.5 * initScale + initTx) * transform.k;
     const totalTy = transform.y + (0.5 * initScale + initTy) * transform.k;
     const tiles = tiler.scale(totalScale).translate([totalTx, totalTy])();
 
-    const imgs = gTiles.selectAll("image")
-      .data(tiles, (d) => `${d[2]}/${d[0]}/${d[1]}`);
+    const syncTileLayer = (layer, urlFn) => {
+      layer.selectAll("image")
+        .data(tiles, (d) => `${d[2]}/${d[0]}/${d[1]}`)
+        .join(
+          (enter) => enter.append("image").attr("href", urlFn).attr("preserveAspectRatio", "none"),
+          (update) => update,
+          (exit) => exit.remove()
+        )
+        .attr("x", (d) => Math.round((d[0] + tiles.translate[0]) * tiles.scale))
+        .attr("y", (d) => Math.round((d[1] + tiles.translate[1]) * tiles.scale))
+        .attr("width", Math.ceil(tiles.scale) + 1)
+        .attr("height", Math.ceil(tiles.scale) + 1);
+    };
 
-    imgs.join(
-      (enter) => enter.append("image")
-        .attr("href", (d) => `https://a.basemaps.cartocdn.com/light_all/${d[2]}/${d[0]}/${d[1]}@2x.png`)
-        .attr("preserveAspectRatio", "none"),
-      (update) => update,
-      (exit) => exit.remove()
-    )
-      .attr("x", (d) => Math.round((d[0] + tiles.translate[0]) * tiles.scale))
-      .attr("y", (d) => Math.round((d[1] + tiles.translate[1]) * tiles.scale))
-      .attr("width", Math.ceil(tiles.scale) + 1)
-      .attr("height", Math.ceil(tiles.scale) + 1);
+    syncTileLayer(
+      gTiles,
+      (d) => `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/${d[2]}/${d[1]}/${d[0]}`
+    );
+    syncTileLayer(
+      gLabels,
+      (d) => `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/${d[2]}/${d[1]}/${d[0]}`
+    );
   }
 
   const zoom = d3.zoom()
@@ -345,8 +355,8 @@ function renderAgebMap(agebGeo, centroGeo) {
   btns.append("button").attr("type", "button").attr("aria-label", "Alejar").text("−")
     .on("click", () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.45));
 
-  // Atribución CARTO / OpenStreetMap
-  stage.append("div").attr("class", "map-attr").text("© OpenStreetMap contributors © CARTO");
+  // Atribución Esri / OpenStreetMap
+  stage.append("div").attr("class", "map-attr").text("© Esri · © OpenStreetMap contributors");
 
   // Barra de color vertical a la derecha (fija sobre el mapa, igual al original)
   const defs = svg.append("defs");
