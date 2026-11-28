@@ -35,7 +35,7 @@ Extracción, limpieza y estandarización de fuentes para el dashboard grupal sob
   - **Escena AR 2 (DataTur):** llegadas mensuales y anuales de turistas nacionales vs. extranjeros en Mérida (2015–2026).
   - **Escena AR 3 (ASUR):** tráfico mensual y crecimiento anual de pasajeros en Mérida (`MID`), Cancún (`CUN`) y Oaxaca (`OAX`) (2000–2026).
 
-## Booklet final (D3.js + AR, español)
+## Booklet final (D3.js + AR)
 
 - **[`booklet/`](booklet/README.md)**: entrega final en español con gráficas en **D3.js v7**, prólogo («La historia en cuatro números»), 5 capítulos con títulos-hallazgo, imagen del 3D del Centro con código QR y visor de Realidad Aumentada (`<model-viewer>`) en [`booklet/ar/`](booklet/ar/index.html).
 
