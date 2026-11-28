@@ -41,10 +41,6 @@ Extracción, limpieza y estandarización de fuentes para el dashboard grupal sob
 
 ![Portada de Mérida en venta](booklet/assets/portada_es.jpg)
 
-## Dashboard v1
-
-- **[`dashboard/`](dashboard/README.md)**: dashboard local en Streamlit con la historia completa (portada y cinco capítulos), hecho a partir de los `clean/` de las secciones 1 a 9. Para abrirlo: `streamlit run dashboard/app.py`. El README del dashboard trae **capturas de cada sección** para un vistazo rápido sin correrlo.
-
 ## Entorno reproducible
 
 ```bash

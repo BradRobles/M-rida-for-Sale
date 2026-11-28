@@ -2,7 +2,7 @@
 
 Versión final en español del booklet **Mérida en venta** (*Visual Modeling for Information*, UPY Data 9B — Equipo 9: Julio César De Aquino Castellanos, Brad Robles García y Eliana Lorely Osorio Martínez).
 
-Todas las gráficas están construidas en **D3.js v7** (sin Plotly ni pydeck), las cifras clave siguen exactamente las tablas validadas de `dashboard/data/`, y la escena 3D del Centro entra como **imagen estática con código QR** (además de incluir las 3 escenas AR interactivas en `<model-viewer>` para exploración web y móvil).
+Todas las gráficas están construidas en **D3.js v7**, las cifras clave se alimentan de las tablas limpias en `booklet/data/`, y la escena 3D del Centro entra como **imagen estática con código QR** (además de incluir las 3 escenas AR interactivas en `<model-viewer>` para exploración móvil).
 
 ## Estructura
 
