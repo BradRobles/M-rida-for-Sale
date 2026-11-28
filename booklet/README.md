@@ -42,7 +42,7 @@ Y abre en tu navegador:
 
 El código QR incluido apunta a:
 
-`https://bradrobles.github.io/M-rida-for-Sale/booklet/ar/`
+`https://bradrobles.github.io/Merida-for-Sale/booklet/ar/`
 
 Para activarlo en GitHub: **Settings → Pages → Build and deployment → Deploy from a branch (`main`, `/ (root)`)**. Si se aloja en otra URL (por ejemplo un repositorio grupal), regenera el QR ejecutando:
 

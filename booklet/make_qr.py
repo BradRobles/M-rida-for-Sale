@@ -12,7 +12,7 @@ from pathlib import Path
 import qrcode
 import qrcode.image.svg
 
-DEFAULT_URL = "https://bradrobles.github.io/M-rida-for-Sale/booklet/ar/"
+DEFAULT_URL = "https://bradrobles.github.io/Merida-for-Sale/booklet/ar/"
 ASSETS = Path(__file__).resolve().parent / "assets"
 
 
