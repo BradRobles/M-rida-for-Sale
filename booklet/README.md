@@ -8,7 +8,8 @@ Todas las gráficas están construidas en **D3.js v7**, las cifras clave se alim
 
 ```text
 booklet/
-├── index.html                  # Booklet completo en español (prólogo + 5 capítulos, D3.js v7)
+├── ficha.md                    # Ficha editorial (título-hallazgo, 3 cifras, escenas, límites y puente)
+├── index.html                  # Booklet completo en español (prólogo + 5 capítulos, D3.js v7.9.0)
 ├── styles.css                  # Paleta editorial Mérida en venta + estilos @media print
 ├── charts.js                   # Gráficas interactivas en D3.js v7
 ├── data/                       # Tablas CSV y GeoJSON autocontenidas

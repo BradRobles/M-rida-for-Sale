@@ -50,9 +50,9 @@ Limpieza y estandarización de las respuestas oficiales obtenidas vía la Plataf
 - **Reglas de limpieza aplicadas (`scripts/clean_government_requests.py`):**
   1. **Unificación de 12 hojas (`2015`–`2026`):** se corrigió el encabezado de la hoja `2026`, cuya primera columna venía nombrada `2026` en lugar de `Fecha Registro`.
   2. **Normalización de texto:** se eliminaron espacios múltiples y el relleno de ancho fijo (~250 caracteres) en `Giro Desarrollo Urbano`, además de unificar la variante `LIBRERIA` → `LIBRERÍA`.
-  3. **Valores nulos en giro:** los 2 registros de 2025 sin giro (`NIDUM FROZEN YOGURT Y COFFE BAR` y `LA KEECH`) se conservaron marcados como `NO ESPECIFICADO`.
-  4. **Privacidad / anonimización:** se derivó `tipo_persona` (`FISICA` vs `MORAL`) a partir de la presencia de apellidos y se **omitió la columna `titular`** (y el archivo crudo `.xls` no se versiona en git) para no publicar nombres de personas físicas.
-  5. **Filtrado geográfico de Centro:** se excluyó 1 registro de 2021 cuya colonia es `CENTRO POBLACION DZUNUNCAN` (`MOTEL EL BOSQUE`, en la comisaría de Dzununcán, fuera del Centro de Mérida) y se guardó aparte en `clean/ayuntamiento_licencias_excluidas_fuera_centro.csv` para trazabilidad.
+  3. **Valores nulos en giro:** los 2 registros de 2025 sin giro se conservaron marcados como `NO ESPECIFICADO`.
+  4. **Privacidad / anonimización:** se derivó `tipo_persona` (`FISICA` vs `MORAL`) a partir de la presencia de apellidos y se **omitieron las columnas `titular`, `denominacion` y `direccion_catastro`** (además de excluir el archivo crudo `.xls` de git y de su historial) para no publicar nombres ni domicilios de personas físicas.
+  5. **Filtrado geográfico de Centro:** se excluyó 1 registro de 2021 cuya colonia es `CENTRO POBLACION DZUNUNCAN` (comisaría de Dzununcán, fuera del Centro de Mérida) y se guardó aparte en `clean/ayuntamiento_licencias_excluidas_fuera_centro.csv` para trazabilidad.
   6. **Clasificación analítica (`categoria_giro`):** agrupa los giros en `Hospedaje`, `Alimentos y Bebidas`, `Comercio y otros servicios` y `No especificado`.
 - **Archivos limpios:**
   - `clean/ayuntamiento_licencias_funcionamiento_centro_2015_2026.csv` (1,254 registros).

@@ -167,9 +167,7 @@ def build_ayuntamiento_datasets() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFr
             "fecha_mes": fecha_reg.dt.strftime("%Y-%m-01"),
             "vigencia": vigencia.dt.strftime("%Y-%m-%d"),
             "tipo_persona": tipo_persona,
-            "direccion_catastro": raw_df["Dirección Catastro"].map(clean_text),
             "colonia": raw_df["Colonia"].map(clean_text),
-            "denominacion": raw_df["Denominacion"].map(clean_text),
             "giro_desarrollo_urbano": giro,
             "categoria_giro": giro.map(classify_giro),
         }
@@ -177,12 +175,12 @@ def build_ayuntamiento_datasets() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFr
 
     # Separar registros fuera de la colonia Centro (ej. CENTRO POBLACION DZUNUNCAN)
     mask_centro = cleaned["colonia"] == "CENTRO"
-    df_centro = cleaned[mask_centro].sort_values(["fecha_registro", "denominacion"]).reset_index(drop=True)
+    df_centro = cleaned[mask_centro].sort_values(["fecha_registro", "giro_desarrollo_urbano"]).reset_index(drop=True)
     df_excluidas = cleaned[~mask_centro].reset_index(drop=True)
 
     df_resumen_anual = (
         df_centro.groupby(["anio", "categoria_giro"], as_index=False)
-        .agg(licencias_emitidas=("denominacion", "count"))
+        .agg(licencias_emitidas=("giro_desarrollo_urbano", "count"))
         .sort_values(["anio", "categoria_giro"])
         .reset_index(drop=True)
     )

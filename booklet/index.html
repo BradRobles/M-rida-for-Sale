@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css?v=3" />
-  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3-tile@1/dist/d3-tile.min.js"></script>
 </head>
 <body>
@@ -396,7 +396,7 @@
           <ul>
             <li><b>Delimitación:</b> las notas de prensa cubren la Zona Metropolitana de Mérida (Mérida, Kanasín, Umán, Progreso, Conkal, Ucú); los datos espaciales (DENUE, AGEB, manzanas) cubren el municipio de Mérida.</li>
             <li><b>Dinero:</b> todas las cifras en pesos son <b>nominales</b>. Los valores reales requieren el promedio anual del INPC, que esta versión no incluye.</li>
-            <li><b>Privacidad:</b> se eliminó la columna <code>titular</code> (nombres de personas físicas) del padrón municipal de licencias y del historial de git.</li>
+            <li><b>Privacidad:</b> se eliminaron las columnas <code>titular</code>, <code>denominacion</code> y <code>direccion_catastro</code> del padrón municipal de licencias (tanto en archivos limpios como en el historial de git) para no exponer datos de personas físicas.</li>
             <li><b>Prensa:</b> una nota núcleo menciona vivienda, renta, inmobiliarias, presión turística o extranjeros junto con una localidad de la zona metropolitana en su título o extracto (reglas en el README de la sección 6). Las notas recopiladas son una muestra dirigida, no el total de artículos publicados.</li>
             <li><b>Wikipedia:</b> las vistas caen a nivel global después de 2023, por lo que conviene comparar entre ciudades y no entre años.</li>
             <li><b>YouTube:</b> los resultados de búsqueda están ordenados por relevancia al momento de la consulta (25 nov 2026), lo que favorece videos recientes; algunos resultados son anuncios inmobiliarios, no testimonios.</li>
