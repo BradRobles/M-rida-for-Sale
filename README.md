@@ -39,11 +39,11 @@ Extracción, limpieza y estandarización de fuentes para el dashboard grupal sob
 
 - **[`booklet/`](booklet/README.md)**: entrega final en español con gráficas en **D3.js v7**, prólogo («La historia en cuatro números»), 5 capítulos con títulos-hallazgo, imagen del 3D del Centro con código QR y visor de Realidad Aumentada (`<model-viewer>`) en [`booklet/ar/`](booklet/ar/index.html).
 
+![Portada de Mérida en venta](booklet/assets/portada_es.jpg)
+
 ## Dashboard v1
 
 - **[`dashboard/`](dashboard/README.md)**: dashboard local en Streamlit con la historia completa (portada y cinco capítulos), hecho a partir de los `clean/` de las secciones 1 a 9. Para abrirlo: `streamlit run dashboard/app.py`. El README del dashboard trae **capturas de cada sección** para un vistazo rápido sin correrlo.
-
-![Portada del Dashboard v1](dashboard/screenshots/00_portada.png)
 
 ## Entorno reproducible
 
